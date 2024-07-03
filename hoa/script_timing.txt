@@ -1,1 +1,1 @@
-script -a --timing=week11.timing week11.log
+script -a --timing=week12.timing week12.log
