@@ -1,0 +1,803 @@
+Script started on 2024-06-08 22:04:35-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ man ls ?[K> ls.txt
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep with ls.txt
+[?2004l              do not ignore entries starting [01;31m[Kwith[m[K .
+              [01;31m[Kwith[m[K -l, print the author of each file
+              [01;31m[Kwith[m[K  -l,  scale  sizes  by  SIZE  when  printing  them;   e.g.,
+              do not list implied entries ending [01;31m[Kwith[m[K ~
+       -c     [01;31m[Kwith[m[K -lt: sort by, and show, ctime (time of last modification of
+              file status information); [01;31m[Kwith[m[K -l: show ctime and sort by  name;
+              can   be  augmented  [01;31m[Kwith[m[K  a  --sort  option,  but  any  use  of
+              [01;31m[Kwith[m[K -l and -s, print sizes like 1K 234M 2G etc.
+              append indicator [01;31m[Kwith[m[K style WORD to entry names: none (default),
+              default  to  1024-byte  blocks for disk usage; used only [01;31m[Kwith[m[K -s
+       -m     fill width [01;31m[Kwith[m[K a comma separated list of entries
+              print entry names [01;31m[Kwith[m[Kout quoting
+              [01;31m[Kwith[m[K -l, WORD determines which time to show;  [01;31m[Kwith[m[K  --sort=time,
+              time/date format [01;31m[Kwith[m[K -l; see TIME_STYLE below
+       -u     [01;31m[Kwith[m[K  -lt:  sort by, and show, access time; [01;31m[Kwith[m[K -l: show access
+       -v     natural sort of (version) numbers [01;31m[Kwith[m[Kin text
+       -1     list one file per line.  Avoid '\n' [01;31m[Kwith[m[K -q or -b
+       MAT2  to  recent files.  TIME_STYLE prefixed [01;31m[Kwith[m[K 'posix-' takes effect
+       [01;31m[Kwith[m[K --color=never.  With --color=auto, ls emits color codes only  when
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep 'l..^l..[C[C[Ct$ ls.txt' ls.txt
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep '^l..t$' ls.txt[1P
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep '^l..t' ls.txt[1@-[1@i[1@ 
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep -i '^l..t' ls.txt[1@$[1P[1@h
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep -h '^l..t$' ls.txt[1P[1P[1P
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep '^l..t$' ls.txt[1P[1P
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep '^lt$' ls.txt[1P[1P[C[1@.[1@.
+[?2004l       ls - [01;31m[Klist[m[K directory contents
+              do not [01;31m[Klist[m[K implied . and ..
+              do not [01;31m[Klist[m[K implied entries ending with ~
+       -c     with -lt: sort by, and show, ctime (time of [01;31m[Klast[m[K modification of
+       -C     [01;31m[Klist[m[K entries by columns
+              [01;31m[Klist[m[K directories themselves, not their contents
+       --fi[01;31m[Kle-t[m[Kype
+       --fu[01;31m[Kll-t[m[Kime
+       -g     like -l, but do not [01;31m[Klist[m[K owner
+              in a long [01;31m[Klist[m[King, don't print group names
+              follow symbolic links [01;31m[Klist[m[Ked on the command line
+              do not [01;31m[Klist[m[K implied entries matching shell  PATTERN  (overridden
+              slash (-p), fi[01;31m[Kle-t[m[Kype (--fi[01;31m[Kle-t[m[Kype), classify (-F)
+              do not [01;31m[Klist[m[K implied entries matching shell PATTERN
+       -l     use a long [01;31m[Klist[m[King format
+              tion  for  the fi[01;31m[Kle t[m[Khe link references rather than for the link
+       -m     fill width with a comma separated [01;31m[Klist[m[K of entries
+              like -l, but [01;31m[Klist[m[K numeric user and group IDs
+       -o     like -l, but do not [01;31m[Klist[m[K group information
+              [01;31m[Klist[m[K subdirectories recursively
+       -U     do not sort; [01;31m[Klist[m[K entries in directory order
+       -x     [01;31m[Klist[m[K entries by lines instead of by columns
+       -1     [01;31m[Klist[m[K one file per line.  Avoid '\n' with -q or -b
+       able sets the default sty[01;31m[Kle t[m[Ko use.
+       Using  color  to distinguish fi[01;31m[Kle t[m[Kypes is disabled both by default and
+       GPL version 3 or later <https://gnu.org/licenses/gp[01;31m[Kl.ht[m[Kml>.
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep 'l..t' ls.txt[1@$
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep 'l..t$' ls.txt[1P[Kmkdir test_day8
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cd testd[K_day8/
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ touch file0{1..20}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls
+[?2004lfile01   file012  file015  file018  file020  file05  file08
+file010  file013  file016  file019  file03   file06  file09
+file011  file014  file017  file02   file04   file07
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ rm -r file*
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ touch {01..20f{01..20i{01..20l{01..20e{01..20[C[C[C[C[C[C[C}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls
+[?2004lfile01  file03  file05  file07  file09  file11  file13  file15  file17  file19
+file02  file04  file06  file08  file10  file12  file14  file16  file18  file20
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file0{2..8}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file0{2..8}[C file0{2..8}- file0{2..8}b file0{2..8}v file0{2..8}[1P file0{2..8}[1P file0{2..8}v file0{2..8}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -v file0{2..8}[C[C[1P[1P[1P[1P[1P
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep -v file0{2..8}[1P file0{2..8}[1P file0{2..8}[1Pfile0{2..8}[C file0{2..8}[1Pfile0{2..8}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep file0{2..8}[1P2..8}[C[C[C[C[C[K
+[?2004l^C
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep file02..8[C[K[K[K
+[?2004l^C
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file*
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls
+[?2004lfile01  file03  file05  file07  file09  file11  file13  file15  file17  file19
+file02  file04  file06  file08  file10  file12  file14  file16  file18  file20
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep -l file0{2..8}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep -l file0{2..8}[C\{2..8}[C[C[C[C[C\}
+[?2004l
+^^?^C
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep -l file0\{2..8\}'file0\{2..8\}[C[C[C[C[C[C[C[C[C[C[C[C[C'
+[?2004lgrep: Invalid content of \{\}
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep =[Kgrep -l 'file0\{2..8\}'[C[C[C[C[C[C[C[C[2Pfile0\{2..8\}[1@l[1@s[1@ [1@|[1@ 
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -l file0\{2..8\}[C[C[1Pfile0\{2..8\}[1Pfile0\{2..8\}[1Pfile0\{2..8\}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep file0{2..8} ls
+[?2004lgrep: ls: No such file or directory
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep file0{2..8} ls[K[K.
+[?2004lgrep: .: Is a directory
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep file0{2..8} .[1P[1@[[C[C[C[C[C[C[C[K[K[K]
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep file0[2..8][1P8][1P8]-8]
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep file0[2-8][1@l[1@s[1@ [1@|[1@ 
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep -l file0[2-8]
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep -l
+[?2004lUsage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ grep -l[Kcd
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cdgrep -l file0[2-8] test_datye[K[Ky[Ky[K[Ky9[K8/
+[?2004lgrep: test_day8/: Is a directory
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep -l file0[2-8] test_day8/*
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep -l file0[2-8] test_day8/*[K[K[K[K[K[K[K[K[K[K[K[K test_day8/cd[Kgrep -l file0[2-8][2@ls | grep[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C..8]{2..8} .lsls | grep file0\{2..8\}-l file0\{2..8\}[3Pgrep -l 'file0\{2..8\}'[2Pfile0\{2..8\}[2P{2..8}ls[K | grep file*[4Pgrep file02..8{2..8}-v file0{2..8}[5@ls | [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pfile0{2..8}[Ktouch file{01..20}ls[Krm -r file*ls[Ktouch file0{1..20}[5Pcd test_day8/
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep ri[K[Kfile*
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file*[K02
+[?2004l[01;31m[Kfile02[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file02{02[C[C..08}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file{02..08}\{02..08}[C[C[C[C[C[C
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file\{02..08}\}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file\{02..08\}[K[K[1P02..08[1P02..08
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file02..08[K[K[K[K
+[?2004l[01;31m[Kfile02[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file02[2[C-8]
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file0[2-8][K}[1P2-8}{2-8}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file0{2-8}[C[1P8}38}48}58}68}78}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file0{2345678}[C[K][1P2345678][2345678]
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file0[2345678][K[K[K[K[K[K[K[K[K5
+[?2004l[01;31m[Kfile05[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep file05[C[C\5[5[C[K2..[K[K-8][C[1P2-8]{2-8][C[C[C[C[K}\}- file0\{2-8\}[1P file0\{2-8\}[C file0\{2-8\}- file0\{2-8\}E file0\{2-8\}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E file0\{2-8\}[1P2-8\}[1P2-8\}[C[C[C[C[C[K[K[K[K.08
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E file02.08.08
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E file02..08{02..08[C[C[C[C[C[C}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E file{02..08}[C[C[C[C[C\{02..08}[C[C[C[C[C[C[C\}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E file\{02..08\}[K[K[K[K[K[K[K[K[K[K{02..08}'file{02..08}[C[C[C[C[C[C[C[C[C[C[C[3Pfile02..08[1P08\{2-8\}[C'[C[C'file0\{2-8\}'
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E 'file0\{2-8\}'[1P2-8\}'[C{2-8\}'[C[C[1P8\}'.8\}'.8\}'
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E 'file0\{2..8\}'[1P2..8\}'[1P2..8\}'[2..8\}'[C[C[C[C[C[C[1P'[1P']'[1P8]'[1P8]'-8]'
+[?2004l[01;31m[Kfile02[m[K
+[01;31m[Kfile03[m[K
+[01;31m[Kfile04[m[K
+[01;31m[Kfile05[m[K
+[01;31m[Kfile06[m[K
+[01;31m[Kfile07[m[K
+[01;31m[Kfile08[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E 'file0[2-8]'L 'file0[2-8]'
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -EL 'file0[2-8]'[1P 'file0[2-8]'l 'file0[2-8]'
+[?2004l[35m[K(standard input)[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -El 'file0[2-8]'[1P 'file0[2-8]'[1P 'file0[2-8]'L 'file0[2-8]'
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -L 'file0[2-8]'[1P 'file0[2-8]'L 'file0[2-8]'E 'file0[2-8]'
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -LE 'file0[2-8]'[1P 'file0[2-8]'[1P 'file0[2-8]'E 'file0[2-8]'L 'file0[2-8]'
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -EL 'file0[2-8]'[1P 'file0[2-8]'
+[?2004l[01;31m[Kfile02[m[K
+[01;31m[Kfile03[m[K
+[01;31m[Kfile04[m[K
+[01;31m[Kfile05[m[K
+[01;31m[Kfile06[m[K
+[01;31m[Kfile07[m[K
+[01;31m[Kfile08[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E 'file0[2-8]'v 'file0[2-8]'
+[?2004lfile01
+file09
+file10
+file11
+file12
+file13
+file14
+file15
+file16
+file17
+file18
+file19
+file20
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ touch FILE{01..20}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ touch FILE{01..20}ls | grep -Ev 'file0[2-8]'[1P 'file0[2-8]'[C[C[C[1Pile0[2-8]'[ile0[2-8]'file0[2-8]'File0[2-8]']ile0[2-8]'[C[C[C[C[C[C[1P2-8]'[C[1P-8]'[1P-8]'[-8]'1-8]'1-8]'[C[C[1P]'1]'9]'[C[C
+[?2004l[01;31m[Kfile1[m[K0
+[01;31m[Kfile1[m[K1
+[01;31m[Kfile1[m[K2
+[01;31m[Kfile1[m[K3
+[01;31m[Kfile1[m[K4
+[01;31m[Kfile1[m[K5
+[01;31m[Kfile1[m[K6
+[01;31m[Kfile1[m[K7
+[01;31m[Kfile1[m[K8
+[01;31m[Kfile1[m[K9
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E '[fF]ile[11-19]'i '[fF]ile[11-19]'
+[?2004l[01;31m[Kfile1[m[K0
+[01;31m[KFILE1[m[K0
+[01;31m[Kfile1[m[K1
+[01;31m[KFILE1[m[K1
+[01;31m[Kfile1[m[K2
+[01;31m[KFILE1[m[K2
+[01;31m[Kfile1[m[K3
+[01;31m[KFILE1[m[K3
+[01;31m[Kfile1[m[K4
+[01;31m[KFILE1[m[K4
+[01;31m[Kfile1[m[K5
+[01;31m[KFILE1[m[K5
+[01;31m[Kfile1[m[K6
+[01;31m[KFILE1[m[K6
+[01;31m[Kfile1[m[K7
+[01;31m[KFILE1[m[K7
+[01;31m[Kfile1[m[K8
+[01;31m[KFILE1[m[K8
+[01;31m[Kfile1[m[K9
+[01;31m[KFILE1[m[K9
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -Ei '[fF]ile[11-19]'[Cn '[fF]ile[11-19]'
+[?2004l[32m[K19[m[K[36m[K:[m[K[01;31m[Kfile1[m[K0
+[32m[K20[m[K[36m[K:[m[K[01;31m[KFILE1[m[K0
+[32m[K21[m[K[36m[K:[m[K[01;31m[Kfile1[m[K1
+[32m[K22[m[K[36m[K:[m[K[01;31m[KFILE1[m[K1
+[32m[K23[m[K[36m[K:[m[K[01;31m[Kfile1[m[K2
+[32m[K24[m[K[36m[K:[m[K[01;31m[KFILE1[m[K2
+[32m[K25[m[K[36m[K:[m[K[01;31m[Kfile1[m[K3
+[32m[K26[m[K[36m[K:[m[K[01;31m[KFILE1[m[K3
+[32m[K27[m[K[36m[K:[m[K[01;31m[Kfile1[m[K4
+[32m[K28[m[K[36m[K:[m[K[01;31m[KFILE1[m[K4
+[32m[K29[m[K[36m[K:[m[K[01;31m[Kfile1[m[K5
+[32m[K30[m[K[36m[K:[m[K[01;31m[KFILE1[m[K5
+[32m[K31[m[K[36m[K:[m[K[01;31m[Kfile1[m[K6
+[32m[K32[m[K[36m[K:[m[K[01;31m[KFILE1[m[K6
+[32m[K33[m[K[36m[K:[m[K[01;31m[Kfile1[m[K7
+[32m[K34[m[K[36m[K:[m[K[01;31m[KFILE1[m[K7
+[32m[K35[m[K[36m[K:[m[K[01;31m[Kfile1[m[K8
+[32m[K36[m[K[36m[K:[m[K[01;31m[KFILE1[m[K8
+[32m[K37[m[K[36m[K:[m[K[01;31m[Kfile1[m[K9
+[32m[K38[m[K[36m[K:[m[K[01;31m[KFILE1[m[K9
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ks[K[Kls | grep -E [:lower:][0-9]''[:lower:][0-9]'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lgrep: character class syntax is [[:space:]], not [:space:]
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E '[:lower:][0-9]'][0-9]'[C[:lower:]][0-9]'
+[?2004lfil[01;31m[Ke0[m[K1
+fil[01;31m[Ke0[m[K2
+fil[01;31m[Ke0[m[K3
+fil[01;31m[Ke0[m[K4
+fil[01;31m[Ke0[m[K5
+fil[01;31m[Ke0[m[K6
+fil[01;31m[Ke0[m[K7
+fil[01;31m[Ke0[m[K8
+fil[01;31m[Ke0[m[K9
+fil[01;31m[Ke1[m[K0
+fil[01;31m[Ke1[m[K1
+fil[01;31m[Ke1[m[K2
+fil[01;31m[Ke1[m[K3
+fil[01;31m[Ke1[m[K4
+fil[01;31m[Ke1[m[K5
+fil[01;31m[Ke1[m[K6
+fil[01;31m[Ke1[m[K7
+fil[01;31m[Ke1[m[K8
+fil[01;31m[Ke1[m[K9
+fil[01;31m[Ke2[m[K0
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E '[[:lower:]][0-9]'[1P]'[1P]'[1P]'[]':]'d]'i]'g]'i]'t]':]'
+[?2004lgrep: Unmatched [, [^, [:, [., or [=
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -E '[[:lower:]][[:digit:]']'
+[?2004lfil[01;31m[Ke0[m[K1
+fil[01;31m[Ke0[m[K2
+fil[01;31m[Ke0[m[K3
+fil[01;31m[Ke0[m[K4
+fil[01;31m[Ke0[m[K5
+fil[01;31m[Ke0[m[K6
+fil[01;31m[Ke0[m[K7
+fil[01;31m[Ke0[m[K8
+fil[01;31m[Ke0[m[K9
+fil[01;31m[Ke1[m[K0
+fil[01;31m[Ke1[m[K1
+fil[01;31m[Ke1[m[K2
+fil[01;31m[Ke1[m[K3
+fil[01;31m[Ke1[m[K4
+fil[01;31m[Ke1[m[K5
+fil[01;31m[Ke1[m[K6
+fil[01;31m[Ke1[m[K7
+fil[01;31m[Ke1[m[K8
+fil[01;31m[Ke1[m[K9
+fil[01;31m[Ke2[m[K0
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ cd
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        [01;34mhoa[0m            [01;31mresults.txt.bz2[0m   [01;34mtest_day8[0m      week05.log
+[01;34mDesktop[0m     [01;34mHOME3[0m          result.txt        [01;34mtesttar[0m        week05.timing
+[01;34mDocuments[0m   ls-output.txt  ships.txt         umask          week06.log
+[01;34mDownloads[0m   ls.txt         [01;34msnap[0m              [01;34mVideos[0m         week06.timing
+error.txt   [01;34mMusic[0m          [01;34mTemplates[0m         week02.log     week07.log
+FILE1       output2.txt    [01;34mtest1[0m             week02.timing  week07.timing
+file1.txt   output.txt     [01;34mtest2[0m             week03.log     week08.log
+file.txt    out.txt        [01;34mtest3[0m             week03.timing  week08.timing
+findme.txt  [01;34mPictures[0m       [01;34mtestcompress[0m      week04.log
+foo.txt     [01;34mPublic[0m         [01;31mtestcompress.tar[0m  week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat ?[K?[K> test.txt
+[?2004lComputer     uter
+Computer
+Compputer[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grop[K[Ko[Kep -E 'Comuter|computer\[K' test.txt
+[?2004l[01;31m[KComuter[m[K
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep -E 'Comuter|computer' test.txt[1P[1@C
+[?2004l[01;31m[KComuter[m[K
+[01;31m[KComputer[m[K
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep -E 'Comuter|Computer' test.txt[1@p[C[C[C[C[C[C[C[C[C[1@p
+[?2004l[01;31m[KComputer[m[K
+[01;31m[KCompputer[m[K
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ echo "Chapter 20"
+[?2004lChapter 20
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat > famous_ships
+[?2004l
+Millennium Falcon  pn  on
+USS Enterprise
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sort famous_ships
+[?2004l
+Battlestar Galactica
+Death Star
+Death Star
+Millennium Falcon
+USS Enterprise
+Y Wing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sort famous_ships-famous_shipsrfamous_ships famous_ships
+[?2004lY Wing
+USS Enterprise
+Millennium Falcon
+Death Star
+Death Star
+Battlestar Galactica
+
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ wc -l famous_ships
+[?2004l7 famous_ships
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ wc -l famous_ships[1P famous_shipsw famous_shipso famous_shipsr famous_shipsd famous_ships
+[?2004lwc: invalid option -- 'o'
+Try 'wc --help' for more information.
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ wc -word famous_ships[1@-
+[?2004l12 famous_ships
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ wc --word famous_ships[1P famous_ships[1P famous_ships[1P famous_ships[1P famous_ships[1P famous_shipsc famous_ships
+[?2004l84 famous_ships
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ head famous_ships
+[?2004l
+Millennium Falcon
+USS Enterprise
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ head famous_ships[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P famous_ships[1P famous_ships[1P famous_ships[1P famous_shipsd famous_shipso famous_shipsr famous_ships[1P famous_ships[1P famous_ships[1P famous_shipss famous_shipso famous_shipsr famous_shipst famous_ships[C famous_ships- famous_shipst famous_ships[C famous_ships' famous_ships[C famous_ships' famous_ships
+[?2004l
+Battlestar Galactica
+Death Star
+Death Star
+Millennium Falcon
+USS Enterprise
+Y Wing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sort -t ' ' famous_ships-famous_shipskfamous_ships1famous_ships famous_ships|famous_ships[1Pfamous_ships[C[C[C[C[C[C[C[C[C[C[C[C | head
+[?2004l
+Battlestar Galactica
+Death Star
+Death Star
+Millennium Falcon
+USS Enterprise
+Y Wing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sort -t ' ' -k1 famous_ships | head[1P
+[?2004lsort: empty tab
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sort -t '' -k1 famous_ships | head[C[1P[1@k[C[C[C[1P[1P[1P[1P[1P[1P
+[?2004l
+Battlestar Galactica
+Death Star
+Death Star
+Millennium Falcon
+USS Enterprise
+Y Wing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat -A famous_ships
+[?2004l$
+Millennium Falcon$
+USS Enterprise$
+Death Star$
+Y Wing$
+Battlestar Galactica$
+Death Star$
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat > famous_ships
+[?2004lMillennium	^C
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls f[K[K[K[Kcat famout[Ks_ships
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat ?[K> Fa[K[Kfamout[Ks_ships
+[?2004l
+Millennium Falcon
+USS Enterpries  se
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sort famous_ships
+[?2004l
+Battlestar Galactica
+Death Star
+Death Star
+Millennium Falcon
+USS Enterprise
+Y Wing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sort -r famous_ships
+[?2004lY Wing
+USS Enterprise
+Millennium Falcon
+Death Star
+Death Star
+Battlestar Galactica
+
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat famous_ships
+[?2004l
+Millennium Falcon
+USS Enterprise
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ awk 'print$1{print$1[C[C[C[C[C $1[C[C}' famous_ships
+[?2004l
+Millennium
+USS
+Death
+Y
+Battlestar
+Death
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ awk '{print $1}' famous_ships > famous_ships[K_first
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ awk '{print $1}' famous_ships > famous_ship_first[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[1P[1@2
+[?2004l
+Falcon
+Enterprise
+Star
+Wing
+Galactica
+Star
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ awk '{print $2}' famous_ships > famous_ship_last
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m               [01;34mhoa[0m              [01;34msnap[0m              week02.timing
+[01;34mDesktop[0m            [01;34mHOME3[0m            [01;34mTemplates[0m         week03.log
+[01;34mDocuments[0m          ls-output.txt    [01;34mtest1[0m             week03.timing
+[01;34mDownloads[0m          ls.txt           [01;34mtest2[0m             week04.log
+error.txt          [01;34mMusic[0m            [01;34mtest3[0m             week04.timing
+famous_ship_first  output2.txt      [01;34mtestcompress[0m      week05.log
+famous_ship_last   output.txt       [01;31mtestcompress.tar[0m  week05.timing
+famous_ships       out.txt          [01;34mtest_day8[0m         week06.log
+FILE1              [01;34mPictures[0m         [01;34mtesttar[0m           week06.timing
+file1.txt          [01;34mPublic[0m           test.txt          week07.log
+file.txt           [01;31mresults.txt.bz2[0m  umask             week07.timing
+findme.txt         result.txt       [01;34mVideos[0m            week08.log
+foo.txt            ships.txt        week02.log        week08.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cut -f 1 famous_ships
+[?2004l
+Millennium Falcon
+USS Enterprise
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ paste famous_ship last famous_ship f[K[K_first[1P[1@_
+[?2004l	
+Falcon	Millennium
+Enterprise	USS
+Star	Death
+Wing	Y
+Galactica	Battlestar
+Star	Death
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ paste famous_ship_last famous_ship_first[1@-[1@u[1@ 
+[?2004lpaste: invalid option -- 'u'
+Try 'paste --help' for more information.
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ unexpand famous_ships
+[?2004l
+Millennium Falcon
+USS Enterprise
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat -A famous_ships
+[?2004l$
+Millennium Falcon$
+USS Enterprise$
+Death Star$
+Y Wing$
+Battlestar Galactica$
+Death Star$
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cut -d ' ' -f 1 famous_ships
+[?2004l
+Millennium
+USS
+Death
+Y
+Battlestar
+Death
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cut -d ' ' -f 1 famous_ships > famous_ship_first
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cut -d ' ' -f 1 famous_ships > famous_ship_first[1@2[1P[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Klast
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat famous_ship_first
+[?2004l
+Millennium
+USS
+Death
+Y
+Battlestar
+Death
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat famous_ship_first[K[K[K[K[K;as[K[K[Klast
+[?2004l
+Falcon
+Enterprise
+Star
+Wing
+Galactica
+Star
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ paste famous_ship_last famous_ship_first
+[?2004l	
+Falcon	Millennium
+Enterprise	USS
+Star	Death
+Wing	Y
+Galactica	Battlestar
+Star	Death
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ paste famous_ship_last famous_ship_first[20Pcat famous_ship_lastpaste famous_ship_last famous_ship_first[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kosr -u[K[K[K[K[K[Ksort -u famous_ships
+[?2004l
+Battlestar Galactica
+Death Star
+Millennium Falcon
+USS Enterprise
+Y Wing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cp famous_ships famous_H[KS[Kships2
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ vi famous_ships2
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"famous_ships2" 7L, 84B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1HMillennium Falcon[2;18H[K[3;1HUSS Enterprise[3;15H[K[4;1HDeath Star
+Y Wing
+Battlestar Galactica
+Death Star
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[24;53H:[1;1H[24;54H3[1;1H[24;55H0[1;1H[24;56H3[1;1H[24;57H0[1;1H[24;58H/[1;1H[24;59H0[1;1H[24;60Ha[1;1H[24;61H0[1;1H[24;62Ha[1;1H[24;53H          [1;1H[27m[23m[29m[m[H[2J[2;1HMillennium Falcon
+USS Enterprise
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,0-1[9CAll"famous_ships2" 7L, 84B[1;1H[?25h[?25l[24;53Hj[1;1H[24;53H [2;1H[24;63H2,1  [2;1H[?25h[?25l[24;53Hj[2;1H[24;53H [3;1H[24;63H3[3;1H[?25h[?25l[24;53Hj[3;1H[24;53H [4;1H[24;63H4[4;1H[?25h[?25l[24;53Hj[4;1H[24;53H [5;1H[24;63H5[5;1H[?25h[?25l[24;53Hj[5;1H[24;53H [6;1H[24;63H6[6;1H[?25h[?25l[24;53Hj[6;1H[24;53H [7;1H[24;63H7[7;1H[?25h[?25l[24;53Hj[7;1H[24;53H [7;1H[?25h[?25l[24;53Ho[7;1H[24;53H [8;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H8,1[11CAll[8;1H[K[8;1H[?25h[?25lF[24;65H2[8;2H[?25h[?25li[24;65H3[8;3H[?25h[?25lr[24;65H4[8;4H[?25h[?25le[24;65H5[8;5H[?25h[?25lf[24;65H6[8;6H[?25h[?25ll[24;65H7[8;7H[?25h[?25ly[24;65H8[8;8H[?25h[24;1H[K[8;7H[?25l[24;53H^[[8;7H[24;53H  [8;8H[24;63H8,7[11CAll[8;7H[?25h[?25l[24;53H:[8;7H[24;53H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"famous_ships2" 8L, 92B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat famous_ships2
+[?2004l
+Millennium Falcon
+USS Enterprise
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+Firefly
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ diff -c famous_ships famous_ships2
+[?2004l*** famous_ships	2024-06-08 22:48:24.596008163 -0600
+--- famous_ships2	2024-06-08 23:00:06.198617876 -0600
+***************
+*** 5,7 ****
+--- 5,8 ----
+  Y Wing
+  Battlestar Galactica
+  Death Star
++ Firefly
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ diff -c famous_ships famous_ships2 > diff_ship
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ patch < diff_ship
+[?2004lpatching file famous_ships
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cat famous_ships
+[?2004l
+Millennium Falcon
+USS Enterprise
+Death Star
+Y Wing
+Battlestar Galactica
+Death Star
+Firefly
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ aspell famous_ships
+[?2004lError: Unknown Action: famous_ships
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ aspell famous_shipscfamous_shipshfamous_shipsefamous_shipscfamous_shipskfamous_ships famous_ships
+[?2004l[?1049h[22;0;0t[1;24r(B[m[4l[?7h[?1h=[?1h=[H[2JUSS Enterprise[2dDeath Star[3dY Wing[4d(B[0;7mBattlestar(B[m Galactica[5dDeath Star[6dFirefly[13d(B[0;7m                                                                                [14;1H(B[m1) Battle star[14;41H6) Battiest[15d2) Battle-star[15;41H7) Battlers[16d3) Battles tar[16;41H8) Bartlett[17d4) Battles-tar[17;41H9) Battle's[18d5) Battles[18;41H0) Battled[19di) Ignore[19;41HI) Ignore all[20dr) Replace[20;41HR) Replace all[21da) Add[21;41Hl) Add Lower[22db) Abort[22;41Hx) Exit[23d(B[0;7m                                                                                [24;1H(B[m? x[24;1H[?1049l[23;0;0t[?1l>[24;1H[?1049l[23;0;0t[?1l>[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ e[Kgreap[K[Kp 'l..t' ls.txt
+[?2004l       ls - [01;31m[Klist[m[K directory contents
+              do not [01;31m[Klist[m[K implied . and ..
+              do not [01;31m[Klist[m[K implied entries ending with ~
+       -c     with -lt: sort by, and show, ctime (time of [01;31m[Klast[m[K modification of
+       -C     [01;31m[Klist[m[K entries by columns
+              [01;31m[Klist[m[K directories themselves, not their contents
+       --fi[01;31m[Kle-t[m[Kype
+       --fu[01;31m[Kll-t[m[Kime
+       -g     like -l, but do not [01;31m[Klist[m[K owner
+              in a long [01;31m[Klist[m[King, don't print group names
+              follow symbolic links [01;31m[Klist[m[Ked on the command line
+              do not [01;31m[Klist[m[K implied entries matching shell  PATTERN  (overridden
+              slash (-p), fi[01;31m[Kle-t[m[Kype (--fi[01;31m[Kle-t[m[Kype), classify (-F)
+              do not [01;31m[Klist[m[K implied entries matching shell PATTERN
+       -l     use a long [01;31m[Klist[m[King format
+              tion  for  the fi[01;31m[Kle t[m[Khe link references rather than for the link
+       -m     fill width with a comma separated [01;31m[Klist[m[K of entries
+              like -l, but [01;31m[Klist[m[K numeric user and group IDs
+       -o     like -l, but do not [01;31m[Klist[m[K group information
+              [01;31m[Klist[m[K subdirectories recursively
+       -U     do not sort; [01;31m[Klist[m[K entries in directory order
+       -x     [01;31m[Klist[m[K entries by lines instead of by columns
+       -1     [01;31m[Klist[m[K one file per line.  Avoid '\n' with -q or -b
+       able sets the default sty[01;31m[Kle t[m[Ko use.
+       Using  color  to distinguish fi[01;31m[Kle t[m[Kypes is disabled both by default and
+       GPL version 3 or later <https://gnu.org/licenses/gp[01;31m[Kl.ht[m[Kml>.
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ grep 'l..t' ls.txt[1@^[1@D[1P[C[C[C[C[1@-[C[1@ [1P[1P[C[1@ [1@-[1@E[C[C[C[C[C[C[C[1@$
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls | greo 'fileo[2-8]'
+[?2004lCommand 'greo' not found, did you mean:
+  command 'grex' from snap grex (v1.4.5)
+  command 'grep' from deb grep (3.7-1build1)
+  command 'geo' from deb rheolef (7.1-7build1)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls | greo 'fileo[2-8]'[1P 'fileo[2-8]'p 'fileo[2-8]'
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls | grep 'fileo[2-8]'[1P[2-8]'0[2-8]'
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cd test_day8/
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ cd test_day8/ls | grep 'file0[2-8]'
+[?2004l[01;31m[Kfile02[m[K
+[01;31m[Kfile03[m[K
+[01;31m[Kfile04[m[K
+[01;31m[Kfile05[m[K
+[01;31m[Kfile06[m[K
+[01;31m[Kfile07[m[K
+[01;31m[Kfile08[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep 'file0[2-8]'[C-'file0[2-8]'v'file0[2-8]' 'file0[2-8]'
+[?2004lfile01
+FILE01
+FILE02
+FILE03
+FILE04
+FILE05
+FILE06
+FILE07
+FILE08
+file09
+FILE09
+file10
+FILE10
+file11
+FILE11
+file12
+FILE12
+file13
+FILE13
+file14
+FILE14
+file15
+FILE15
+file16
+FILE16
+file17
+FILE17
+file18
+FILE18
+file19
+FILE19
+file20
+FILE20
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -v 'file0[2-8]'[1P 'file0[2-8]'n 'file0[2-8]'[C[C[C[C[C[C[C[1Pile0[2-8]'[ile0[2-8]'file0[2-8]'File0[2-8]']ile0[2-8]'[C[C[C[C[1P[2-8]'1[2-8]'[C[C[1P-8]'1-8]'[C[C[1P]'9]'
+[?2004l[32m[K21[m[K[36m[K:[m[K[01;31m[Kfile11[m[K
+[32m[K23[m[K[36m[K:[m[K[01;31m[Kfile12[m[K
+[32m[K25[m[K[36m[K:[m[K[01;31m[Kfile13[m[K
+[32m[K27[m[K[36m[K:[m[K[01;31m[Kfile14[m[K
+[32m[K29[m[K[36m[K:[m[K[01;31m[Kfile15[m[K
+[32m[K31[m[K[36m[K:[m[K[01;31m[Kfile16[m[K
+[32m[K33[m[K[36m[K:[m[K[01;31m[Kfile17[m[K
+[32m[K35[m[K[36m[K:[m[K[01;31m[Kfile18[m[K
+[32m[K37[m[K[36m[K:[m[K[01;31m[Kfile19[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -n '[fF]ile1[1-9]'[1P]ile1[1-9]'[1P]ile1[1-9]'^[]ile1[1-9]'[CF]ile1[1-9]'|]ile1[1-9]'f]ile1[1-9]'
+[?2004l[32m[K21[m[K[36m[K:[m[K[01;31m[Kfile11[m[K
+[32m[K23[m[K[36m[K:[m[K[01;31m[Kfile12[m[K
+[32m[K25[m[K[36m[K:[m[K[01;31m[Kfile13[m[K
+[32m[K27[m[K[36m[K:[m[K[01;31m[Kfile14[m[K
+[32m[K29[m[K[36m[K:[m[K[01;31m[Kfile15[m[K
+[32m[K31[m[K[36m[K:[m[K[01;31m[Kfile16[m[K
+[32m[K33[m[K[36m[K:[m[K[01;31m[Kfile17[m[K
+[32m[K35[m[K[36m[K:[m[K[01;31m[Kfile18[m[K
+[32m[K37[m[K[36m[K:[m[K[01;31m[Kfile19[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -n '^[F|f]ile1[1-9]'[1PF|f]ile1[1-9]'(F|f]ile1[1-9]'[C[C[C[C[1Pile1[1-9]'}ile1[1-9]'[1Pile1[1-9]')ile1[1-9]'
+[?2004l[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -n '^(F|f)ile1[1-9]'[1P '^(F|f)ile1[1-9]'E '^(F|f)ile1[1-9]'h '^(F|f)ile1[1-9]'
+[?2004l[01;31m[Kfile11[m[K
+[01;31m[Kfile12[m[K
+[01;31m[Kfile13[m[K
+[01;31m[Kfile14[m[K
+[01;31m[Kfile15[m[K
+[01;31m[Kfile16[m[K
+[01;31m[Kfile17[m[K
+[01;31m[Kfile18[m[K
+[01;31m[Kfile19[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -Eh '^(F|f)ile1[1-9]'[C[1[1-9]'[C][1-9]'
+[?2004l[01;31m[Kfile11[m[K
+[01;31m[Kfile12[m[K
+[01;31m[Kfile13[m[K
+[01;31m[Kfile14[m[K
+[01;31m[Kfile15[m[K
+[01;31m[Kfile16[m[K
+[01;31m[Kfile17[m[K
+[01;31m[Kfile18[m[K
+[01;31m[Kfile19[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -Eh '^(F|f)ile[1][1-9]'[C[1P '^(F|f)ile[1][1-9]'[1P '^(F|f)ile[1][1-9]'[1P '^(F|f)ile[1][1-9]'[1P'^(F|f)ile[1][1-9]'[C[C[C[1P(F|f)ile[1][1-9]'[C[1PF|f)ile[1][1-9]'[F|f)ile[1][1-9]'[C[C[1Pf)ile[1][1-9]'[C[C[1Pile[1][1-9]']ile[1][1-9]'[C[C[C[1P[1][1-9]'[1P[1][1-9]'[1P[1][1-9]'*[1][1-9]'[C[1P1][1-9]'[C[C[1P[1-9]'
+[?2004lfile[01;31m[K11[m[K
+FILE[01;31m[K11[m[K
+file[01;31m[K12[m[K
+FILE[01;31m[K12[m[K
+file[01;31m[K13[m[K
+FILE[01;31m[K13[m[K
+file[01;31m[K14[m[K
+FILE[01;31m[K14[m[K
+file[01;31m[K15[m[K
+FILE[01;31m[K15[m[K
+file[01;31m[K16[m[K
+FILE[01;31m[K16[m[K
+file[01;31m[K17[m[K
+FILE[01;31m[K17[m[K
+file[01;31m[K18[m[K
+FILE[01;31m[K18[m[K
+file[01;31m[K19[m[K
+FILE[01;31m[K19[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ [7mls | grep 'file0[2-8]'[27mls | grep 'file0[2-8]'
+[?2004l[01;31m[Kfile02[m[K
+[01;31m[Kfile03[m[K
+[01;31m[Kfile04[m[K
+[01;31m[Kfile05[m[K
+[01;31m[Kfile06[m[K
+[01;31m[Kfile07[m[K
+[01;31m[Kfile08[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ [7mls | grep -n '[fF]*[11-19]'[27mls | grep -n '[fF]*[11-19]'
+[?2004l[32m[K1[m[K[36m[K:[m[Kfile0[01;31m[K1[m[K
+[32m[K2[m[K[36m[K:[m[KFILE0[01;31m[K1[m[K
+[32m[K17[m[K[36m[K:[m[Kfile0[01;31m[K9[m[K
+[32m[K18[m[K[36m[K:[m[KFILE0[01;31m[K9[m[K
+[32m[K19[m[K[36m[K:[m[Kfile[01;31m[K1[m[K0
+[32m[K20[m[K[36m[K:[m[KFILE[01;31m[K1[m[K0
+[32m[K21[m[K[36m[K:[m[Kfile[01;31m[K1[m[K[01;31m[K1[m[K
+[32m[K22[m[K[36m[K:[m[KFILE[01;31m[K1[m[K[01;31m[K1[m[K
+[32m[K23[m[K[36m[K:[m[Kfile[01;31m[K1[m[K2
+[32m[K24[m[K[36m[K:[m[KFILE[01;31m[K1[m[K2
+[32m[K25[m[K[36m[K:[m[Kfile[01;31m[K1[m[K3
+[32m[K26[m[K[36m[K:[m[KFILE[01;31m[K1[m[K3
+[32m[K27[m[K[36m[K:[m[Kfile[01;31m[K1[m[K4
+[32m[K28[m[K[36m[K:[m[KFILE[01;31m[K1[m[K4
+[32m[K29[m[K[36m[K:[m[Kfile[01;31m[K1[m[K5
+[32m[K30[m[K[36m[K:[m[KFILE[01;31m[K1[m[K5
+[32m[K31[m[K[36m[K:[m[Kfile[01;31m[K1[m[K6
+[32m[K32[m[K[36m[K:[m[KFILE[01;31m[K1[m[K6
+[32m[K33[m[K[36m[K:[m[Kfile[01;31m[K1[m[K7
+[32m[K34[m[K[36m[K:[m[KFILE[01;31m[K1[m[K7
+[32m[K35[m[K[36m[K:[m[Kfile[01;31m[K1[m[K8
+[32m[K36[m[K[36m[K:[m[KFILE[01;31m[K1[m[K8
+[32m[K37[m[K[36m[K:[m[Kfile[01;31m[K1[m[K[01;31m[K9[m[K
+[32m[K38[m[K[36m[K:[m[KFILE[01;31m[K1[m[K[01;31m[K9[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -n '[fF]*[11-19]'[1P19]'.19]'.19]'
+[?2004l[32m[K1[m[K[36m[K:[m[Kfile0[01;31m[K1[m[K
+[32m[K2[m[K[36m[K:[m[KFILE0[01;31m[K1[m[K
+[32m[K17[m[K[36m[K:[m[Kfile0[01;31m[K9[m[K
+[32m[K18[m[K[36m[K:[m[KFILE0[01;31m[K9[m[K
+[32m[K19[m[K[36m[K:[m[Kfile[01;31m[K1[m[K0
+[32m[K20[m[K[36m[K:[m[KFILE[01;31m[K1[m[K0
+[32m[K21[m[K[36m[K:[m[Kfile[01;31m[K1[m[K[01;31m[K1[m[K
+[32m[K22[m[K[36m[K:[m[KFILE[01;31m[K1[m[K[01;31m[K1[m[K
+[32m[K23[m[K[36m[K:[m[Kfile[01;31m[K1[m[K2
+[32m[K24[m[K[36m[K:[m[KFILE[01;31m[K1[m[K2
+[32m[K25[m[K[36m[K:[m[Kfile[01;31m[K1[m[K3
+[32m[K26[m[K[36m[K:[m[KFILE[01;31m[K1[m[K3
+[32m[K27[m[K[36m[K:[m[Kfile[01;31m[K1[m[K4
+[32m[K28[m[K[36m[K:[m[KFILE[01;31m[K1[m[K4
+[32m[K29[m[K[36m[K:[m[Kfile[01;31m[K1[m[K5
+[32m[K30[m[K[36m[K:[m[KFILE[01;31m[K1[m[K5
+[32m[K31[m[K[36m[K:[m[Kfile[01;31m[K1[m[K6
+[32m[K32[m[K[36m[K:[m[KFILE[01;31m[K1[m[K6
+[32m[K33[m[K[36m[K:[m[Kfile[01;31m[K1[m[K7
+[32m[K34[m[K[36m[K:[m[KFILE[01;31m[K1[m[K7
+[32m[K35[m[K[36m[K:[m[Kfile[01;31m[K1[m[K8
+[32m[K36[m[K[36m[K:[m[KFILE[01;31m[K1[m[K8
+[32m[K37[m[K[36m[K:[m[Kfile[01;31m[K1[m[K[01;31m[K9[m[K
+[32m[K38[m[K[36m[K:[m[KFILE[01;31m[K1[m[K[01;31m[K9[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ ls | grep -n '[fF]*[11..19]'[K^?[K[7mls | grep '[Ff]*1[1-9]'[27mls | grep '[Ff]*1[1-9]'[C[C '[Ff]*1[1-9]'- '[Ff]*1[1-9]'n '[Ff]*1[1-9]'
+[?2004l[32m[K21[m[K[36m[K:[m[Kfile[01;31m[K11[m[K
+[32m[K22[m[K[36m[K:[m[KFILE[01;31m[K11[m[K
+[32m[K23[m[K[36m[K:[m[Kfile[01;31m[K12[m[K
+[32m[K24[m[K[36m[K:[m[KFILE[01;31m[K12[m[K
+[32m[K25[m[K[36m[K:[m[Kfile[01;31m[K13[m[K
+[32m[K26[m[K[36m[K:[m[KFILE[01;31m[K13[m[K
+[32m[K27[m[K[36m[K:[m[Kfile[01;31m[K14[m[K
+[32m[K28[m[K[36m[K:[m[KFILE[01;31m[K14[m[K
+[32m[K29[m[K[36m[K:[m[Kfile[01;31m[K15[m[K
+[32m[K30[m[K[36m[K:[m[KFILE[01;31m[K15[m[K
+[32m[K31[m[K[36m[K:[m[Kfile[01;31m[K16[m[K
+[32m[K32[m[K[36m[K:[m[KFILE[01;31m[K16[m[K
+[32m[K33[m[K[36m[K:[m[Kfile[01;31m[K17[m[K
+[32m[K34[m[K[36m[K:[m[KFILE[01;31m[K17[m[K
+[32m[K35[m[K[36m[K:[m[Kfile[01;31m[K18[m[K
+[32m[K36[m[K[36m[K:[m[KFILE[01;31m[K18[m[K
+[32m[K37[m[K[36m[K:[m[Kfile[01;31m[K19[m[K
+[32m[K38[m[K[36m[K:[m[KFILE[01;31m[K19[m[K
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ [7mls | grep [[:lower:]][[:digit:]][27mls | grep [[:lower:]][[:digit:]]
+[?2004lfil[01;31m[Ke0[m[K1
+fil[01;31m[Ke0[m[K2
+fil[01;31m[Ke0[m[K3
+fil[01;31m[Ke0[m[K4
+fil[01;31m[Ke0[m[K5
+fil[01;31m[Ke0[m[K6
+fil[01;31m[Ke0[m[K7
+fil[01;31m[Ke0[m[K8
+fil[01;31m[Ke0[m[K9
+fil[01;31m[Ke1[m[K0
+fil[01;31m[Ke1[m[K1
+fil[01;31m[Ke1[m[K2
+fil[01;31m[Ke1[m[K3
+fil[01;31m[Ke1[m[K4
+fil[01;31m[Ke1[m[K5
+fil[01;31m[Ke1[m[K6
+fil[01;31m[Ke1[m[K7
+fil[01;31m[Ke1[m[K8
+fil[01;31m[Ke1[m[K9
+fil[01;31m[Ke2[m[K0
+[?2004h]0;student@student-VirtualBox: ~/test_day8[01;32mstudent@student-VirtualBox[00m:[01;34m~/test_day8[00m$ cd
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ cd[K[7msort famous_ships | uniq[27msort famous_ships | uniq
+[?2004l
+Battlestar Galactica
+Death Star
+Firefly
+Millennium Falcon
+USS Enterprise
+Y Wing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-06-08 23:18:01-06:00 [COMMAND_EXIT_CODE="0"]

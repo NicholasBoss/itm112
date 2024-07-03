@@ -1,0 +1,17 @@
+/var/tmp:
+systemd-private-c669c2e67ade48ec825df5fa90daaf5d-colord.service-PfR6VN
+systemd-private-c669c2e67ade48ec825df5fa90daaf5d-ModemManager.service-xw7nJE
+systemd-private-c669c2e67ade48ec825df5fa90daaf5d-power-profiles-daemon.service-sPB1oC
+systemd-private-c669c2e67ade48ec825df5fa90daaf5d-switcheroo-control.service-JKerMz
+systemd-private-c669c2e67ade48ec825df5fa90daaf5d-systemd-logind.service-uUGIsJ
+systemd-private-c669c2e67ade48ec825df5fa90daaf5d-systemd-oomd.service-I0jElF
+systemd-private-c669c2e67ade48ec825df5fa90daaf5d-systemd-resolved.service-75JLus
+systemd-private-c669c2e67ade48ec825df5fa90daaf5d-upower.service-7C5ENC
+ls: cannot open directory '/var/tmp/systemd-private-c669c2e67ade48ec825df5fa90daaf5d-colord.service-PfR6VN': Permission denied
+ls: cannot open directory '/var/tmp/systemd-private-c669c2e67ade48ec825df5fa90daaf5d-ModemManager.service-xw7nJE': Permission denied
+ls: cannot open directory '/var/tmp/systemd-private-c669c2e67ade48ec825df5fa90daaf5d-power-profiles-daemon.service-sPB1oC': Permission denied
+ls: cannot open directory '/var/tmp/systemd-private-c669c2e67ade48ec825df5fa90daaf5d-switcheroo-control.service-JKerMz': Permission denied
+ls: cannot open directory '/var/tmp/systemd-private-c669c2e67ade48ec825df5fa90daaf5d-systemd-logind.service-uUGIsJ': Permission denied
+ls: cannot open directory '/var/tmp/systemd-private-c669c2e67ade48ec825df5fa90daaf5d-systemd-oomd.service-I0jElF': Permission denied
+ls: cannot open directory '/var/tmp/systemd-private-c669c2e67ade48ec825df5fa90daaf5d-systemd-resolved.service-75JLus': Permission denied
+ls: cannot open directory '/var/tmp/systemd-private-c669c2e67ade48ec825df5fa90daaf5d-upower.service-7C5ENC': Permission denied

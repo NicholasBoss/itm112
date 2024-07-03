@@ -1,0 +1,633 @@
+Script started on 2024-05-17 16:13:55-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ id
+[?2004luid=1000(student) gid=1000(student) groups=1000(student),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),122(lpadmin),135(lxd),136(sambashare)
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDesktop[0m    [01;34mHOME3[0m        [01;34mPictures[0m    [01;34mTemplates[0m  week02.log     week04.timing
+[01;34mDocuments[0m  [01;34mMusic[0m        [01;34mPublic[0m      [01;34mtest1[0m      week02.timing  week05.log
+[01;34mDownloads[0m  output2.txt  result.txt  [01;34mtest2[0m      week03.log     week05.timing
+error.txt  output.txt   ships.txt   [01;34mtest3[0m      week03.timing
+[01;34mhoa[0m        out.txt      [01;34msnap[0m        [01;34mVideos[0m     week04.log
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch Day5/test1
+[?2004ltouch: cannot touch 'Day5/test1': No such file or directory
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ mkdir Day5
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ mkdir Day5touch Day5/test1
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls -l Dat[Kt5[K[Ky5/test1
+[?2004l-rw-rw-r-- 1 student student 0 May 17 16:16 Day5/test1
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ chmod 762 Day5/test1
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ chmod 762 Day5/test1[4Pls -l[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-rwxrw--w- 1 student student 0 May 17 16:16 [0m[01;32mDay5/test1[0m
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ chmod 444 Day5/test1
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ chmod 444 Day5/test1[4Pls -l[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-r--r--r-- 1 student student 0 May 17 16:16 Day5/test1
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ chmod 755 Day5/test1
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ chmod 755 Day5/test1[4Pls -l[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-rwxr-xr-x 1 student student 0 May 17 16:16 [0m[01;32mDay5/test1[0m
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch -l
+[?2004ltouch: invalid option -- 'l'
+Try 'touch --help' for more information.
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ umask
+[?2004l0002
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ umask touch
+[?2004lbash: umask: `t': invalid symbolic mode operator
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch umask
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m       [01;34mhoa[0m          out.txt     [01;34msnap[0m       umask          week03.timing
+[01;34mDesktop[0m    [01;34mHOME3[0m        [01;34mPictures[0m    [01;34mTemplates[0m  [01;34mVideos[0m         week04.log
+[01;34mDocuments[0m  [01;34mMusic[0m        [01;34mPublic[0m      [01;34mtest1[0m      week02.log     week04.timing
+[01;34mDownloads[0m  output2.txt  result.txt  [01;34mtest2[0m      week02.timing  week05.log
+error.txt  output.txt   ships.txt   [01;34mtest3[0m      week03.log     week05.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ rm Day5/test1
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ umask
+[?2004l0002
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ umask 0000
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ > d[KDay5/test1
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls - l[K[Kl DAy[K[Kay4[K5/test1
+[?2004l-rw-rw-rw- 1 student student 0 May 17 16:23 Day5/test1
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ su root
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ su -
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ su -
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sudo root
+[?2004l[sudo] password for student: 
+sudo: root: command not found
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sudo root -[Kl root
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ su -l root
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ su -l rootpass[K[K[K[K
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ su - 'ls /etc/ppp/chap-secrr[K[Krets
+[?2004l[?2004h> '
+[?2004lsu: user ls /etc/ppp/chap-secrets
+ does not exist or the user entry does not contain all the required fields
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ su - 'ls /etc/ppp/chap-secrets
+'[A]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ [C[C[C[Cl root[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 'ls /etc/ppp/chap-secrets
+'[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'
+[?2004lsu: user ls /etc/ppp/chap-secrets does not exist or the user entry does not contain all the required fields
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ su - 'ls /etc/ppp/chap-secrets'[C[1@c
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ chowm[Kn root:root Day5/test1
+[?2004lchown: changing ownership of 'Day5/test1': Operation not permitted
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ chown root:root Day5/test1[1P Day5/test1[1P Day5/test1[1P Day5/test1[1P Day5/test1
+[?2004lchown: changing ownership of 'Day5/test1': Operation not permitted
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ echo "Chapter 10"
+[?2004lChapter 10
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ps
+[?2004l    PID TTY          TIME CMD
+   2337 pts/1    00:00:00 bash
+   2583 pts/1    00:00:00 ps
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ps aux
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.2 166668 11380 ?        Ss   16:11   0:01 /sbin/init sp
+root           2  0.0  0.0      0     0 ?        S    16:11   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   16:11   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   16:11   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   16:11   0:00 [slub_flushwq
+root           6  0.0  0.0      0     0 ?        I<   16:11   0:00 [netns]
+root           7  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/0:0-
+root           8  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/0:0H
+root          10  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/u12:
+root          11  0.0  0.0      0     0 ?        I<   16:11   0:00 [mm_percpu_wq
+root          12  0.0  0.0      0     0 ?        I    16:11   0:00 [rcu_tasks_kt
+root          13  0.0  0.0      0     0 ?        I    16:11   0:00 [rcu_tasks_ru
+root          14  0.0  0.0      0     0 ?        I    16:11   0:00 [rcu_tasks_tr
+root          15  0.0  0.0      0     0 ?        S    16:11   0:00 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    16:11   0:00 [rcu_preempt]
+root          17  0.0  0.0      0     0 ?        S    16:11   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    16:11   0:00 [idle_inject/
+root          19  0.0  0.0      0     0 ?        S    16:11   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    16:11   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    16:11   0:00 [idle_inject/
+root          22  0.0  0.0      0     0 ?        S    16:11   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    16:11   0:00 [ksoftirqd/1]
+root          24  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/1:0-
+root          25  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/1:0H
+root          26  0.0  0.0      0     0 ?        S    16:11   0:00 [cpuhp/2]
+root          27  0.0  0.0      0     0 ?        S    16:11   0:00 [idle_inject/
+root          28  0.0  0.0      0     0 ?        S    16:11   0:00 [migration/2]
+root          29  0.0  0.0      0     0 ?        S    16:11   0:00 [ksoftirqd/2]
+root          30  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/2:0-
+root          31  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/2:0H
+root          32  0.0  0.0      0     0 ?        S    16:11   0:00 [cpuhp/3]
+root          33  0.0  0.0      0     0 ?        S    16:11   0:00 [idle_inject/
+root          34  0.0  0.0      0     0 ?        S    16:11   0:00 [migration/3]
+root          35  0.0  0.0      0     0 ?        S    16:11   0:00 [ksoftirqd/3]
+root          37  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/3:0H
+root          38  0.0  0.0      0     0 ?        S    16:11   0:00 [cpuhp/4]
+root          39  0.0  0.0      0     0 ?        S    16:11   0:00 [idle_inject/
+root          40  0.0  0.0      0     0 ?        S    16:11   0:00 [migration/4]
+root          41  0.0  0.0      0     0 ?        S    16:11   0:00 [ksoftirqd/4]
+root          43  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/4:0H
+root          44  0.0  0.0      0     0 ?        S    16:11   0:00 [cpuhp/5]
+root          45  0.0  0.0      0     0 ?        S    16:11   0:00 [idle_inject/
+root          46  0.0  0.0      0     0 ?        S    16:11   0:00 [migration/5]
+root          47  0.0  0.0      0     0 ?        S    16:11   0:00 [ksoftirqd/5]
+root          49  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/5:0H
+root          50  0.0  0.0      0     0 ?        S    16:11   0:00 [kdevtmpfs]
+root          51  0.0  0.0      0     0 ?        I<   16:11   0:00 [inet_frag_wq
+root          53  0.0  0.0      0     0 ?        S    16:11   0:00 [kauditd]
+root          54  0.0  0.0      0     0 ?        S    16:11   0:00 [khungtaskd]
+root          55  0.0  0.0      0     0 ?        S    16:11   0:00 [oom_reaper]
+root          56  0.0  0.0      0     0 ?        R    16:11   0:00 [kworker/u12:
+root          57  0.0  0.0      0     0 ?        I<   16:11   0:00 [writeback]
+root          58  0.0  0.0      0     0 ?        S    16:11   0:00 [kcompactd0]
+root          59  0.0  0.0      0     0 ?        SN   16:11   0:00 [ksmd]
+root          61  0.0  0.0      0     0 ?        SN   16:11   0:00 [khugepaged]
+root          62  0.0  0.0      0     0 ?        I<   16:11   0:00 [kintegrityd]
+root          63  0.0  0.0      0     0 ?        I<   16:11   0:00 [kblockd]
+root          64  0.0  0.0      0     0 ?        I<   16:11   0:00 [blkcg_punt_b
+root          65  0.0  0.0      0     0 ?        I<   16:11   0:00 [tpm_dev_wq]
+root          66  0.0  0.0      0     0 ?        I<   16:11   0:00 [ata_sff]
+root          67  0.0  0.0      0     0 ?        I<   16:11   0:00 [md]
+root          68  0.0  0.0      0     0 ?        I<   16:11   0:00 [md_bitmap]
+root          69  0.0  0.0      0     0 ?        I<   16:11   0:00 [edac-poller]
+root          70  0.0  0.0      0     0 ?        I<   16:11   0:00 [devfreq_wq]
+root          71  0.0  0.0      0     0 ?        S    16:11   0:00 [watchdogd]
+root          72  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/1:1H
+root          73  0.0  0.0      0     0 ?        S    16:11   0:00 [kswapd0]
+root          74  0.0  0.0      0     0 ?        S    16:11   0:00 [ecryptfs-kth
+root          75  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/3:1-
+root          76  0.0  0.0      0     0 ?        I<   16:11   0:00 [kthrotld]
+root          77  0.0  0.0      0     0 ?        I<   16:11   0:00 [acpi_thermal
+root          78  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/4:1-
+root          79  0.0  0.0      0     0 ?        S    16:11   0:00 [scsi_eh_0]
+root          80  0.0  0.0      0     0 ?        I<   16:11   0:00 [scsi_tmf_0]
+root          81  0.0  0.0      0     0 ?        S    16:11   0:00 [scsi_eh_1]
+root          82  0.0  0.0      0     0 ?        I<   16:11   0:00 [scsi_tmf_1]
+root          86  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/2:1-
+root          88  0.0  0.0      0     0 ?        I<   16:11   0:00 [mld]
+root          89  0.0  0.0      0     0 ?        I<   16:11   0:00 [ipv6_addrcon
+root          91  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/5:2-
+root          97  0.0  0.0      0     0 ?        I<   16:11   0:00 [kstrp]
+root          99  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/u13:
+root         103  0.0  0.0      0     0 ?        I<   16:11   0:00 [charger_mana
+root         123  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/4:1H
+root         126  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/5:1H
+root         143  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/0:1H
+root         144  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/2:1H
+root         145  0.0  0.0      0     0 ?        I<   16:11   0:00 [kworker/3:1H
+root         151  0.0  0.0      0     0 ?        S    16:11   0:00 [scsi_eh_2]
+root         152  0.0  0.0      0     0 ?        I<   16:11   0:00 [scsi_tmf_2]
+root         161  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/5:3-
+root         162  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/4:2-
+root         183  0.0  0.0      0     0 ?        S    16:11   0:00 [jbd2/sda3-8]
+root         184  0.0  0.0      0     0 ?        I<   16:11   0:00 [ext4-rsv-con
+root         224  0.0  0.9  81036 45184 ?        S<s  16:11   0:00 /lib/systemd/
+root         242  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/3:2-
+root         253  0.0  0.0      0     0 ?        S    16:11   0:00 [irq/18-vmwgf
+root         254  0.0  0.0      0     0 ?        I<   16:11   0:00 [ttm]
+root         256  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/1:3-
+root         270  0.0  0.1  27020  6784 ?        Ss   16:11   0:00 /lib/systemd/
+root         321  0.0  0.0      0     0 ?        I<   16:11   0:00 [iprt-VBoxWQu
+root         337  0.0  0.0      0     0 ?        I<   16:11   0:00 [cryptd]
+systemd+     455  0.1  0.1  14836  6784 ?        Ss   16:11   0:01 /lib/systemd/
+systemd+     457  0.0  0.2  25540 13568 ?        Ss   16:11   0:00 /lib/systemd/
+root         597  0.0  0.1 239992  7224 ?        Ssl  16:11   0:00 /usr/libexec/
+root         598  0.0  0.0   2816  1792 ?        Ss   16:11   0:00 /usr/sbin/acp
+avahi        601  0.0  0.0   7632  3840 ?        Ss   16:11   0:00 avahi-daemon:
+root         602  0.0  0.0   9496  2944 ?        Ss   16:11   0:00 /usr/sbin/cro
+message+     604  0.0  0.1  11004  6144 ?        Ss   16:11   0:00 @dbus-daemon 
+root         606  0.0  0.3 261176 18284 ?        Ssl  16:11   0:00 /usr/sbin/Net
+root         612  0.0  0.0  82700  3840 ?        Ssl  16:11   0:00 /usr/sbin/irq
+root         616  0.0  0.4  41032 20736 ?        Ss   16:11   0:00 /usr/bin/pyth
+root         618  0.1  0.2 243040 10812 ?        Ssl  16:11   0:01 /usr/libexec/
+root         621  0.0  0.1 240060  7296 ?        Ssl  16:11   0:00 /usr/libexec/
+syslog       625  0.0  0.1 222404  5504 ?        Ssl  16:11   0:00 /usr/sbin/rsy
+root         629  0.4  0.6 1615596 30868 ?       Ssl  16:11   0:05 /usr/lib/snap
+root         631  0.0  0.1 236376  6656 ?        Ssl  16:11   0:00 /usr/libexec/
+root         634  0.0  0.1  23648  7852 ?        Ss   16:11   0:00 /lib/systemd/
+root         635  0.0  0.2 393100 12884 ?        Ssl  16:11   0:00 /usr/libexec/
+root         637  0.0  0.1  16504  6144 ?        Ss   16:11   0:00 /sbin/wpa_sup
+avahi        648  0.0  0.0   7444  1300 ?        S    16:11   0:00 avahi-daemon:
+root         688  0.0  0.2 317960 11992 ?        Ssl  16:11   0:00 /usr/sbin/Mod
+root         718  0.0  0.4 118152 23152 ?        Ssl  16:11   0:00 /usr/bin/pyth
+root         733  0.0  0.2  73012 13696 ?        Ss   16:11   0:00 /usr/sbin/cup
+root         750  0.0  0.2 172632 11136 ?        Ssl  16:11   0:00 /usr/sbin/cup
+root         755  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/0:3-
+kernoops     770  0.0  0.0  13088  2196 ?        Ss   16:11   0:00 /usr/sbin/ker
+kernoops     775  0.0  0.0  13088  2180 ?        Ss   16:11   0:00 /usr/sbin/ker
+root        1067  0.0  0.0 289672  2432 ?        Sl   16:11   0:00 /usr/bin/VBox
+root        1069  0.0  0.0 295728  3340 ?        Sl   16:11   0:00 /usr/sbin/VBo
+root        1086  0.0  0.1 241220  8704 ?        Ssl  16:11   0:00 /usr/sbin/gdm
+rtkit       1167  0.0  0.0 154004  3328 ?        SNsl 16:11   0:00 /usr/libexec/
+root        1276  0.0  0.1 242348  8832 ?        Ssl  16:11   0:00 /usr/libexec/
+root        1283  0.0  0.4 298232 20016 ?        Ssl  16:11   0:00 /usr/libexec/
+colord      1426  0.0  0.2 245332 12928 ?        Ssl  16:11   0:00 /usr/libexec/
+root        1524  0.0  0.2 170728 10304 ?        Sl   16:13   0:00 gdm-session-w
+student     1536  0.0  0.2  17952 10368 ?        Ss   16:13   0:00 /lib/systemd/
+student     1537  0.0  0.1 170084  5756 ?        S    16:13   0:00 (sd-pam)
+student     1543  0.0  0.1  39596  6400 ?        S<sl 16:13   0:00 /usr/bin/pipe
+student     1544  0.0  0.1  23604  6400 ?        Ssl  16:13   0:00 /usr/bin/pipe
+student     1545  0.0  0.5 1162184 27736 ?       S<sl 16:13   0:00 /usr/bin/puls
+student     1546  0.0  0.2  38952 11904 ?        Ss   16:13   0:00 /snap/snapd-d
+student     1556  0.0  0.1 240920  7068 ?        Sl   16:13   0:00 /usr/bin/gnom
+student     1570  0.0  0.1   9680  5496 ?        Ss   16:13   0:00 /usr/bin/dbus
+student     1572  0.0  0.1 162388  5888 tty2     Ssl+ 16:13   0:00 /usr/libexec/
+student     1579  0.0  0.3 223044 15744 tty2     Sl+  16:13   0:00 /usr/libexec/
+student     1580  0.0  0.1 536904  7424 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1590  0.0  0.1 236152  6016 ?        Ssl  16:13   0:00 /usr/libexec/
+root        1598  0.0  0.0   2796  1792 ?        Ss   16:13   0:00 fusermount3 -
+student     1644  0.0  0.1  91908  5504 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1653  0.0  0.1 240640  7936 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1659  0.0  0.1 380892  6656 ?        Sl   16:13   0:00 /usr/libexec/
+student     1668  0.0  0.3 445488 17152 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1683  0.0  0.1 309624  7808 ?        Sl   16:13   0:00 /usr/libexec/
+student     1686 14.5  7.7 5417300 370920 ?      Ssl  16:13   2:37 /usr/bin/gnom
+student     1694  0.0  0.0   8432  4352 ?        S    16:13   0:00 /usr/bin/dbus
+student     1751  0.0  0.5 427996 27788 ?        Sl   16:13   0:00 /snap/snapd-d
+student     1754  0.0  0.4 582996 20608 ?        Sl   16:13   0:00 /usr/libexec/
+student     1760  0.0  0.5 392252 25472 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1777  0.0  0.8 581888 39936 ?        Sl   16:13   0:00 /usr/libexec/
+student     1784  0.0  0.2 389800 10880 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1790  0.0  0.6 840500 30720 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1795  0.0  0.1 237412  6912 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1804  0.0  0.3 338400 14976 ?        Sl   16:13   0:00 /usr/libexec/
+student     1808  0.0  0.1 236456  6528 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1815  0.0  0.1 236628  6528 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1820  0.0  0.1 315208  8192 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1830  0.0  0.1 156944  5888 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1836  0.0  0.5 672276 28544 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1848  0.2  1.5 799184 71724 ?        Sl   16:13   0:02 /usr/bin/naut
+student     1849  0.0  0.1 314848  8448 ?        Sl   16:13   0:00 /usr/libexec/
+student     1860  0.0  0.5 2869728 27564 ?       Sl   16:13   0:00 /usr/bin/gjs 
+student     1862  0.0  0.1 162684  7552 ?        Sl   16:13   0:00 /usr/libexec/
+student     1878  0.0  0.0   2892  1536 ?        Ss   16:13   0:00 sh -c /usr/bi
+student     1879  0.0  0.1 310424  6784 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1883  0.1  0.2 388824 11756 ?        Sl   16:13   0:02 /usr/bin/ibus
+student     1885  0.0  0.5 524952 25728 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1888  0.0  0.3 375468 16384 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1889  0.0  0.1 311928  7936 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1899  0.0  0.4 340568 21760 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1901  0.0  0.5 642992 26496 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1904  0.0  0.5 376836 25856 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1910  0.0  0.2 249852 11136 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1914  0.0  0.1 457856  6656 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1916  0.0  0.1 236288  6400 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1919  0.0  0.2 465808 10496 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1932  0.0  0.1 312304  8320 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1942  0.0  0.1 319340  9472 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1943  0.0  0.4 341284 22400 ?        Ssl  16:13   0:00 /usr/libexec/
+student     1963  0.0  0.1 163480  7168 ?        Sl   16:13   0:00 /usr/libexec/
+student     1968  0.1  0.5 347284 27852 ?        Sl   16:13   0:02 /usr/libexec/
+student     1974  0.0  0.1 237260  7424 ?        Sl   16:13   0:00 /usr/libexec/
+student     1975  0.0  0.1 232268  7424 ?        Sl   16:13   0:00 /usr/libexec/
+student     1994  0.0  1.3 830992 66176 ?        Sl   16:13   0:00 /usr/libexec/
+student     2032  0.0  0.0  20060  1564 ?        S    16:13   0:00 /usr/bin/VBox
+student     2033  0.0  0.0 218248  3740 ?        Sl   16:13   0:00 /usr/bin/VBox
+student     2039  0.0  1.3 207452 64416 ?        S    16:13   0:00 /usr/bin/Xway
+student     2047  0.0  0.3 342356 14848 ?        Sl   16:13   0:00 /usr/libexec/
+student     2056  0.0  0.1 163480  7296 ?        Sl   16:13   0:00 /usr/libexec/
+student     2061  0.0  0.1 163020  6528 ?        Ssl  16:13   0:00 /usr/libexec/
+student     2064  0.0  1.6 531244 80076 ?        Ssl  16:13   0:00 /usr/libexec/
+student     2071  0.0  0.2 550080 13696 ?        Ssl  16:13   0:00 /usr/libexec/
+student     2082  0.0  0.6 597360 28912 ?        Ssl  16:13   0:00 /usr/libexec/
+student     2112  0.0  0.5 2738768 27404 ?       Sl   16:13   0:00 /usr/bin/gjs 
+student     2143  0.0  0.5 194232 24904 ?        Sl   16:13   0:00 /usr/libexec/
+student     2147  0.0  0.7 647784 34060 ?        SNsl 16:13   0:00 /usr/libexec/
+student     2159  0.0  0.0  20060  1564 ?        S    16:13   0:00 /usr/bin/VBox
+student     2160  0.0  0.0 218348  3100 ?        Sl   16:13   0:00 /usr/bin/VBox
+student     2167  0.0  0.0  20060  1564 ?        S    16:13   0:00 /usr/bin/VBox
+student     2168  0.2  0.0 218864  2972 ?        Sl   16:13   0:02 /usr/bin/VBox
+student     2176  0.0  0.0  20060  1540 ?        S    16:13   0:00 /usr/bin/VBox
+student     2177  0.0  0.0 152164  2180 ?        Sl   16:13   0:00 /usr/bin/VBox
+student     2206  0.0  1.3 2994868 63704 ?       Sl   16:13   0:00 gjs /usr/shar
+student     2216  0.0  0.5 343948 24580 ?        Ssl  16:13   0:00 /usr/libexec/
+student     2246  0.5  1.0 553120 51052 ?        Ssl  16:13   0:06 /usr/libexec/
+student     2264  0.0  0.1  11140  5120 pts/0    Ss   16:13   0:00 bash
+student     2292  3.6  1.3 637404 62856 ?        Sl   16:13   0:38 /usr/bin/gedi
+student     2336  0.0  0.0   8388  2304 pts/0    R+   16:13   0:00 script -a --t
+student     2337  0.0  0.1  11140  5120 pts/1    Ss   16:13   0:00 bash -i
+student     2363  0.0  0.6 493520 29188 ?        Sl   16:14   0:00 update-notifi
+root        2555  0.0  0.0      0     0 ?        R    16:24   0:00 [kworker/u12:
+student     2585  0.0  0.0  12672  3328 pts/1    R+   16:31   0:00 ps aux
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ xeyes
+[?2004l^Z
+[1]+  Stopped                 xeyes
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ xeyes &
+[?2004l[2] 2608
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ kill 2608
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ pg[K[Kbg %1
+[?2004l[1]+ xeyes &
+[2]   Terminated              xeyes
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ fg exey[K[K[K[Kxeys
+[?2004lbash: fg: xeys: no such job
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ fg xeys[C[Ces
+[?2004lxeyes
+^Z
+[1]+  Stopped                 xeyes
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ xeyes [K[K[K[K[K[Kbg xeyse[K[Kes
+[?2004l[1]+ xeyes &
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ kill -9[K[K[K[K[K[K[Kkill x[K-9 xeys[Kes
+[?2004lbash: kill: xeyes: arguments must be process or job IDs
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ kill -9 xeyes[K[K[K[K[K[K[K[K[K[K[K[K[Kxeyes &
+[?2004l[2] 2616
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ kill -9 2616
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ jobs
+[?2004l[1]-  Running                 xeyes &
+[2]+  Killed                  xeyes
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ fg %1
+[?2004lxeyes
+^Z
+[1]+  Stopped                 xeyes
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ xeyes &
+[?2004l[2] 2617
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ kill -9 2617
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ jobs
+[?2004l[1]+  Stopped                 xeyes
+[2]-  Killed                  xeyes
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ fg %1
+[?2004lxeyes
+
+^C
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ jobs
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ xeyex[Ks &
+[?2004l[1] 2631
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ xeyes &
+[?2004l[2] 2632
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ xeyes &
+[?2004l[3] 2633
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ killall xeyes
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ top
+[?2004l[?1h=[?25l[H[2J(B[mtop - 16:44:16 up 32 min,  1 user,  load average: 0.12, 0.13, 0.12(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 223 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 222 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 11.7 (B[m[39;49mus,(B[m[39;49m[1m  6.4 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 81.9 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   4654.2 (B[m[39;49mtotal,(B[m[39;49m[1m   2751.3 (B[m[39;49mfree,(B[m[39;49m[1m    855.9 (B[m[39;49mused,(B[m[39;49m[1m   1047.0 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   3094.0 (B[m[39;49mtotal,(B[m[39;49m[1m   3094.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3526.9 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  (B[m[39;49m[K
+(B[m   1686 student   20   0 5724940 425660 145440 S  87.5   8.9   4:41.76 gnome-s+ (B[m[39;49m[K
+(B[m   2292 student   20   0  638128  63624  41812 S  12.5   1.3   1:07.22 gedit    (B[m[39;49m[K
+(B[m[1m   2635 student   20   0   13228   4096   3328 R   6.2   0.1   0:00.01 top      (B[m[39;49m[K
+(B[m      1 root      20   0  166668  11380   8180 S   0.0   0.2   0:01.65 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_fl+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m      7 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 I   0.0   0.0   0:00.69 kworker+ (B[m[39;49m[K
+(B[m     11 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+ (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     15 root      20   0       0      0      0 S   0.0   0.0   0:00.04 ksoftir+ (B[m[39;49m[K[H(B[mtop - 16:44:19 up 32 min,  1 user,  load average: 0.11, 0.13, 0.12(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1.6 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   4654.2 (B[m[39;49mtotal,(B[m[39;49m[1m   2751.3 (B[m[39;49mfree,(B[m[39;49m[1m    855.7 (B[m[39;49mused,(B[m[39;49m[1m   1047.2 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   3094.0 (B[m[39;49mtotal,(B[m[39;49m[1m   3094.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3527.1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   1686 student   20   0 5717276 425660 145440 S  14.3   8.9   4:42.19 gnome-s+ (B[m[39;49m[K
+(B[m   2292 student   20   0  638128  63624  41812 S   5.3   1.3   1:07.38 gedit    (B[m[39;49m[K
+(B[m   2246 student   20   0  553796  51948  39060 S   0.7   1.1   0:09.67 gnome-t+ (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 I   0.3   0.0   0:01.65 rcu_pre+ (B[m[39;49m[K
+(B[m    629 root      20   0 1615596  30868  20352 S   0.3   0.6   0:08.09 snapd    (B[m[39;49m[K
+(B[m   1968 student   20   0  347284  27852  17152 S   0.3   0.6   0:02.28 ibus-ex+ (B[m[39;49m[K
+(B[m   2168 student   20   0  218864   2972   2688 S   0.3   0.1   0:04.06 VBoxCli+ (B[m[39;49m[K
+(B[m   2627 root      20   0       0      0      0 I   0.3   0.0   0:00.16 kworker+ (B[m[39;49m[K
+(B[m      1 root      20   0  166668  11380   8180 S   0.0   0.2   0:01.65 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_fl+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m      7 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 I   0.0   0.0   0:00.69 kworker+ (B[m[39;49m[K[H(B[mtop - 16:44:22 up 32 min,  1 user,  load average: 0.11, 0.13, 0.12(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 224 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 223 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.6 (B[m[39;49mus,(B[m[39;49m[1m  0.6 (B[m[39;49msy,(B[m[39;49m[1m  0.2 (B[m[39;49mni,(B[m[39;49m[1m 98.5 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   4654.2 (B[m[39;49mtotal,(B[m[39;49m[1m   2743.2 (B[m[39;49mfree,(B[m[39;49m[1m    863.8 (B[m[39;49mused,(B[m[39;49m[1m   1047.2 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   3094.0 (B[m[39;49mtotal,(B[m[39;49m[1m   3094.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3518.9 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   1686 student   20   0 5724956 425916 145440 S   6.3   8.9   4:42.38 gnome-s+ (B[m[39;49m[K
+(B[m   2638 student   39  19  399888  31964  25272 S   1.7   0.7   0:00.05 tracker+ (B[m[39;49m[K
+(B[m   2246 student   20   0  553796  51948  39060 S   1.0   1.1   0:09.70 gnome-t+ (B[m[39;49m[K
+(B[m   2147 student   39  19  647784  37932  22848 S   0.7   0.8   0:00.87 tracker+ (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0.3   0.0   0:00.04 ksoftir+ (B[m[39;49m[K
+(B[m    161 root      20   0       0      0      0 I   0.3   0.0   0:00.59 kworker+ (B[m[39;49m[K
+(B[m    162 root      20   0       0      0      0 I   0.3   0.0   0:00.14 kworker+ (B[m[39;49m[K
+(B[m    224 root      19  -1   81036  45312  44032 S   0.3   1.0   0:00.61 systemd+ (B[m[39;49m[K
+(B[m    629 root      20   0 1615596  30868  20352 S   0.3   0.6   0:08.10 snapd    (B[m[39;49m[K
+(B[m   1570 student   20   0    9680   5496   4096 S   0.3   0.1   0:00.65 dbus-da+ (B[m[39;49m[K
+(B[m      1 root      20   0  166668  11380   8180 S   0.0   0.2   0:01.65 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_fl+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m      7 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K[H(B[mtop - 16:44:25 up 32 min,  1 user,  load average: 0.11, 0.13, 0.12(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  8.4 (B[m[39;49mus,(B[m[39;49m[1m  2.3 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 89.1 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   4654.2 (B[m[39;49mtotal,(B[m[39;49m[1m   2743.0 (B[m[39;49mfree,(B[m[39;49m[1m    863.8 (B[m[39;49mused,(B[m[39;49m[1m   1047.4 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   3094.0 (B[m[39;49mtotal,(B[m[39;49m[1m   3094.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3519.0 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   1686 student   20   0 5717276 425916 145440 S  49.2   8.9   4:43.86 gnome-s+ (B[m[39;49m[K
+(B[m   2292 student   20   0  638128  63624  41812 S  12.6   1.3   1:07.76 gedit    (B[m[39;49m[K
+(B[m   2246 student   20   0  553976  52076  39060 S   3.7   1.1   0:09.81 gnome-t+ (B[m[39;49m[K
+(B[m[1m   2635 student   20   0   13196   4096   3328 R   0.7   0.1   0:00.03 top      (B[m[39;49m[K
+(B[m    455 systemd+  20   0   14836   6784   6016 S   0.3   0.1   0:02.70 systemd+ (B[m[39;49m[K
+(B[m    629 root      20   0 1615596  30868  20352 S   0.3   0.6   0:08.11 snapd    (B[m[39;49m[K
+(B[m   1570 student   20   0    9680   5496   4096 S   0.3   0.1   0:00.66 dbus-da+ (B[m[39;49m[K
+(B[m   2082 student   20   0  597360  28912  20788 S   0.3   0.6   0:00.41 xdg-des+ (B[m[39;49m[K
+(B[m   2168 student   20   0  218864   2972   2688 S   0.3   0.1   0:04.07 VBoxCli+ (B[m[39;49m[K
+(B[m   2627 root      20   0       0      0      0 I   0.3   0.0   0:00.17 kworker+ (B[m[39;49m[K
+
+
+
+
+
+
+[H(B[mtop - 16:44:28 up 32 min,  1 user,  load average: 0.11, 0.13, 0.12(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  4.4 (B[m[39;49mus,(B[m[39;49m[1m  1.9 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 93.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m   1686 student   20   0 5724940 425916 145440 S  32.6   8.9   4:44.84 gnome-s+ (B[m[39;49m[K
+(B[m   2292 student   20   0  638128  63624  41812 S  11.0   1.3   1:08.09 gedit    (B[m[39;49m[K
+(B[m    629 root      20   0 1615596  30868  20352 S   0.7   0.6   0:08.13 snapd    (B[m[39;49m[K
+(B[m   1883 student   20   0  388824  11756   6912 S   0.7   0.2   0:03.25 ibus-da+ (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 I   0.3   0.0   0:01.66 rcu_pre+ (B[m[39;49m[K
+(B[m     56 root      20   0       0      0      0 I   0.3   0.0   0:01.09 kworker+ (B[m[39;49m[K
+(B[m   2056 student   20   0  163480   7296   6656 S   0.3   0.2   0:01.06 ibus-en+ (B[m[39;49m[K
+(B[m   2160 student   20   0  218348   3100   2688 S   0.3   0.1   0:01.52 VBoxCli+ (B[m[39;49m[K
+(B[m   2168 student   20   0  218864   2972   2688 S   0.3   0.1   0:04.08 VBoxCli+ (B[m[39;49m[K
+(B[m   2246 student   20   0  553976  52076  39060 S   0.3   1.1   0:09.82 gnome-t+ (B[m[39;49m[K
+
+
+
+
+
+
+[H(B[mtop - 16:44:31 up 32 min,  1 user,  load average: 0.10, 0.12, 0.12(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  4.9 (B[m[39;49mus,(B[m[39;49m[1m  2.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 92.4 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   4654.2 (B[m[39;49mtotal,(B[m[39;49m[1m   2743.0 (B[m[39;49mfree,(B[m[39;49m[1m    863.7 (B[m[39;49mused,(B[m[39;49m[1m   1047.6 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   3094.0 (B[m[39;49mtotal,(B[m[39;49m[1m   3094.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   3519.1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   1686 student   20   0 5717276 426044 145568 S  39.9   8.9   4:46.04 gnome-s+ (B[m[39;49m[K
+(B[m   2292 student   20   0  638128  63624  41812 S  11.3   1.3   1:08.43 gedit    (B[m[39;49m[K
+(B[m     56 root      20   0       0      0      0 I   0.3   0.0   0:01.10 kworker+ (B[m[39;49m[K
+(B[m    183 root      20   0       0      0      0 S   0.3   0.0   0:00.05 jbd2/sd+ (B[m[39;49m[K
+(B[m    629 root      20   0 1615596  30868  20352 S   0.3   0.6   0:08.14 snapd    (B[m[39;49m[K
+(B[m   1067 root      20   0  289672   2432   2304 S   0.3   0.1   0:00.87 VBoxDRM+ (B[m[39;49m[K
+(B[m   1883 student   20   0  388824  11756   6912 S   0.3   0.2   0:03.26 ibus-da+ (B[m[39;49m[K
+(B[m   2147 student   39  19  647784  37932  22848 S   0.3   0.8   0:00.88 tracker+ (B[m[39;49m[K
+(B[m   2177 student   20   0  152164   2180   1920 S   0.3   0.0   0:00.21 VBoxCli+ (B[m[39;49m[K
+(B[m   2246 student   20   0  553976  52076  39060 S   0.3   1.1   0:09.83 gnome-t+ (B[m[39;49m[K
+(B[m   2627 root      20   0       0      0      0 I   0.3   0.0   0:00.18 kworker+ (B[m[39;49m[K
+(B[m[1m   2635 student   20   0   13196   4096   3328 R   0.3   0.1   0:00.04 top      (B[m[39;49m[K
+(B[m      1 root      20   0  166668  11380   8180 S   0.0   0.2   0:01.65 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_fl+ (B[m[39;49m[K[?1l>[25;1H[?12l[?25h[1]   Terminated              xeyes
+[2]   Terminated              xeyes
+[3]   Terminated              xeyes
+
+[4]+  Stopped                 top
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ pstree
+[?2004lsystemd─┬─ModemManager───2*[{ModemManager}]
+        ├─NetworkManager───2*[{NetworkManager}]
+        ├─VBoxDRMClient───4*[{VBoxDRMClient}]
+        ├─VBoxService───8*[{VBoxService}]
+        ├─accounts-daemon───2*[{accounts-daemon}]
+        ├─acpid
+        ├─avahi-daemon───avahi-daemon
+        ├─colord───2*[{colord}]
+        ├─cron
+        ├─cups-browsed───2*[{cups-browsed}]
+        ├─cupsd
+        ├─dbus-daemon
+        ├─gdm3─┬─gdm-session-wor─┬─gdm-wayland-ses─┬─gnome-session-b───2*[{gnom+
+        │      │                 │                 └─2*[{gdm-wayland-ses}]
+        │      │                 └─2*[{gdm-session-wor}]
+        │      └─2*[{gdm3}]
+        ├─gnome-keyring-d───3*[{gnome-keyring-d}]
+        ├─irqbalance───{irqbalance}
+        ├─2*[kerneloops]
+        ├─networkd-dispat
+        ├─packagekitd───2*[{packagekitd}]
+        ├─polkitd───2*[{polkitd}]
+        ├─power-profiles-───2*[{power-profiles-}]
+        ├─rsyslogd───3*[{rsyslogd}]
+        ├─rtkit-daemon───2*[{rtkit-daemon}]
+        ├─snapd───12*[{snapd}]
+        ├─switcheroo-cont───2*[{switcheroo-cont}]
+        ├─systemd─┬─(sd-pam)
+        │         ├─2*[VBoxClient───VBoxClient───3*[{VBoxClient}]]
+        │         ├─VBoxClient───VBoxClient───4*[{VBoxClient}]
+        │         ├─VBoxClient───VBoxClient───2*[{VBoxClient}]
+        │         ├─at-spi2-registr───2*[{at-spi2-registr}]
+        │         ├─dbus-daemon
+        │         ├─dconf-service───2*[{dconf-service}]
+        │         ├─evolution-addre───5*[{evolution-addre}]
+        │         ├─evolution-calen───8*[{evolution-calen}]
+        │         ├─evolution-sourc───3*[{evolution-sourc}]
+        │         ├─gedit───3*[{gedit}]
+        │         ├─2*[gjs───8*[{gjs}]]
+        │         ├─gnome-session-b─┬─at-spi-bus-laun─┬─dbus-daemon
+        │         │                 │                 └─3*[{at-spi-bus-laun}]
+        │         │                 ├─evolution-alarm───5*[{evolution-alarm}]
+        │         │                 ├─gsd-disk-utilit───2*[{gsd-disk-utilit}]
+        │         │                 ├─update-notifier───3*[{update-notifier}]
+        │         │                 └─3*[{gnome-session-b}]
+        │         ├─gnome-session-c───{gnome-session-c}
+        │         ├─gnome-shell─┬─Xwayland
+        │         │             ├─gjs───9*[{gjs}]
+        │         │             └─25*[{gnome-shell}]
+        │         ├─gnome-shell-cal───5*[{gnome-shell-cal}]
+        │         ├─gnome-terminal-─┬─bash───script───bash─┬─pstree
+        │         │                 │                      └─top
+        │         │                 └─3*[{gnome-terminal-}]
+        │         ├─goa-daemon───3*[{goa-daemon}]
+        │         ├─goa-identity-se───2*[{goa-identity-se}]
+        │         ├─gsd-a11y-settin───3*[{gsd-a11y-settin}]
+        │         ├─gsd-color───3*[{gsd-color}]
+        │         ├─gsd-datetime───3*[{gsd-datetime}]
+        │         ├─gsd-housekeepin───3*[{gsd-housekeepin}]
+        │         ├─gsd-keyboard───3*[{gsd-keyboard}]
+        │         ├─gsd-media-keys───3*[{gsd-media-keys}]
+        │         ├─gsd-power───3*[{gsd-power}]
+        │         ├─gsd-print-notif───2*[{gsd-print-notif}]
+        │         ├─gsd-printer───2*[{gsd-printer}]
+        │         ├─gsd-rfkill───2*[{gsd-rfkill}]
+        │         ├─gsd-screensaver───2*[{gsd-screensaver}]
+        │         ├─gsd-sharing───3*[{gsd-sharing}]
+        │         ├─gsd-smartcard───3*[{gsd-smartcard}]
+        │         ├─gsd-sound───3*[{gsd-sound}]
+        │         ├─gsd-wacom───3*[{gsd-wacom}]
+        │         ├─gsd-xsettings───3*[{gsd-xsettings}]
+        │         ├─gvfs-afc-volume───3*[{gvfs-afc-volume}]
+        │         ├─gvfs-goa-volume───2*[{gvfs-goa-volume}]
+        │         ├─gvfs-gphoto2-vo───2*[{gvfs-gphoto2-vo}]
+        │         ├─gvfs-mtp-volume───2*[{gvfs-mtp-volume}]
+        │         ├─gvfs-udisks2-vo───3*[{gvfs-udisks2-vo}]
+        │         ├─gvfsd─┬─gvfsd-trash───2*[{gvfsd-trash}]
+        │         │       └─2*[{gvfsd}]
+        │         ├─gvfsd-fuse───5*[{gvfsd-fuse}]
+        │         ├─gvfsd-metadata───2*[{gvfsd-metadata}]
+        │         ├─ibus-portal───2*[{ibus-portal}]
+        │         ├─ibus-x11───2*[{ibus-x11}]
+        │         ├─nautilus───4*[{nautilus}]
+        │         ├─pipewire───{pipewire}
+        │         ├─pipewire-media-───{pipewire-media-}
+        │         ├─pulseaudio───3*[{pulseaudio}]
+        │         ├─sh───ibus-daemon─┬─ibus-engine-sim───2*[{ibus-engine-sim}]
+        │         │                  ├─ibus-extension-───3*[{ibus-extension-}]
+        │         │                  ├─ibus-memconf───2*[{ibus-memconf}]
+        │         │                  └─2*[{ibus-daemon}]
+        │         ├─snapd-desktop-i───snapd-desktop-i───4*[{snapd-desktop-i}]
+        │         ├─tracker-miner-f───6*[{tracker-miner-f}]
+        │         ├─xdg-desktop-por───6*[{xdg-desktop-por}]
+        │         ├─2*[xdg-desktop-por───3*[{xdg-desktop-por}]]
+        │         ├─xdg-document-po─┬─fusermount3
+        │         │                 └─6*[{xdg-document-po}]
+        │         └─xdg-permission-───2*[{xdg-permission-}]
+        ├─systemd-journal
+        ├─systemd-logind
+        ├─systemd-oomd
+        ├─systemd-resolve
+        ├─systemd-udevd
+        ├─udisksd───4*[{udisksd}]
+        ├─unattended-upgr───{unattended-upgr}
+        ├─upowerd───2*[{upowerd}]
+        └─wpa_supplicant
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ [7mchmod u+x,go=rx Day5/test1[27mchmod u+x,go=rx Day5/test1
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls -l Day5/test1
+[?2004l-rwxr-xr-x 1 student student 0 May 17 16:23 [0m[01;32mDay5/test1[0m
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ sudo[K[K[K[Kcd Day65[K[K5
+[?2004l[?2004h]0;student@student-VirtualBox: ~/Day5[01;32mstudent@student-VirtualBox[00m:[01;34m~/Day5[00m$ suto cat /etc.[K/ppp/chap-secrets
+[?2004lCommand 'suto' not found, did you mean:
+  command 'sumo' from deb sumo (1.12.0+dfsg1-1)
+  command 'sudo' from deb sudo (1.9.9-1ubuntu2.4)
+  command 'sudo' from deb sudo-ldap (1.9.9-1ubuntu2.4)
+  command 'uuto' from deb uucp (1.07-27build3)
+Try: sudo apt install <deb name>
+[?2004h]0;student@student-VirtualBox: ~/Day5[01;32mstudent@student-VirtualBox[00m:[01;34m~/Day5[00m$ suto cat /etc/ppp/chap-secrets[1P[1@d
+[?2004l[sudo] password for student: 
+Sorry, try again.
+[sudo] password for student: 
+# Secrets for authentication using CHAP
+# client	server	secret			IP addresses
+
+
+[?2004h]0;student@student-VirtualBox: ~/Day5[01;32mstudent@student-VirtualBox[00m:[01;34m~/Day5[00m$ [7msu -c 'cat /etc/ppp/chap-secrets'[27msu -c 'cat /etc/ppp/chap-secrets'
+[?2004lPassword: 
+su: Authentication failure
+[?20

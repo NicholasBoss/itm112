@@ -1,0 +1,2608 @@
+Script started on 2024-05-31 08:03:25-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch findme.txt
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ud[Kbpd[K[K[Kpdatedb
+[?2004l/usr/bin/updatedb: 320: cannot create /var/cache/locate/locatedb.n: Permission denied
+/usr/bin/find: '/etc/polkit-1/localauthority': Permission denied
+/usr/bin/find: '/etc/ssl/private': Permission denied
+/usr/bin/find: '/etc/cups/ssl': Permission denied
+/usr/bin/find: '/root': Permission denied
+/usr/bin/find: '/run/gdm3': Permission denied
+/usr/bin/find: '/run/udisks2': Permission denied
+/usr/bin/find: '/run/cups/certs': Permission denied
+/usr/bin/find: '/run/user/1000/systemd/inaccessible/dir': Permission denied
+/usr/bin/find: '/run/sudo': Permission denied
+/usr/bin/find: '/run/speech-dispatcher': Permission denied
+/usr/bin/find: '/run/openvpn-server': Permission denied
+/usr/bin/find: '/run/openvpn-client': Permission denied
+/usr/bin/find: '/run/credentials/systemd-sysusers.service': Permission denied
+/usr/bin/find: '/run/systemd/resolve/netif': Permission denied
+/usr/bin/find: '/run/systemd/propagate': Permission denied
+/usr/bin/find: '/run/systemd/unit-root': Permission denied
+/usr/bin/find: '/run/systemd/inaccessible/dir': Permission denied
+/usr/bin/find: '/run/initramfs': Permission denied
+/usr/bin/find: '/var/lib/gdm3': Permission denied
+/usr/bin/find: '/var/lib/fwupd/gnupg': Permission denied
+/usr/bin/find: '/var/lib/polkit-1': Permission denied
+/usr/bin/find: '/var/lib/NetworkManager': Permission denied
+/usr/bin/find: '/var/lib/private': Permission denied
+/usr/bin/find: '/var/lib/avahi-autoipd': Permission denied
+/usr/bin/find: '/var/lib/apt/lists/partial': Permission denied
+/usr/bin/find: '/var/lib/udisks2': Permission denied
+/usr/bin/find: '/var/lib/AccountsService/users': Permission denied
+/usr/bin/find: '/var/lib/ubuntu-advantage/apt-esm/var/lib/apt/lists/partial': Permission denied
+/usr/bin/find: '/var/lib/ubuntu-advantage/apt-esm/var/cache/apt/archives/partial': Permission denied
+/usr/bin/find: '/var/lib/fprint': Permission denied
+/usr/bin/find: '/var/lib/update-notifier/package-data-downloads/partial': Permission denied
+/usr/bin/find: '/var/lib/snapd/cache': Permission denied
+/usr/bin/find: '/var/lib/snapd/void': Permission denied
+/usr/bin/find: '/var/lib/snapd/cookie': Permission denied
+/usr/bin/find: '/var/lib/saned': Permission denied
+/usr/bin/find: '/var/lib/openvpn/chroot': Permission denied
+/usr/bin/find: '/var/cache/ldconfig': Permission denied
+/usr/bin/find: '/var/cache/apparmor/684a20eb.0': Permission denied
+/usr/bin/find: '/var/cache/apparmor/0012d2a9.0': Permission denied
+/usr/bin/find: '/var/cache/private': Permission denied
+/usr/bin/find: '/var/cache/apt/archives/partial': Permission denied
+/usr/bin/find: '/var/cache/cups': Permission denied
+/usr/bin/find: '/var/spool/rsyslog': Permission denied
+/usr/bin/find: '/var/spool/cron/crontabs': Permission denied
+/usr/bin/find: '/var/spool/cups': Permission denied
+/usr/bin/find: '/var/log/gdm3': Permission denied
+/usr/bin/find: '/var/log/speech-dispatcher': Permission denied
+/usr/bin/find: '/var/log/private': Permission denied
+/usr/bin/find: '/lost+found': Permission denied
+/usr/bin/find: '/snap/core22/1122/etc/polkit-1/localauthority': Permission denied
+/usr/bin/find: '/snap/core22/1122/etc/ssl/private': Permission denied
+/usr/bin/find: '/snap/core22/1122/root': Permission denied
+/usr/bin/find: '/snap/core22/1122/var/cache/ldconfig': Permission denied
+/usr/bin/find: '/snap/core22/1122/var/cache/private': Permission denied
+/usr/bin/find: '/snap/core22/1122/var/lib/polkit-1': Permission denied
+/usr/bin/find: '/snap/core22/1122/var/lib/private': Permission denied
+/usr/bin/find: '/snap/core22/1122/var/lib/snapd/void': Permission denied
+/usr/bin/find: '/snap/core22/1380/etc/polkit-1/localauthority': Permission denied
+/usr/bin/find: '/snap/core22/1380/etc/ssl/private': Permission denied
+/usr/bin/find: '/snap/core22/1380/root': Permission denied
+/usr/bin/find: '/snap/core22/1380/var/cache/ldconfig': Permission denied
+/usr/bin/find: '/snap/core22/1380/var/cache/private': Permission denied
+/usr/bin/find: '/snap/core22/1380/var/lib/polkit-1': Permission denied
+/usr/bin/find: '/snap/core22/1380/var/lib/private': Permission denied
+/usr/bin/find: '/snap/core22/1380/var/lib/snapd/void': Permission denied
+/usr/bin/find: '/boot/efi': Permission denied
+Failed to generate /var/cache/locate/locatedb.n
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ locate findme.txt
+[?2004l/home/student/findme.txt
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ locate $*.txt
+[?2004l/boot/grub/gfxblacklist.txt
+/etc/X11/rgb.txt
+/etc/brltty/Input/ba/all.txt
+/etc/brltty/Input/bd/all.txt
+/etc/brltty/Input/bl/18.txt
+/etc/brltty/Input/bl/40_m20_m40.txt
+/etc/brltty/Input/ec/all.txt
+/etc/brltty/Input/ec/spanish.txt
+/etc/brltty/Input/eu/all.txt
+/etc/brltty/Input/lb/all.txt
+/etc/brltty/Input/lt/all.txt
+/etc/brltty/Input/mb/all.txt
+/etc/brltty/Input/mn/all.txt
+/etc/brltty/Input/no/all.txt
+/etc/brltty/Input/tn/all.txt
+/etc/brltty/Input/tt/all.txt
+/etc/brltty/Input/vd/all.txt
+/etc/brltty/Input/vr/all.txt
+/etc/brltty/Input/vs/all.txt
+/home/student/.cache/tracker3/files/first-index.txt
+/home/student/.cache/tracker3/files/last-crawl.txt
+/home/student/.cache/tracker3/files/locale-for-miner-apps.txt
+/home/student/.local/share/Trash/files/test.txt
+/home/student/.local/share/Trash/info/test.txt.trashinfo
+/home/student/error.txt
+/home/student/file.txt
+/home/student/file1.txt
+/home/student/findme.txt
+/home/student/foo.txt
+/home/student/hoa/itm112_document_W02 HOA.txt
+/home/student/hoa/itm112_document_W03 HOA.txt
+/home/student/hoa/itm112_document_W04 HOA.txt
+/home/student/hoa/itm112_document_W05 HOA.txt
+/home/student/hoa/itm112_document_W06 HOA.txt
+/home/student/hoa/itm112_document_W07 HOA.txt
+/home/student/hoa/script_timing.txt
+/home/student/ls-output.txt
+/home/student/out.txt
+/home/student/output.txt
+/home/student/output2.txt
+/home/student/result.txt
+/home/student/ships.txt
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/pkcs11.txt
+/snap/core22/1122/usr/lib/python3.10/LICENSE.txt
+/snap/core22/1122/usr/lib/python3.10/lib2to3/Grammar.txt
+/snap/core22/1122/usr/lib/python3.10/lib2to3/PatternGrammar.txt
+/snap/core22/1122/usr/lib/python3.11/lib2to3/Grammar.txt
+/snap/core22/1122/usr/lib/python3.11/lib2to3/PatternGrammar.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/Babel-2.8.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/Babel-2.8.0.egg-info/entry_points.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/Babel-2.8.0.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/Babel-2.8.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/Jinja2-3.0.3.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/Jinja2-3.0.3.egg-info/entry_points.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/Jinja2-3.0.3.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/Jinja2-3.0.3.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/PyYAML-5.4.1.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/PyYAML-5.4.1.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/attrs-21.2.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/attrs-21.2.0.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/attrs-21.2.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/certifi-2020.6.20.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/certifi-2020.6.20.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/entry_points.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/cloud_init-23.3.3.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/cloud_init-23.3.3.egg-info/entry_points.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/cloud_init-23.3.3.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/cloud_init-23.3.3.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/configobj-5.0.6.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/configobj-5.0.6.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/configobj-5.0.6.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/idna-3.3.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/idna-3.3.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonpatch-1.32.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonpatch-1.32.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonpatch-1.32.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonpointer-2.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonpointer-2.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonschema-3.2.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonschema-3.2.0.egg-info/entry_points.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonschema-3.2.0.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/jsonschema-3.2.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/probert-0.0.18.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/probert-0.0.18.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/probert-0.0.18.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyrsistent-0.18.1.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyrsistent-0.18.1.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyserial-3.5.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyserial-3.5.egg-info/entry_points.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyserial-3.5.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyserial-3.5.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pytz-2022.1.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pytz-2022.1.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyudev-0.22.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyudev-0.22.0.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/pyudev-0.22.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/requests_unixsocket-0.2.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/requests_unixsocket-0.2.0.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/requests_unixsocket-0.2.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/entry_points.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/six-1.16.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/six-1.16.0.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/urwid-2.1.2.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/urwid-2.1.2.egg-info/top_level.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/dependency_links.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/requires.txt
+/snap/core22/1122/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/top_level.txt
+/snap/core22/1122/usr/share/doc/python3.10/python-policy.txt.gz
+/snap/core22/1122/usr/share/subiquity/subiquity-0.0.5.egg-info/dependency_links.txt
+/snap/core22/1122/usr/share/subiquity/subiquity-0.0.5.egg-info/entry_points.txt
+/snap/core22/1122/usr/share/subiquity/subiquity-0.0.5.egg-info/top_level.txt
+/snap/core22/1122/usr/share/vim/vim82/doc/help.txt
+/snap/core22/1380/usr/lib/python3.10/LICENSE.txt
+/snap/core22/1380/usr/lib/python3.10/lib2to3/Grammar.txt
+/snap/core22/1380/usr/lib/python3.10/lib2to3/PatternGrammar.txt
+/snap/core22/1380/usr/lib/python3.11/lib2to3/Grammar.txt
+/snap/core22/1380/usr/lib/python3.11/lib2to3/PatternGrammar.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/Babel-2.8.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/Babel-2.8.0.egg-info/entry_points.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/Babel-2.8.0.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/Babel-2.8.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/Jinja2-3.0.3.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/Jinja2-3.0.3.egg-info/entry_points.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/Jinja2-3.0.3.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/Jinja2-3.0.3.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/PyYAML-5.4.1.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/PyYAML-5.4.1.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/attrs-21.2.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/attrs-21.2.0.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/attrs-21.2.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/certifi-2020.6.20.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/certifi-2020.6.20.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/entry_points.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/cloud_init-23.4.4.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/cloud_init-23.4.4.egg-info/entry_points.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/cloud_init-23.4.4.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/cloud_init-23.4.4.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/configobj-5.0.6.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/configobj-5.0.6.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/configobj-5.0.6.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/idna-3.3.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/idna-3.3.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonpatch-1.32.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonpatch-1.32.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonpatch-1.32.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonpointer-2.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonpointer-2.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonschema-3.2.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonschema-3.2.0.egg-info/entry_points.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonschema-3.2.0.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/jsonschema-3.2.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/probert-0.0.18.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/probert-0.0.18.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/probert-0.0.18.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyrsistent-0.18.1.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyrsistent-0.18.1.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyserial-3.5.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyserial-3.5.egg-info/entry_points.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyserial-3.5.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyserial-3.5.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pytz-2022.1.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pytz-2022.1.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyudev-0.22.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyudev-0.22.0.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/pyudev-0.22.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/requests_unixsocket-0.2.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/requests_unixsocket-0.2.0.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/requests_unixsocket-0.2.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/entry_points.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/six-1.16.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/six-1.16.0.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/urwid-2.1.2.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/urwid-2.1.2.egg-info/top_level.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/dependency_links.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/requires.txt
+/snap/core22/1380/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/top_level.txt
+/snap/core22/1380/usr/share/doc/python3.10/python-policy.txt.gz
+/snap/core22/1380/usr/share/subiquity/subiquity-0.0.5.egg-info/dependency_links.txt
+/snap/core22/1380/usr/share/subiquity/subiquity-0.0.5.egg-info/entry_points.txt
+/snap/core22/1380/usr/share/subiquity/subiquity-0.0.5.egg-info/top_level.txt
+/snap/core22/1380/usr/share/vim/vim82/doc/help.txt
+/snap/gnome-42-2204/141/etc/X11/rgb.txt
+/snap/gnome-42-2204/141/usr/lib/python3.10/LICENSE.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/entry_points.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/requires.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/Markdown-3.3.6.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/Markdown-3.3.6.egg-info/entry_points.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/Markdown-3.3.6.egg-info/requires.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/Markdown-3.3.6.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/requires.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/requires.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/pip-22.0.2.dist-info/entry_points.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/pip-22.0.2.dist-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/pip/_vendor/vendor.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/entry_points.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/entry_points.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/requires.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/dependency_links.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/requires.txt
+/snap/gnome-42-2204/141/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/top_level.txt
+/snap/gnome-42-2204/141/usr/share/X11/rgb.txt
+/snap/gnome-42-2204/141/usr/share/presage/abbreviations_en.txt
+/snap/gnome-42-2204/141/usr/share/presage/abbreviations_it.txt
+/snap/gnome-42-2204/176/etc/X11/rgb.txt
+/snap/gnome-42-2204/176/usr/lib/python3.10/LICENSE.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/entry_points.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/requires.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/Markdown-3.3.6.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/Markdown-3.3.6.egg-info/entry_points.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/Markdown-3.3.6.egg-info/requires.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/Markdown-3.3.6.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/requires.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/requires.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/pip-22.0.2.dist-info/entry_points.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/pip-22.0.2.dist-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/pip/_vendor/vendor.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/entry_points.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/setuptools-59.6.0.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/entry_points.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/requires.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/wheel-0.37.1.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/dependency_links.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/requires.txt
+/snap/gnome-42-2204/176/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/top_level.txt
+/snap/gnome-42-2204/176/usr/share/X11/rgb.txt
+/snap/gnome-42-2204/176/usr/share/presage/abbreviations_en.txt
+/snap/gnome-42-2204/176/usr/share/presage/abbreviations_it.txt
+/snap/snap-store/1113/usr/share/doc/fontconfig/fontconfig-user.txt.gz
+/snap/snap-store/1113/usr/share/doc/fonts-dejavu-core/langcover.txt.gz
+/snap/snap-store/1113/usr/share/doc/fonts-dejavu-core/status.txt.gz
+/snap/snap-store/1113/usr/share/doc/fonts-dejavu-core/unicover.txt.gz
+/snap/snap-store/1113/usr/share/gnupg/help.be.txt
+/snap/snap-store/1113/usr/share/gnupg/help.ca.txt
+/snap/snap-store/1113/usr/share/gnupg/help.cs.txt
+/snap/snap-store/1113/usr/share/gnupg/help.da.txt
+/snap/snap-store/1113/usr/share/gnupg/help.de.txt
+/snap/snap-store/1113/usr/share/gnupg/help.el.txt
+/snap/snap-store/1113/usr/share/gnupg/help.eo.txt
+/snap/snap-store/1113/usr/share/gnupg/help.es.txt
+/snap/snap-store/1113/usr/share/gnupg/help.et.txt
+/snap/snap-store/1113/usr/share/gnupg/help.fi.txt
+/snap/snap-store/1113/usr/share/gnupg/help.fr.txt
+/snap/snap-store/1113/usr/share/gnupg/help.gl.txt
+/snap/snap-store/1113/usr/share/gnupg/help.hu.txt
+/snap/snap-store/1113/usr/share/gnupg/help.id.txt
+/snap/snap-store/1113/usr/share/gnupg/help.it.txt
+/snap/snap-store/1113/usr/share/gnupg/help.ja.txt
+/snap/snap-store/1113/usr/share/gnupg/help.nb.txt
+/snap/snap-store/1113/usr/share/gnupg/help.pl.txt
+/snap/snap-store/1113/usr/share/gnupg/help.pt.txt
+/snap/snap-store/1113/usr/share/gnupg/help.pt_BR.txt
+/snap/snap-store/1113/usr/share/gnupg/help.ro.txt
+/snap/snap-store/1113/usr/share/gnupg/help.ru.txt
+/snap/snap-store/1113/usr/share/gnupg/help.sk.txt
+/snap/snap-store/1113/usr/share/gnupg/help.sv.txt
+/snap/snap-store/1113/usr/share/gnupg/help.tr.txt
+/snap/snap-store/1113/usr/share/gnupg/help.txt
+/snap/snap-store/1113/usr/share/gnupg/help.zh_CN.txt
+/snap/snap-store/1113/usr/share/gnupg/help.zh_TW.txt
+/snap/snap-store/959/usr/share/doc/fontconfig/fontconfig-user.txt.gz
+/snap/snap-store/959/usr/share/doc/fonts-dejavu-core/langcover.txt.gz
+/snap/snap-store/959/usr/share/doc/fonts-dejavu-core/status.txt.gz
+/snap/snap-store/959/usr/share/doc/fonts-dejavu-core/unicover.txt.gz
+/snap/snap-store/959/usr/share/gnupg/help.be.txt
+/snap/snap-store/959/usr/share/gnupg/help.ca.txt
+/snap/snap-store/959/usr/share/gnupg/help.cs.txt
+/snap/snap-store/959/usr/share/gnupg/help.da.txt
+/snap/snap-store/959/usr/share/gnupg/help.de.txt
+/snap/snap-store/959/usr/share/gnupg/help.el.txt
+/snap/snap-store/959/usr/share/gnupg/help.eo.txt
+/snap/snap-store/959/usr/share/gnupg/help.es.txt
+/snap/snap-store/959/usr/share/gnupg/help.et.txt
+/snap/snap-store/959/usr/share/gnupg/help.fi.txt
+/snap/snap-store/959/usr/share/gnupg/help.fr.txt
+/snap/snap-store/959/usr/share/gnupg/help.gl.txt
+/snap/snap-store/959/usr/share/gnupg/help.hu.txt
+/snap/snap-store/959/usr/share/gnupg/help.id.txt
+/snap/snap-store/959/usr/share/gnupg/help.it.txt
+/snap/snap-store/959/usr/share/gnupg/help.ja.txt
+/snap/snap-store/959/usr/share/gnupg/help.nb.txt
+/snap/snap-store/959/usr/share/gnupg/help.pl.txt
+/snap/snap-store/959/usr/share/gnupg/help.pt.txt
+/snap/snap-store/959/usr/share/gnupg/help.pt_BR.txt
+/snap/snap-store/959/usr/share/gnupg/help.ro.txt
+/snap/snap-store/959/usr/share/gnupg/help.ru.txt
+/snap/snap-store/959/usr/share/gnupg/help.sk.txt
+/snap/snap-store/959/usr/share/gnupg/help.sv.txt
+/snap/snap-store/959/usr/share/gnupg/help.tr.txt
+/snap/snap-store/959/usr/share/gnupg/help.txt
+/snap/snap-store/959/usr/share/gnupg/help.zh_CN.txt
+/snap/snap-store/959/usr/share/gnupg/help.zh_TW.txt
+/usr/lib/firmware/ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
+/usr/lib/firmware/ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
+/usr/lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
+/usr/lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
+/usr/lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-sdio-6.txt
+/usr/lib/firmware/ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
+/usr/lib/firmware/ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
+/usr/lib/firmware/ath10k/QCA9377/hw1.0/notice_ath10k_firmware-sdio-5.txt
+/usr/lib/firmware/ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
+/usr/lib/firmware/ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
+/usr/lib/firmware/ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
+/usr/lib/firmware/ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
+/usr/lib/firmware/ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
+/usr/lib/firmware/ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
+/usr/lib/firmware/ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
+/usr/lib/firmware/ath11k/IPQ5018/hw1.0/Notice.txt
+/usr/lib/firmware/ath11k/IPQ6018/hw1.0/Notice.txt
+/usr/lib/firmware/ath11k/IPQ8074/hw2.0/Notice.txt
+/usr/lib/firmware/ath11k/QCA6390/hw2.0/Notice.txt
+/usr/lib/firmware/ath11k/QCN9074/hw1.0/Notice.txt
+/usr/lib/firmware/ath11k/WCN6750/hw1.0/Notice.txt
+/usr/lib/firmware/ath11k/WCN6855/hw2.0/Notice.txt
+/usr/lib/firmware/brcm/brcmfmac43241b4-sdio.Advantech-MICA-071.txt
+/usr/lib/firmware/brcm/brcmfmac4330-sdio.Prowise-PT301.txt
+/usr/lib/firmware/brcm/brcmfmac43340-sdio.meegopad-t08.txt
+/usr/lib/firmware/brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt
+/usr/lib/firmware/brcm/brcmfmac43340-sdio.predia-basic.txt
+/usr/lib/firmware/brcm/brcmfmac43362-sdio.WC121.txt
+/usr/lib/firmware/brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt
+/usr/lib/firmware/brcm/brcmfmac43362-sdio.kobo,aura.txt
+/usr/lib/firmware/brcm/brcmfmac43362-sdio.kobo,tolino-shine2hd.txt
+/usr/lib/firmware/brcm/brcmfmac43362-sdio.lemaker,bananapro.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.AP6212.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.MUR1DX.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-a1.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-r0.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.friendlyarm,nanopi-r1.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt
+/usr/lib/firmware/brcm/brcmfmac43430-sdio.starfive,visionfive-v1.txt
+/usr/lib/firmware/brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt
+/usr/lib/firmware/brcm/brcmfmac43430a0-sdio.ilife-S806.txt
+/usr/lib/firmware/brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.AW-CM256SM.txt
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.Raspberry Pi Foundation-Raspberry Pi 4 Model B.txt
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.Raspberry Pi Foundation-Raspberry Pi Compute Module 4.txt
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.acepc-t8.txt
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
+/usr/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt
+/usr/lib/firmware/brcm/brcmfmac4356-pcie.gpd-win-pocket.txt
+/usr/lib/firmware/brcm/brcmfmac4356-sdio.khadas,vim2.txt
+/usr/lib/firmware/brcm/brcmfmac4356-sdio.vamrs,rock960.txt
+/usr/lib/firmware/cxgb4/configs/t4-config-default.txt
+/usr/lib/firmware/cxgb4/configs/t5-config-default.txt
+/usr/lib/firmware/cxgb4/configs/t5-config-hashfilter.txt
+/usr/lib/firmware/cxgb4/configs/t6-config-default.txt
+/usr/lib/firmware/cxgb4/configs/t6-config-hashfilter.txt
+/usr/lib/firmware/cxgb4/t4-config.txt
+/usr/lib/firmware/cxgb4/t5-config.txt
+/usr/lib/firmware/cxgb4/t6-config.txt
+/usr/lib/libreoffice/share/gallery/personas/personas_list.txt
+/usr/lib/python3.10/LICENSE.txt
+/usr/lib/python3.10/lib2to3/Grammar.txt
+/usr/lib/python3.10/lib2to3/PatternGrammar.txt
+/usr/lib/python3.11/lib2to3/Grammar.txt
+/usr/lib/python3.11/lib2to3/PatternGrammar.txt
+/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/entry_points.txt
+/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/requires.txt
+/usr/lib/python3/dist-packages/Mako-1.1.3-py3.10.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/MarkupSafe-2.0.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/Pillow-9.0.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/Pillow-9.0.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/requires.txt
+/usr/lib/python3/dist-packages/PyGObject-3.42.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/requires.txt
+/usr/lib/python3/dist-packages/PyJWT-2.3.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/PyNaCl-1.5.0.dist-info/top_level.txt
+/usr/lib/python3/dist-packages/PyYAML-5.4.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/PyYAML-5.4.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/SecretStorage-3.3.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/SecretStorage-3.3.1.egg-info/requires.txt
+/usr/lib/python3/dist-packages/SecretStorage-3.3.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/bcrypt-3.2.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/bcrypt-3.2.0.egg-info/requires.txt
+/usr/lib/python3/dist-packages/bcrypt-3.2.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/certifi-2020.6.20.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/certifi-2020.6.20.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/entry_points.txt
+/usr/lib/python3/dist-packages/chardet-4.0.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/click-8.0.3.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/click-8.0.3.egg-info/requires.txt
+/usr/lib/python3/dist-packages/click-8.0.3.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/colorama-0.4.4.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/colorama-0.4.4.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/requires.txt
+/usr/lib/python3/dist-packages/cryptography-3.4.8.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/dbus_python-1.2.18.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/defer-1.0.6.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/defer-1.0.6.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/distro-1.7.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/distro-1.7.0.egg-info/entry_points.txt
+/usr/lib/python3/dist-packages/distro-1.7.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/distro_info-1.1+ubuntu0.2.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/distro_info-1.1+ubuntu0.2.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/duplicity-0.8.21.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/duplicity-0.8.21.egg-info/requires.txt
+/usr/lib/python3/dist-packages/duplicity-0.8.21.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/fasteners-0.14.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/fasteners-0.14.1.egg-info/requires.txt
+/usr/lib/python3/dist-packages/fasteners-0.14.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/future-0.18.2.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/future-0.18.2.egg-info/entry_points.txt
+/usr/lib/python3/dist-packages/future-0.18.2.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/httplib2-0.20.2.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/httplib2-0.20.2.egg-info/requires.txt
+/usr/lib/python3/dist-packages/httplib2-0.20.2.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/idna-3.3.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/idna-3.3.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/requires.txt
+/usr/lib/python3/dist-packages/importlib_metadata-4.6.4.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/keyring-23.5.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/keyring-23.5.0.egg-info/entry_points.txt
+/usr/lib/python3/dist-packages/keyring-23.5.0.egg-info/requires.txt
+/usr/lib/python3/dist-packages/keyring-23.5.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/language_selector-0.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/language_selector-0.1.egg-info/entry_points.txt
+/usr/lib/python3/dist-packages/language_selector-0.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/launchpadlib-1.10.16.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/launchpadlib-1.10.16.egg-info/requires.txt
+/usr/lib/python3/dist-packages/launchpadlib-1.10.16.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/lazr.restfulclient-0.14.4.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/lazr.restfulclient-0.14.4.egg-info/namespace_packages.txt
+/usr/lib/python3/dist-packages/lazr.restfulclient-0.14.4.egg-info/requires.txt
+/usr/lib/python3/dist-packages/lazr.restfulclient-0.14.4.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/lazr.uri-1.0.6.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/lazr.uri-1.0.6.egg-info/namespace_packages.txt
+/usr/lib/python3/dist-packages/lazr.uri-1.0.6.egg-info/requires.txt
+/usr/lib/python3/dist-packages/lazr.uri-1.0.6.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/lockfile-0.12.2.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/lockfile-0.12.2.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/macaroonbakery-1.3.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/macaroonbakery-1.3.1.egg-info/requires.txt
+/usr/lib/python3/dist-packages/macaroonbakery-1.3.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/monotonic-1.6.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/monotonic-1.6.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/more_itertools-8.10.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/netifaces-0.11.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/requires.txt
+/usr/lib/python3/dist-packages/oauthlib-3.2.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/olefile-0.46.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/olefile-0.46.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/paramiko-2.9.3.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/paramiko-2.9.3.egg-info/requires.txt
+/usr/lib/python3/dist-packages/paramiko-2.9.3.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/protobuf-3.12.4.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/protobuf-3.12.4.egg-info/namespace_packages.txt
+/usr/lib/python3/dist-packages/protobuf-3.12.4.egg-info/requires.txt
+/usr/lib/python3/dist-packages/protobuf-3.12.4.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/pyRFC3339-1.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/pyRFC3339-1.1.egg-info/requires.txt
+/usr/lib/python3/dist-packages/pyRFC3339-1.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/pymacaroons-0.13.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/pymacaroons-0.13.0.egg-info/requires.txt
+/usr/lib/python3/dist-packages/pymacaroons-0.13.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/pyparsing-2.4.7.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/pyparsing-2.4.7.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/python_apt-2.4.0+ubuntu3.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/python_apt-2.4.0+ubuntu3.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/python_dateutil-2.8.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/python_dateutil-2.8.1.egg-info/requires.txt
+/usr/lib/python3/dist-packages/python_dateutil-2.8.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/python_debian-0.1.43+ubuntu1.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/python_debian-0.1.43+ubuntu1.1.egg-info/requires.txt
+/usr/lib/python3/dist-packages/python_debian-0.1.43+ubuntu1.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/pytz-2022.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/pytz-2022.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/pyxdg-0.27.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/pyxdg-0.27.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/reportlab-3.6.8.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/reportlab-3.6.8.egg-info/requires.txt
+/usr/lib/python3/dist-packages/reportlab-3.6.8.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/requires.txt
+/usr/lib/python3/dist-packages/requests-2.25.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/six-1.16.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/six-1.16.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/ubuntu_drivers_common-0.0.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/ubuntu_drivers_common-0.0.0.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/ubuntu_pro_client-8001.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/ubuntu_pro_client-8001.egg-info/entry_points.txt
+/usr/lib/python3/dist-packages/ubuntu_pro_client-8001.egg-info/requires.txt
+/usr/lib/python3/dist-packages/ubuntu_pro_client-8001.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/unattended_upgrades-0.1.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/unattended_upgrades-0.1.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/requires.txt
+/usr/lib/python3/dist-packages/urllib3-1.26.5.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/wadllib-1.3.6.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/wadllib-1.3.6.egg-info/requires.txt
+/usr/lib/python3/dist-packages/wadllib-1.3.6.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/requires.txt
+/usr/lib/python3/dist-packages/zipp-1.0.0.egg-info/top_level.txt
+/usr/lib/x86_64-linux-gnu/guile/2.2/guile-procedures.txt
+/usr/lib/xorg/protocol.txt
+/usr/share/X11/rgb.txt
+/usr/share/cups/doc-root/robots.txt
+/usr/share/doc/alsa-base/driver/ALSA-Configuration.txt.gz
+/usr/share/doc/alsa-base/driver/Audigy-mixer.txt.gz
+/usr/share/doc/alsa-base/driver/Audiophile-Usb.txt.gz
+/usr/share/doc/alsa-base/driver/Bt87x.txt
+/usr/share/doc/alsa-base/driver/CMIPCI.txt.gz
+/usr/share/doc/alsa-base/driver/ControlNames.txt
+/usr/share/doc/alsa-base/driver/HD-Audio-Controls.txt.gz
+/usr/share/doc/alsa-base/driver/HD-Audio-Models.txt.gz
+/usr/share/doc/alsa-base/driver/HD-Audio.txt.gz
+/usr/share/doc/alsa-base/driver/Joystick.txt
+/usr/share/doc/alsa-base/driver/MIXART.txt
+/usr/share/doc/alsa-base/driver/OSS-Emulation.txt.gz
+/usr/share/doc/alsa-base/driver/Procfile.txt.gz
+/usr/share/doc/alsa-base/driver/SB-Live-mixer.txt.gz
+/usr/share/doc/alsa-base/driver/VIA82xx-mixer.txt
+/usr/share/doc/alsa-base/driver/alsa-parameters.txt
+/usr/share/doc/alsa-base/driver/compress_offload.txt.gz
+/usr/share/doc/alsa-base/driver/emu10k1-jack.txt
+/usr/share/doc/alsa-base/driver/hda_codec.txt.gz
+/usr/share/doc/alsa-base/driver/hdspm.txt.gz
+/usr/share/doc/alsa-base/driver/powersave.txt
+/usr/share/doc/alsa-base/driver/serial-u16550.txt
+/usr/share/doc/apport/crashdb-conf.txt.gz
+/usr/share/doc/apport/package-hooks.txt.gz
+/usr/share/doc/apport/symptoms.txt
+/usr/share/doc/base-passwd/users-and-groups.txt.gz
+/usr/share/doc/brltty/English/BRLTTY.txt.gz
+/usr/share/doc/brltty/French/BRLTTY.txt.gz
+/usr/share/doc/busybox-static/mdev.txt.gz
+/usr/share/doc/busybox-static/syslog.conf.txt
+/usr/share/doc/cups/HOWTO_BUGREPORT.txt
+/usr/share/doc/dpkg/frontend.txt
+/usr/share/doc/dpkg/protected-field.txt
+/usr/share/doc/dpkg/rootless-builds.txt.gz
+/usr/share/doc/dpkg/triggers.txt.gz
+/usr/share/doc/fontconfig/fontconfig-user.txt.gz
+/usr/share/doc/fonts-dejavu-core/langcover.txt.gz
+/usr/share/doc/fonts-dejavu-core/status.txt.gz
+/usr/share/doc/fonts-dejavu-core/unicover.txt.gz
+/usr/share/doc/fonts-sil-abyssinica/FONTLOG.txt.gz
+/usr/share/doc/fonts-sil-abyssinica/OFL-FAQ.txt.gz
+/usr/share/doc/fonts-sil-abyssinica/README.txt
+/usr/share/doc/fonts-sil-abyssinica/documentation/DOCUMENTATION.txt
+/usr/share/doc/fonts-sil-padauk/FONTLOG.txt.gz
+/usr/share/doc/fonts-sil-padauk/OFL-FAQ.txt.gz
+/usr/share/doc/fonts-sil-padauk/README.txt
+/usr/share/doc/fonts-sil-padauk/documentation/DOCUMENTATION.txt
+/usr/share/doc/fonts-tibetan-machine/ReadMe.txt
+/usr/share/doc/fonts-ubuntu/CONTRIBUTING.txt
+/usr/share/doc/fonts-ubuntu/FONTLOG.txt.gz
+/usr/share/doc/fonts-ubuntu/LICENCE-FAQ.txt.gz
+/usr/share/doc/fonts-ubuntu/README.txt
+/usr/share/doc/fonts-ubuntu/TRADEMARKS.txt
+/usr/share/doc/gnupg/examples/trustlist.txt
+/usr/share/doc/gpg-agent/examples/trustlist.txt
+/usr/share/doc/hdparm/wiper/README.txt.gz
+/usr/share/doc/hplip/users-guide.txt
+/usr/share/doc/kbd/charsets/cp1252.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-1.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-10.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-11.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-13.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-14.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-15.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-2.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-3.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-4.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-5.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-6.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-7.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-8.txt.gz
+/usr/share/doc/kbd/charsets/iso8859-9.txt.gz
+/usr/share/doc/libasound2-plugins/a52.txt
+/usr/share/doc/libasound2-plugins/aaf.txt.gz
+/usr/share/doc/libasound2-plugins/lavrate.txt
+/usr/share/doc/libasound2-plugins/samplerate.txt
+/usr/share/doc/libasound2-plugins/speexdsp.txt
+/usr/share/doc/libasound2-plugins/speexrate.txt
+/usr/share/doc/libasound2-plugins/upmix.txt
+/usr/share/doc/libasound2-plugins/vdownmix.txt
+/usr/share/doc/libasound2/examples/asoundrc.txt
+/usr/share/doc/libauthen-sasl-perl/api.txt
+/usr/share/doc/libdb5.3/build_signature_amd64.txt
+/usr/share/doc/libfuse3-3/kernel.txt.gz
+/usr/share/doc/libgphoto2-6/OUTDATED.txt
+/usr/share/doc/libio-socket-ssl-perl/debugging.txt
+/usr/share/doc/libpng16-16/libpng-manual.txt.gz
+/usr/share/doc/libsane-common/canon/canon.install2700F.txt.gz
+/usr/share/doc/libsane-common/leo/leo.txt
+/usr/share/doc/libsane-common/matsushita/matsushita.txt.gz
+/usr/share/doc/libsane-common/plustek/Plustek-PARPORT-TODO.txt
+/usr/share/doc/libsane-common/plustek/Plustek-PARPORT.txt
+/usr/share/doc/libsane-common/plustek/Plustek-USB-TODO.txt
+/usr/share/doc/libsane-common/plustek/Plustek-USB.txt.gz
+/usr/share/doc/libsane-common/sceptre/s1200.txt
+/usr/share/doc/libsane-common/teco/teco1.txt.gz
+/usr/share/doc/libsane-common/teco/teco2.txt.gz
+/usr/share/doc/libsane-common/teco/teco3.txt.gz
+/usr/share/doc/libsane-common/umax/negative-types.txt
+/usr/share/doc/libslang2/slang.txt.gz
+/usr/share/doc/libslang2/slangfun.txt.gz
+/usr/share/doc/libsnmp40/AGENT.txt.gz
+/usr/share/doc/libsynctex2/README.txt
+/usr/share/doc/libsynctex2/synctex_parser_readme.txt.gz
+/usr/share/doc/linux-firmware/licenses/LICENCE.ralink-firmware.txt
+/usr/share/doc/linux-firmware/licenses/LICENCE.realtek-firmware.txt
+/usr/share/doc/linux-firmware/licenses/LICENCE.rtlwifi_firmware.txt
+/usr/share/doc/lp-solve/README.txt.gz
+/usr/share/doc/man-db/man-db-manual.txt.gz
+/usr/share/doc/mount/mount.txt
+/usr/share/doc/openssl/HOWTO/certificates.txt.gz
+/usr/share/doc/openssl/HOWTO/keys.txt
+/usr/share/doc/openssl/fingerprints.txt
+/usr/share/doc/openvpn/gui-notes.txt.gz
+/usr/share/doc/openvpn/management-notes.txt.gz
+/usr/share/doc/pcmciautils/mini-howto.txt.gz
+/usr/share/doc/powermgmt-base/power_supply.txt
+/usr/share/doc/printer-driver-min12xxw/format.txt.gz
+/usr/share/doc/printer-driver-pnm2ppa/en/CALIBRATION.txt.gz
+/usr/share/doc/printer-driver-pnm2ppa/en/COLOR.txt.gz
+/usr/share/doc/printer-driver-pnm2ppa/en/PPA_networking.txt.gz
+/usr/share/doc/publicsuffix/examples/test_psl.txt
+/usr/share/doc/python3-reportlab/README.txt.gz
+/usr/share/doc/python3.10/python-policy.txt.gz
+/usr/share/doc/python3/python-policy.txt.gz
+/usr/share/doc/sed/sedfaq.txt.gz
+/usr/share/doc/util-linux/00-about-docs.txt
+/usr/share/doc/util-linux/PAM-configuration.txt
+/usr/share/doc/util-linux/blkid.txt
+/usr/share/doc/util-linux/cal.txt
+/usr/share/doc/util-linux/col.txt
+/usr/share/doc/util-linux/deprecated.txt
+/usr/share/doc/util-linux/getopt.txt
+/usr/share/doc/util-linux/getopt_changelog.txt
+/usr/share/doc/util-linux/howto-build-sys.txt
+/usr/share/doc/util-linux/howto-compilation.txt
+/usr/share/doc/util-linux/howto-contribute.txt.gz
+/usr/share/doc/util-linux/howto-debug.txt
+/usr/share/doc/util-linux/howto-man-page.txt
+/usr/share/doc/util-linux/howto-pull-request.txt.gz
+/usr/share/doc/util-linux/howto-tests.txt.gz
+/usr/share/doc/util-linux/howto-usage-function.txt.gz
+/usr/share/doc/util-linux/hwclock.txt
+/usr/share/doc/util-linux/modems-with-agetty.txt
+/usr/share/doc/util-linux/mount.txt
+/usr/share/doc/util-linux/parse-date.txt.gz
+/usr/share/doc/util-linux/pg.txt
+/usr/share/doc/util-linux/poeigl.txt.gz
+/usr/share/doc/util-linux/release-schedule.txt
+/usr/share/doc/wireless-tools/DISTRIBUTIONS.txt.gz
+/usr/share/doc/wireless-tools/HOTPLUG-UDEV.txt.gz
+/usr/share/doc/wireless-tools/PCMCIA.txt.gz
+/usr/share/doc/xorg/faq/general.txt
+/usr/share/doc/xorg/howto/build-mesa.txt.gz
+/usr/share/doc/xorg/howto/configure-input.txt.gz
+/usr/share/doc/xorg/howto/report-bugs.txt
+/usr/share/doc/xorg/howto/triage-bugs.txt
+/usr/share/doc/xorg/howto/use-gdb.txt.gz
+/usr/share/doc/xorg/howto/use-xrandr.txt.gz
+/usr/share/doc/xorg/index.txt
+/usr/share/doc/xorg/reference/dependencies.txt.gz
+/usr/share/doc/xorg/reference/experimental.txt
+/usr/share/doc/xorg/reference/git-usage.txt.gz
+/usr/share/doc/xorg/reference/squeeze-backports.txt
+/usr/share/doc/xorg/reference/upstream-contacts.txt
+/usr/share/doc/xorg/upstream-features.txt
+/usr/share/doc/xz-utils/faq.txt.gz
+/usr/share/doc/xz-utils/history.txt.gz
+/usr/share/glib-2.0/schemas/org.gnome.todo.txt.gschema.xml
+/usr/share/gnupg/help.be.txt
+/usr/share/gnupg/help.ca.txt
+/usr/share/gnupg/help.cs.txt
+/usr/share/gnupg/help.da.txt
+/usr/share/gnupg/help.de.txt
+/usr/share/gnupg/help.el.txt
+/usr/share/gnupg/help.eo.txt
+/usr/share/gnupg/help.es.txt
+/usr/share/gnupg/help.et.txt
+/usr/share/gnupg/help.fi.txt
+/usr/share/gnupg/help.fr.txt
+/usr/share/gnupg/help.gl.txt
+/usr/share/gnupg/help.hu.txt
+/usr/share/gnupg/help.id.txt
+/usr/share/gnupg/help.it.txt
+/usr/share/gnupg/help.ja.txt
+/usr/share/gnupg/help.nb.txt
+/usr/share/gnupg/help.pl.txt
+/usr/share/gnupg/help.pt.txt
+/usr/share/gnupg/help.pt_BR.txt
+/usr/share/gnupg/help.ro.txt
+/usr/share/gnupg/help.ru.txt
+/usr/share/gnupg/help.sk.txt
+/usr/share/gnupg/help.sv.txt
+/usr/share/gnupg/help.tr.txt
+/usr/share/gnupg/help.txt
+/usr/share/gnupg/help.zh_CN.txt
+/usr/share/gnupg/help.zh_TW.txt
+/usr/share/ibus-table/data/phrase.txt.bz2
+/usr/share/ibus-table/data/pinyin_table.txt.bz2
+/usr/share/ibus-table/tables/template.txt
+/usr/share/libreoffice/help/media/icon-themes/README.txt
+/usr/share/perl/5.34.0/Unicode/Collate/allkeys.txt
+/usr/share/perl/5.34.0/Unicode/Collate/keys.txt
+/usr/share/perl/5.34.0/unicore/Blocks.txt
+/usr/share/perl/5.34.0/unicore/NamedSequences.txt
+/usr/share/perl/5.34.0/unicore/SpecialCasing.txt
+/usr/share/snmp/mibs/LM-SENSORS-MIB.txt
+/usr/share/snmp/mibs/NET-SNMP-AGENT-MIB.txt
+/usr/share/snmp/mibs/NET-SNMP-EXAMPLES-MIB.txt
+/usr/share/snmp/mibs/NET-SNMP-EXTEND-MIB.txt
+/usr/share/snmp/mibs/NET-SNMP-MIB.txt
+/usr/share/snmp/mibs/NET-SNMP-PASS-MIB.txt
+/usr/share/snmp/mibs/NET-SNMP-TC.txt
+/usr/share/snmp/mibs/NET-SNMP-VACM-MIB.txt
+/usr/share/snmp/mibs/UCD-DEMO-MIB.txt
+/usr/share/snmp/mibs/UCD-DISKIO-MIB.txt
+/usr/share/snmp/mibs/UCD-DLMOD-MIB.txt
+/usr/share/snmp/mibs/UCD-IPFWACC-MIB.txt
+/usr/share/snmp/mibs/UCD-SNMP-MIB.txt
+/usr/share/vim/vim82/doc/arabic.txt
+/usr/share/vim/vim82/doc/autocmd.txt
+/usr/share/vim/vim82/doc/builtin.txt
+/usr/share/vim/vim82/doc/change.txt
+/usr/share/vim/vim82/doc/channel.txt
+/usr/share/vim/vim82/doc/cmdline.txt
+/usr/share/vim/vim82/doc/debug.txt
+/usr/share/vim/vim82/doc/debugger.txt
+/usr/share/vim/vim82/doc/develop.txt
+/usr/share/vim/vim82/doc/diff.txt
+/usr/share/vim/vim82/doc/digraph.txt
+/usr/share/vim/vim82/doc/editing.txt
+/usr/share/vim/vim82/doc/eval.txt
+/usr/share/vim/vim82/doc/farsi.txt
+/usr/share/vim/vim82/doc/filetype.txt
+/usr/share/vim/vim82/doc/fold.txt
+/usr/share/vim/vim82/doc/ft_ada.txt
+/usr/share/vim/vim82/doc/ft_ps1.txt
+/usr/share/vim/vim82/doc/ft_raku.txt
+/usr/share/vim/vim82/doc/ft_rust.txt
+/usr/share/vim/vim82/doc/ft_sql.txt
+/usr/share/vim/vim82/doc/gui.txt
+/usr/share/vim/vim82/doc/gui_w32.txt
+/usr/share/vim/vim82/doc/gui_x11.txt
+/usr/share/vim/vim82/doc/hangulin.txt
+/usr/share/vim/vim82/doc/hebrew.txt
+/usr/share/vim/vim82/doc/help.txt
+/usr/share/vim/vim82/doc/help.txt.vim-tiny
+/usr/share/vim/vim82/doc/helphelp.txt
+/usr/share/vim/vim82/doc/howto.txt
+/usr/share/vim/vim82/doc/if_cscop.txt
+/usr/share/vim/vim82/doc/if_lua.txt
+/usr/share/vim/vim82/doc/if_mzsch.txt
+/usr/share/vim/vim82/doc/if_ole.txt
+/usr/share/vim/vim82/doc/if_perl.txt
+/usr/share/vim/vim82/doc/if_pyth.txt
+/usr/share/vim/vim82/doc/if_ruby.txt
+/usr/share/vim/vim82/doc/if_sniff.txt
+/usr/share/vim/vim82/doc/if_tcl.txt
+/usr/share/vim/vim82/doc/indent.txt
+/usr/share/vim/vim82/doc/index.txt
+/usr/share/vim/vim82/doc/insert.txt
+/usr/share/vim/vim82/doc/intro.txt
+/usr/share/vim/vim82/doc/map.txt
+/usr/share/vim/vim82/doc/mbyte.txt
+/usr/share/vim/vim82/doc/message.txt
+/usr/share/vim/vim82/doc/mlang.txt
+/usr/share/vim/vim82/doc/motion.txt
+/usr/share/vim/vim82/doc/netbeans.txt
+/usr/share/vim/vim82/doc/options.txt
+/usr/share/vim/vim82/doc/os_390.txt
+/usr/share/vim/vim82/doc/os_amiga.txt
+/usr/share/vim/vim82/doc/os_beos.txt
+/usr/share/vim/vim82/doc/os_dos.txt
+/usr/share/vim/vim82/doc/os_haiku.txt
+/usr/share/vim/vim82/doc/os_mac.txt
+/usr/share/vim/vim82/doc/os_mint.txt
+/usr/share/vim/vim82/doc/os_msdos.txt
+/usr/share/vim/vim82/doc/os_os2.txt
+/usr/share/vim/vim82/doc/os_qnx.txt
+/usr/share/vim/vim82/doc/os_risc.txt
+/usr/share/vim/vim82/doc/os_unix.txt
+/usr/share/vim/vim82/doc/os_vms.txt
+/usr/share/vim/vim82/doc/os_win32.txt
+/usr/share/vim/vim82/doc/pattern.txt
+/usr/share/vim/vim82/doc/pi_getscript.txt
+/usr/share/vim/vim82/doc/pi_gzip.txt
+/usr/share/vim/vim82/doc/pi_logipat.txt
+/usr/share/vim/vim82/doc/pi_netrw.txt
+/usr/share/vim/vim82/doc/pi_paren.txt
+/usr/share/vim/vim82/doc/pi_spec.txt
+/usr/share/vim/vim82/doc/pi_tar.txt
+/usr/share/vim/vim82/doc/pi_vimball.txt
+/usr/share/vim/vim82/doc/pi_zip.txt
+/usr/share/vim/vim82/doc/popup.txt
+/usr/share/vim/vim82/doc/print.txt
+/usr/share/vim/vim82/doc/quickfix.txt
+/usr/share/vim/vim82/doc/quickref.txt
+/usr/share/vim/vim82/doc/quotes.txt
+/usr/share/vim/vim82/doc/recover.txt
+/usr/share/vim/vim82/doc/remote.txt
+/usr/share/vim/vim82/doc/repeat.txt
+/usr/share/vim/vim82/doc/rileft.txt
+/usr/share/vim/vim82/doc/russian.txt
+/usr/share/vim/vim82/doc/scroll.txt
+/usr/share/vim/vim82/doc/sign.txt
+/usr/share/vim/vim82/doc/spell.txt
+/usr/share/vim/vim82/doc/sponsor.txt
+/usr/share/vim/vim82/doc/starting.txt
+/usr/share/vim/vim82/doc/syntax.txt
+/usr/share/vim/vim82/doc/tabpage.txt
+/usr/share/vim/vim82/doc/tagsrch.txt
+/usr/share/vim/vim82/doc/term.txt
+/usr/share/vim/vim82/doc/terminal.txt
+/usr/share/vim/vim82/doc/testing.txt
+/usr/share/vim/vim82/doc/textprop.txt
+/usr/share/vim/vim82/doc/tips.txt
+/usr/share/vim/vim82/doc/todo.txt
+/usr/share/vim/vim82/doc/uganda.txt
+/usr/share/vim/vim82/doc/undo.txt
+/usr/share/vim/vim82/doc/usr_01.txt
+/usr/share/vim/vim82/doc/usr_02.txt
+/usr/share/vim/vim82/doc/usr_03.txt
+/usr/share/vim/vim82/doc/usr_04.txt
+/usr/share/vim/vim82/doc/usr_05.txt
+/usr/share/vim/vim82/doc/usr_06.txt
+/usr/share/vim/vim82/doc/usr_07.txt
+/usr/share/vim/vim82/doc/usr_08.txt
+/usr/share/vim/vim82/doc/usr_09.txt
+/usr/share/vim/vim82/doc/usr_10.txt
+/usr/share/vim/vim82/doc/usr_11.txt
+/usr/share/vim/vim82/doc/usr_12.txt
+/usr/share/vim/vim82/doc/usr_20.txt
+/usr/share/vim/vim82/doc/usr_21.txt
+/usr/share/vim/vim82/doc/usr_22.txt
+/usr/share/vim/vim82/doc/usr_23.txt
+/usr/share/vim/vim82/doc/usr_24.txt
+/usr/share/vim/vim82/doc/usr_25.txt
+/usr/share/vim/vim82/doc/usr_26.txt
+/usr/share/vim/vim82/doc/usr_27.txt
+/usr/share/vim/vim82/doc/usr_28.txt
+/usr/share/vim/vim82/doc/usr_29.txt
+/usr/share/vim/vim82/doc/usr_30.txt
+/usr/share/vim/vim82/doc/usr_31.txt
+/usr/share/vim/vim82/doc/usr_32.txt
+/usr/share/vim/vim82/doc/usr_40.txt
+/usr/share/vim/vim82/doc/usr_41.txt
+/usr/share/vim/vim82/doc/usr_42.txt
+/usr/share/vim/vim82/doc/usr_43.txt
+/usr/share/vim/vim82/doc/usr_44.txt
+/usr/share/vim/vim82/doc/usr_45.txt
+/usr/share/vim/vim82/doc/usr_46.txt
+/usr/share/vim/vim82/doc/usr_90.txt
+/usr/share/vim/vim82/doc/usr_toc.txt
+/usr/share/vim/vim82/doc/various.txt
+/usr/share/vim/vim82/doc/version4.txt
+/usr/share/vim/vim82/doc/version5.txt
+/usr/share/vim/vim82/doc/version6.txt
+/usr/share/vim/vim82/doc/version7.txt
+/usr/share/vim/vim82/doc/version8.txt
+/usr/share/vim/vim82/doc/vi_diff.txt
+/usr/share/vim/vim82/doc/vim9.txt
+/usr/share/vim/vim82/doc/visual.txt
+/usr/share/vim/vim82/doc/windows.txt
+/usr/share/vim/vim82/doc/workshop.txt
+/usr/share/vim/vim82/pack/dist/opt/matchit/doc/matchit.txt
+/usr/src/linux-headers-6.5.0-18-generic/scripts/head-object-list.txt
+/usr/src/linux-headers-6.5.0-18-generic/scripts/spelling.txt
+/usr/src/linux-headers-6.5.0-28-generic/scripts/head-object-list.txt
+/usr/src/linux-headers-6.5.0-28-generic/scripts/spelling.txt
+/usr/src/linux-hwe-6.5-headers-6.5.0-18/arch/sh/include/mach-ecovec24/mach/partner-jet-setup.txt
+/usr/src/linux-hwe-6.5-headers-6.5.0-18/arch/sh/include/mach-kfr2r09/mach/partner-jet-setup.txt
+/usr/src/linux-hwe-6.5-headers-6.5.0-18/scripts/head-object-list.txt
+/usr/src/linux-hwe-6.5-headers-6.5.0-18/scripts/spelling.txt
+/usr/src/linux-hwe-6.5-headers-6.5.0-28/arch/sh/include/mach-ecovec24/mach/partner-jet-setup.txt
+/usr/src/linux-hwe-6.5-headers-6.5.0-28/arch/sh/include/mach-kfr2r09/mach/partner-jet-setup.txt
+/usr/src/linux-hwe-6.5-headers-6.5.0-28/scripts/head-object-list.txt
+/usr/src/linux-hwe-6.5-headers-6.5.0-28/scripts/spelling.txt
+/var/cache/dictionaries-common/ispell-dicts-list.txt
+/var/lib/gdm3/.cache/tracker3/files/first-index.txt
+/var/lib/gdm3/.cache/tracker3/files/last-crawl.txt
+/var/lib/gdm3/.cache/tracker3/files/locale-for-miner-apps.txt
+/var/lib/gdm3/.cache/tracker3/files/no-need-mtime-check.txt
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ find findme.txt
+[?2004lfindme.txt
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ find ~ -type f -name "*.txt" > rt[K[Kresults.txt
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch FILE1
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ find ~ -type -iname "file*" | less
+[?2004lfind: Unknown argument to -type: -
+[?1049h[22;0;0t[?1h=[K[7m(END)[27m[K[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
+[1]+  Stopped                 find ~ -type -iname "file*" | less
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ find ~ -type -iname "file*" | less[1@f[1@ 
+[?2004l[?1049h[22;0;0t[?1h=/home/student/FILE1
+/home/student/file1.txt
+/home/student/file.txt
+/home/student/HOME3/Day3_fun/file2
+/home/student/HOME3/Day3_fun/file3
+/home/student/HOME3/Day3_fun/file4
+/home/student/HOME3/Day3_fun/file1
+/home/student/HOME3/Day3_fun/file6_hard
+/home/student/HOME3/Day3_fun/file5
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
+[2]+  Stopped                 find ~ -type f -iname "file*" | less
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ find /etc -type d | less
+[?2004l[?1049h[22;0;0t[?1h=find: ‘/etc/polkit-1/localauthority’/etc
+/etc/skel
+/etc/gdm3
+/etc/gdm3/Init
+/etc/gdm3/PreSession
+/etc/gdm3/PostSession
+/etc/gdm3/PostLogin
+/etc/gdm3/Prime
+/etc/gdm3/PrimeOff
+/etc/gss
+/etc/gss/mech.d
+/etc/ufw
+/etc/ufw/applications.d
+/etc/brltty
+/etc/brltty/Input
+/etc/brltty/Input/at
+/etc/brltty/Input/lb
+/etc/brltty/Input/ec
+/etc/brltty/Input/pm
+/etc/brltty/Input/np
+/etc/brltty/Input/eu
+/etc/brltty/Input/cb
+/etc/brltty/Input/ir
+:[K: Permission denied
+find: ‘/etc/ssl/private’: Permission denied
+find: ‘/etc/cups/ssl’: Permission denied
+[H[2J[H[H[2J[H/etc
+/etc/skel
+/etc/gdm3
+/etc/gdm3/Init
+/etc/gdm3/PreSession
+/etc/gdm3/PostSession
+/etc/gdm3/PostLogin
+/etc/gdm3/Prime
+/etc/gdm3/PrimeOff
+/etc/gss
+/etc/gss/mech.d
+/etc/ufw
+/etc/ufw/applications.d
+/etc/brltty
+/etc/brltty/Input
+/etc/brltty/Input/at
+/etc/brltty/Input/lb
+/etc/brltty/Input/ec
+/etc/brltty/Input/pm
+/etc/brltty/Input/np
+/etc/brltty/Input/eu
+/etc/brltty/Input/cb
+/etc/brltty/Input/ir
+:[K[K[?1l>[?1049l[23;0;0t
+[3]+  Stopped                 find /etc -type d | less
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ find ~ -type f -size -5k
+[?2004l/home/student/week07.timing
+/home/student/.bashrc.bak
+/home/student/results.txt
+/home/student/error.txt
+/home/student/.bashrc
+/home/student/out.txt
+/home/student/.vboxclient-clipboard-tty2-service.pid
+/home/student/.profile
+/home/student/findme.txt
+/home/student/Day5/test1
+/home/student/.bash_logout
+/home/student/.config/user-dirs.dirs
+/home/student/.config/gnome-initial-setup-done
+/home/student/.config/.gsd-keyboard.settings-ported
+/home/student/.config/evolution/sources/system-proxy.source
+/home/student/.config/gedit/accels
+/home/student/.config/gtk-3.0/bookmarks
+/home/student/.config/ibus/bus/8594fddb39b147c1a73526dece6dd6bb-unix-0
+/home/student/.config/ibus/bus/8594fddb39b147c1a73526dece6dd6bb-unix-wayland-0
+/home/student/.config/user-dirs.locale
+/home/student/.config/pulse/8594fddb39b147c1a73526dece6dd6bb-default-source
+/home/student/.config/pulse/cookie
+/home/student/.config/pulse/8594fddb39b147c1a73526dece6dd6bb-default-sink
+/home/student/.config/enchant/en_US.dic
+/home/student/.config/enchant/en_US.exc
+/home/student/test3/fun1
+/home/student/test3/fun2
+/home/student/test3/fun3
+/home/student/.vboxclient-seamless-tty2-service.pid
+/home/student/umask
+/home/student/.vboxclient-hostversion-tty2-control.pid
+/home/student/.vboxclient-draganddrop-tty2-control.pid
+/home/student/FILE1
+/home/student/output.txt
+/home/student/output2.txt
+/home/student/.local/share/gvfs-metadata/home
+/home/student/.local/share/gvfs-metadata/root
+/home/student/.local/share/gvfs-metadata/uuid-2024-01-15-14-48-13-93
+/home/student/.local/share/keyrings/login.keyring
+/home/student/.local/share/keyrings/user.keystore
+/home/student/.local/share/Trash/files/test.txt
+/home/student/.local/share/Trash/info/test.txt.trashinfo
+/home/student/.local/share/gnome-settings-daemon/input-sources-converted
+/home/student/.local/share/session_migration-ubuntu
+/home/student/.local/share/nautilus/tracker2-migration-complete
+/home/student/.local/share/nautilus/tags/.meta.isrunning
+/home/student/.local/share/nautilus/tags/meta.db-wal
+/home/student/.local/share/evolution/calendar/system/calendar.ics
+/home/student/.local/share/evolution/tasks/system/tasks.ics
+/home/student/.local/share/gnome-shell/application_state
+/home/student/.local/share/gnome-shell/gnome-overrides-migrated
+/home/student/.local/share/gnome-shell/notifications
+/home/student/snap/snapd-desktop-integration/83/.config/user-dirs.locale.md5sum
+/home/student/snap/snapd-desktop-integration/83/.config/fontconfig/fonts.conf
+/home/student/snap/snapd-desktop-integration/83/.config/user-dirs.dirs.md5sum
+/home/student/snap/snapd-desktop-integration/83/.config/user-dirs.dirs
+/home/student/snap/snapd-desktop-integration/83/.config/user-dirs.locale
+/home/student/snap/snapd-desktop-integration/83/.last_revision
+/home/student/snap/snapd-desktop-integration/157/.config/user-dirs.locale.md5sum
+/home/student/snap/snapd-desktop-integration/157/.config/fontconfig/fonts.conf
+/home/student/snap/snapd-desktop-integration/157/.config/user-dirs.dirs.md5sum
+/home/student/snap/snapd-desktop-integration/157/.config/user-dirs.dirs
+/home/student/snap/snapd-desktop-integration/157/.config/user-dirs.locale
+/home/student/snap/snapd-desktop-integration/157/.last_revision
+/home/student/snap/snapd-desktop-integration/common/.cache/fontconfig/CACHEDIR.TAG
+/home/student/snap/snapd-desktop-integration/common/.cache/fontconfig/cce1984a119241264cc05e9cd7130571-le64.cache-7
+/home/student/snap/snapd-desktop-integration/common/.cache/fontconfig/929fbd08cab95f9a3697b8e927dcec4c-le64.cache-7
+/home/student/snap/snapd-desktop-integration/common/.cache/fontconfig/8a9fee22ca4f36d681b293686644350a-le64.cache-7
+/home/student/snap/snapd-desktop-integration/common/.cache/gdk-pixbuf-loaders.cache
+/home/student/snap/snapd-desktop-integration/common/.cache/gio-modules/giomodule.cache
+/home/student/snap/firefox/3836/.config/user-dirs.locale.md5sum
+/home/student/snap/firefox/3836/.config/fontconfig/fonts.conf
+/home/student/snap/firefox/3836/.config/user-dirs.dirs.md5sum
+/home/student/snap/firefox/3836/.config/user-dirs.dirs
+/home/student/snap/firefox/3836/.config/user-dirs.locale
+/home/student/snap/firefox/3836/.config/pulse/cookie
+/home/student/snap/firefox/3836/.last_revision
+/home/student/snap/firefox/3836/.local/share/recently-used.xbel
+/home/student/snap/firefox/common/.mozilla/firefox/Crash Reports/InstallTime20240214103141
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/webappsstore.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/times.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/shield-recipe-client.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/compatibility.ini
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/handlers.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/crashes/store.json.mozlz4
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage.sqlite
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/settings/data.safe.bin
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/extension-preferences.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/gmp-gmpopenh264/2.3.2/gmpopenh264.info
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/pkcs11.txt
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/shield-preference-experiments.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/sessionCheckpoints.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/default/https+++flow.my.byui.edu/ls/usage
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/default/https+++flow.my.byui.edu/.metadata-v2
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/default/https+++my.byui.edu/ls/usage
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/default/https+++my.byui.edu/.metadata-v2
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/default/https+++api-af6cb245.duosecurity.com/ls/usage
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/default/https+++api-af6cb245.duosecurity.com/.metadata-v2
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/default/https+++www.byui.edu/ls/usage
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/default/https+++www.byui.edu/.metadata-v2
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/.metadata-v2
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/2918063365piupsah.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files/1
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/3561288849sdhlie.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/bookmarkbackups/bookmarks-2024-05-16_11_mzgB7wZTdVVXXQLgqD-Sxg==.jsonlz4
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/datareporting/glean/events/pageload
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/datareporting/glean/events/events
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/datareporting/archived/2024-05/1714690708948.9902d37b-cc15-4c01-ad5f-79b0e99ac469.event.jsonlz4
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/datareporting/state.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/datareporting/session-state.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/addons.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/search.json.mozlz4
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/broadcast-listeners.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/.parentlock
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/containers.json
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/xulstore.json
+/home/student/snap/firefox/common/.mozilla/firefox/profiles.ini
+/home/student/snap/firefox/common/.cache/fontconfig/CACHEDIR.TAG
+/home/student/snap/firefox/common/.cache/fontconfig/fa2b50b07cda80a2393938c2ec3fb0e7-le64.cache-7
+/home/student/snap/firefox/common/.cache/fontconfig/083cba46d2e529e1358a3d4853b53e9b-le64.cache-7
+/home/student/snap/firefox/common/.cache/fontconfig/91cf445cebe276dce0e6e5f4c9eb9f1f-le64.cache-7
+/home/student/snap/firefox/common/.cache/fontconfig/32c330f5d5616e2b1d0e0390a85c0fd7-le64.cache-7
+/home/student/snap/firefox/common/.cache/gdk-pixbuf-loaders.cache
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/activity-stream.personalization.json
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/thumbnails/78b6674dbb086107bf1b064985098160.png
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-715212280871473
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-161351842074695
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-715212280871461
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-75047
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-160380814674521.jpg
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-715212280871507
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-715212280871463
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-715212280871511
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-715212280871497
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-161351842074513
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/settings/main/quicksuggest/icon-161351842074521
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/base-cryptomining-track-digest256.vlpset
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/social-track-digest256.vlpset
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/google4/goog-phish-proto.metadata
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/google4/goog-malware-proto.metadata
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/google4/goog-unwanted-proto.metadata
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/google4/goog-downloadwhite-proto.metadata
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/google4/goog-badbinurl-proto.metadata
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/mozplugin-block-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/content-email-track-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/social-track-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/social-tracking-protection-facebook-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/social-tracking-protection-twitter-digest256.vlpset
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/social-tracking-protection-linkedin-digest256.vlpset
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/base-fingerprinting-track-digest256.vlpset
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/content-track-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/social-tracking-protection-linkedin-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/mozplugin-block-digest256.vlpset
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/base-cryptomining-track-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/base-email-track-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/base-fingerprinting-track-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/social-tracking-protection-twitter-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/analytics-track-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/social-tracking-protection-facebook-digest256.vlpset
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/safebrowsing/ads-track-digest256.sbstore
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/startupCache/urlCache-current.bin
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/startupCache/urlCache.bin
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/7ACC075DFB6FCE617976ECFBB889BC6E321B48E7
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/F972472B54D08C171C52ADDA5DB2C4AD764C637A
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/3B565D6D554424F3D295FF4E67484F509B32670C
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/00D2A7D5AF592760129B105CE0A2698075A575CF
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/A1B5FB45BFD390E7C9B371B307335E6E3012D494
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/0EDDF8C091E2FED62E44BEDDDC1723F5BF38FE4F
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/8C8DE1D931CF8730BC1CAF53F8E283F896617065
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/558B48AA9E2C9ECE08EA6DD37FC035C1471491DC
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/0CCA56B0E5CFBC9F84A7B51DB27600079683DCA8
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/cache2/entries/DDEC23EBC9A34CFB569B98E454B358569924FE0E
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/personality-provider/recipe_attachment.json
+/home/student/snap/firefox/common/.cache/gio-modules/giomodule.cache
+/home/student/.vboxclient-clipboard-tty2-control.pid
+/home/student/file1.txt
+/home/student/test2/fun1
+/home/student/test2/fun2
+/home/student/test2/fun3
+/home/student/file.txt
+/home/student/.cache/tracker3/files/.meta.isrunning
+/home/student/.cache/tracker3/files/last-crawl.txt
+/home/student/.cache/tracker3/files/first-index.txt
+/home/student/.cache/tracker3/files/locale-for-miner-apps.txt
+/home/student/.cache/mesa_shader_cache/3e/08aeef8e0ac0c17c69c981ca3f39aeb820c470
+/home/student/.cache/mesa_shader_cache/be/ca4474be457c9f8c7aae654d8860993220ad65
+/home/student/.cache/mesa_shader_cache/d5/674417e80cb5553efe5ad29742cd53cd315b2d
+/home/student/.cache/mesa_shader_cache/bb/d5a650fed80e30ed66b65f5ec151b4c181fdce
+/home/student/.cache/mesa_shader_cache/4e/02f55752916acd7dc12cb72d4c423aec689f98
+/home/student/.cache/mesa_shader_cache/4e/359dad54347fcc91a16b375ad44f391b684965
+/home/student/.cache/mesa_shader_cache/82/43e796437c9e20b259c53f5a95b98cd926d796
+/home/student/.cache/mesa_shader_cache/82/af1b0b178e67f0729bf05f5a48e5ea0dadefa8
+/home/student/.cache/mesa_shader_cache/82/bf3ad2a19bb5ec44ea06a536b825bded619edf
+/home/student/.cache/mesa_shader_cache/82/c244d3778d4ea7d3abd5df5db0e5285e058270
+/home/student/.cache/mesa_shader_cache/82/7eb866ec72df242efd4dc24c19d5ae57dd4966
+/home/student/.cache/mesa_shader_cache/f8/328b984123c56f287db6a703ddfd1259814ee0
+/home/student/.cache/mesa_shader_cache/d7/6a400c31cb394ee9239edf1ece89331034416d
+/home/student/.cache/mesa_shader_cache/d7/8e1cc55351991f6d3b4a9c67de10230e535948
+/home/student/.cache/mesa_shader_cache/14/097cd12c85d64aa55ae903a9ae43ccb80a9d55
+/home/student/.cache/mesa_shader_cache/ec/58d2d5ad4cf5051671affa931946b4efcc0261
+/home/student/.cache/mesa_shader_cache/20/560cc8817fd23e59e9a9e5f214112fc14f3e4a
+/home/student/.cache/mesa_shader_cache/83/85d56f50e962b55e200b55a133ced0debb936b
+/home/student/.cache/mesa_shader_cache/08/5340ee42f0cf755a15e1f55a60e24317da5732
+/home/student/.cache/mesa_shader_cache/46/9c724b88a17b99eb40be763d989e3819c15693
+/home/student/.cache/mesa_shader_cache/05/04eccee9044b5dae265e9c7049af29e7d0a25a
+/home/student/.cache/mesa_shader_cache/8d/a0f0a8b3134c00ca242c9dbfe1b71eacee822c
+/home/student/.cache/mesa_shader_cache/02/c2c6a5c3144829655e19e1d8507d266f79a972
+/home/student/.cache/mesa_shader_cache/02/a8a9ad4af56b8233cc8214c0797a66396858e2
+/home/student/.cache/mesa_shader_cache/58/9c53e58deaf8cd4dcfe1d19ec14e8c1f050873
+/home/student/.cache/mesa_shader_cache/4f/26a26aaa4f862232b50fba720241e1dd9ae5b2
+/home/student/.cache/mesa_shader_cache/cb/809d564b18ae54319c163736d5c8870e3f6a32
+/home/student/.cache/mesa_shader_cache/f2/ada0e703b6d61a2262d4231b9030345ae15945
+/home/student/.cache/mesa_shader_cache/87/9bce2f3139ff9fa26f139c58ff62b4bf085a0d
+/home/student/.cache/mesa_shader_cache/b5/9b50adb039e1f1c35f4b7f729746c2baad6d7f
+/home/student/.cache/mesa_shader_cache/ca/f89a2b6cf63f27e4d278f23f609aea8a239098
+/home/student/.cache/mesa_shader_cache/ca/bbcc5d9646ee0a059258760cc5f447c3c94b3a
+/home/student/.cache/mesa_shader_cache/ca/13a44582eff1e91ba493eaa557da6981879c9a
+/home/student/.cache/mesa_shader_cache/6a/f40a73e42c25ee1451b552926e837a180e6e2a
+/home/student/.cache/mesa_shader_cache/8b/8a4061530319942a01126df8f1e9e5a705a4a4
+/home/student/.cache/mesa_shader_cache/e9/c9e74f45203a86c128a89f4a9c7c150b1f1e9c
+/home/student/.cache/mesa_shader_cache/9e/6e1f5423fcdbedc89528f4922950e463374f9d
+/home/student/.cache/mesa_shader_cache/9e/6a139a3bba52e951122fa4a158f7560439cecc
+/home/student/.cache/mesa_shader_cache/38/9bcc0595051cae622e57f485a14eb8581be47e
+/home/student/.cache/mesa_shader_cache/7d/aac2156e32eacacc2cd8e58c23949ae654e8a3
+/home/student/.cache/mesa_shader_cache/7d/ca417554dff31c2bb5e9b617bbdd9811b15ce7
+/home/student/.cache/mesa_shader_cache/91/2e091caf99ba506d2aea542b357fa559aa8abf
+/home/student/.cache/mesa_shader_cache/07/490ae8f4b145ca642a3f84b3ec7e326e014928
+/home/student/.cache/mesa_shader_cache/07/e20776ab6033f8f33a6d29ebdce626205bee84
+/home/student/.cache/mesa_shader_cache/11/d1ff4263bc39109500cc43822840b96dca02d0
+/home/student/.cache/mesa_shader_cache/ef/95710c2de81d423b2ed5315ea31e25050dbced
+/home/student/.cache/mesa_shader_cache/ae/c87437b2f348dbd0664e4f21149315beb98964
+/home/student/.cache/mesa_shader_cache/e4/280150330b2feb7776aedd8cc37f44b7c3d3cf
+/home/student/.cache/mesa_shader_cache/8c/03a5a4676d7270b7c1271d8c210b9c92343464
+/home/student/.cache/mesa_shader_cache/a6/fbf2ac5197c6e00074714f15ea2d43a4db4935
+/home/student/.cache/mesa_shader_cache/bf/7b0de659c09a49389d22619d95420b767bb700
+/home/student/.cache/mesa_shader_cache/bf/e3750fe6cb4f0c03c78dfa853dcd760b23fcd8
+/home/student/.cache/mesa_shader_cache/d2/ce3ef22fc59ab20e1df76063aca2992bcc14de
+/home/student/.cache/mesa_shader_cache/b0/ffe6853712b1674ec171e88f4a2fc99e894598
+/home/student/.cache/mesa_shader_cache/b0/ba081f1b82d128b242fd495bab85fce254394a
+/home/student/.cache/mesa_shader_cache/b0/8678146718b0ffb4e9cbdbc925d3f150e8fed9
+/home/student/.cache/mesa_shader_cache/6d/2d0c6db864014475af928f069e12920d779a53
+/home/student/.cache/mesa_shader_cache/6d/cb0692443e9cacfc25deabcb3f731b5117e027
+/home/student/.cache/mesa_shader_cache/db/7bc1f520f3b233ebc9534e42eb6705f390101f
+/home/student/.cache/mesa_shader_cache/32/adc6aa7786e22cf2c490a7fd4634bdd8de3193
+/home/student/.cache/mesa_shader_cache/32/2f5fbb001acadf46da650e24ca906fb462010d
+/home/student/.cache/mesa_shader_cache/ff/19668ec2d5473532ea3f7c021cbcfcbab73ad3
+/home/student/.cache/mesa_shader_cache/5c/465e81125c17ed50ee397add74fa89b5b02718
+/home/student/.cache/mesa_shader_cache/7a/e125f42ca5b2028455b1ecc8ba8170fcf10e68
+/home/student/.cache/mesa_shader_cache/2b/46230754177bfa3a072a3677b066327be4c192
+/home/student/.cache/mesa_shader_cache/2b/12f50af01d3346d027f314b2f73c3ecf0de013
+/home/student/.cache/mesa_shader_cache/7e/a6837d71ff660e7dff3b034ed129826115f7e9
+/home/student/.cache/mesa_shader_cache/f4/c82c509a2ecd85fd23d0be5203c62c87891521
+/home/student/.cache/mesa_shader_cache/f4/4d12c47b92f0baebdcf79cc6ba71da9ed51c25
+/home/student/.cache/mesa_shader_cache/59/464610373b722b3f6911297cedca48b1287064
+/home/student/.cache/mesa_shader_cache/d9/0fc43484c306ca8763ac6622c0c77398eedbe1
+/home/student/.cache/mesa_shader_cache/d9/8bf2c8e0b6b067c146c454e849a5104a429dae
+/home/student/.cache/mesa_shader_cache/06/912404470c773a3a0580ba799abb76ac63211a
+/home/student/.cache/mesa_shader_cache/1b/387b1222a8546f36537ef712c59dfebec644d7
+/home/student/.cache/mesa_shader_cache/5b/c879277c9256cd50d3205da2616fb83f4ab3c2
+/home/student/.cache/mesa_shader_cache/86/8c92d03ee750fdceb8bb802cfb6a0290e037c5
+/home/student/.cache/mesa_shader_cache/a5/2a4617cc6762248774b60207a2b21f849b1310
+/home/student/.cache/mesa_shader_cache/a5/6bc7be7bab4e13cba5ebe12400edf1fd099199
+/home/student/.cache/mesa_shader_cache/fc/e57fb60a0e3e7cac837c15525293dc6a2d77e6
+/home/student/.cache/mesa_shader_cache/1a/40255afe6df759982992725894f8565d71c879
+/home/student/.cache/mesa_shader_cache/ad/70c53ad9a7c45096849f1bbd084458ba1d37a6
+/home/student/.cache/mesa_shader_cache/49/01e5b4e8232753e731c1db46f811c90dd414f7
+/home/student/.cache/mesa_shader_cache/49/5a000d5c007755930d08216ae49c02d41f674e
+/home/student/.cache/mesa_shader_cache/29/b709745a3aaae74d1d834e4e382f9097e9e59d
+/home/student/.cache/mesa_shader_cache/89/39ee439b6d417b7213139862e08c881cfe6008
+/home/student/.cache/mesa_shader_cache/97/11c6f27c9164aa8a19755e673d3dc323bb213b
+/home/student/.cache/mesa_shader_cache/d8/46e21fbe9d481cc7752eef427ca4dc23714d06
+/home/student/.cache/mesa_shader_cache/94/8864a4f0890e8a915a2d8335f997e706227d21
+/home/student/.cache/mesa_shader_cache/ed/686809275c7a4512c979cf5f5b843fd48a2790
+/home/student/.cache/mesa_shader_cache/00/9e19f0230344448c20a3f24ffea0689773a6e4
+/home/student/.cache/mesa_shader_cache/dd/49377ef2aecf1b1dc3351e5f6c5699d5ad37d6
+/home/student/.cache/mesa_shader_cache/dd/8533d8d8544a652ef9b50a5429f5160a2877c8
+/home/student/.cache/mesa_shader_cache/bc/1316a320362de840ae125b030345d96601aa86
+/home/student/.cache/mesa_shader_cache/0f/f9dd2fb3656302b0b4474f0f13dd38e958ffc4
+/home/student/.cache/mesa_shader_cache/e5/1f6339c9deaff32e202672a9ef80ec8319f4a5
+/home/student/.cache/mesa_shader_cache/1d/64efffef2f14ea950d80dd580296387d6b12f2
+/home/student/.cache/mesa_shader_cache/c8/6f989effcf63b93fbd2c53d988eeccacc7fb1e
+/home/student/.cache/mesa_shader_cache/51/10bc7062eb4cf48f7b43283be5d0f663c940d3
+/home/student/.cache/mesa_shader_cache/51/25dd1765dc6b1677657639f1e42fe469b38989
+/home/student/.cache/mesa_shader_cache/a0/2db1f9eba0da7eeb1f30aa7d0262b23259772e
+/home/student/.cache/mesa_shader_cache/9f/0cf9bcee16a2934cebc26c1e31fec315a151a0
+/home/student/.cache/mesa_shader_cache/03/e993746bad81dfacda5853b7c800f1063ec611
+/home/student/.cache/mesa_shader_cache/03/7d44e1de001ae79984fadd008b4a2edab2a659
+/home/student/.cache/mesa_shader_cache/1f/8010c1f3a6ec57c20ae96fdd5fe1a780a742fd
+/home/student/.cache/mesa_shader_cache/63/34a427c35506dd5a094c4b3c820eb2a2f86ddb
+/home/student/.cache/mesa_shader_cache/c6/75c2dff3a8d8ba8a74e4b505312d4fedbb9f7c
+/home/student/.cache/mesa_shader_cache/c6/045d8a9712aa6c83fd1d2f90e321b68cefd7f6
+/home/student/.cache/mesa_shader_cache/c2/91b584c7cb9fad7cd3c220bc19237b26a17c2f
+/home/student/.cache/mesa_shader_cache/48/44addc4a94de25ca88b997b5c5cbe9bddbc591
+/home/student/.cache/mesa_shader_cache/0b/7d097ffed170fd1c8e98ef2ec0768ab9817742
+/home/student/.cache/mesa_shader_cache/1c/bd4a81891c08ae4258a72e84e6597f0b91f6b7
+/home/student/.cache/mesa_shader_cache/1c/7caea699953176e19819f1b82eae996593bfe1
+/home/student/.cache/mesa_shader_cache/4c/d73a53044b91ae4a79bbfe0c7c746af7f9e543
+/home/student/.cache/mesa_shader_cache/61/c9d9e2b5251343fc82129a2bf87e84ecd3be58
+/home/student/.cache/mesa_shader_cache/e7/5656106727d451a2b7aa20e3ea68f43dcb4780
+/home/student/.cache/mesa_shader_cache/1e/b59cabfc6c20f4eba97eb8022f1d9733393604
+/home/student/.cache/mesa_shader_cache/1e/457d236f977411c68d896259d62d61607cd5df
+/home/student/.cache/mesa_shader_cache/5a/09ff56e90f43acaef8354184ff6024721cb9f7
+/home/student/.cache/mesa_shader_cache/25/9ef87e626f6809139475a84c57174b9f04bd99
+/home/student/.cache/mesa_shader_cache/25/c84146e9478c5f12c4305986177f517a826270
+/home/student/.cache/mesa_shader_cache/25/6ed5f82793975a992bccbc333f72bf62a50e8e
+/home/student/.cache/mesa_shader_cache/0d/98d553c52b31c01dade320500d7f52c0f6206d
+/home/student/.cache/mesa_shader_cache/8e/db611b0bcb0e1bd90eff62de089ddbdae4af00
+/home/student/.cache/mesa_shader_cache/56/9eb37703b8fb0685a901202231fa16ce6b813d
+/home/student/.cache/mesa_shader_cache/56/8474a9746b238fa6c58f19ceea106d84c92176
+/home/student/.cache/mesa_shader_cache/27/dd46db298a38dfa8537216c261a48d7cf81b63
+/home/student/.cache/mesa_shader_cache/27/888f0f047a8470ef4c34bb41b65d4e61c82566
+/home/student/.cache/mesa_shader_cache/55/e63a514ca0fefbc4671d8f4f297c1385919fc8
+/home/student/.cache/mesa_shader_cache/55/335290d40266e904175d3c5ba177a6bca32f78
+/home/student/.cache/mesa_shader_cache/a8/8756fbcced2a1232fb6058bb3194e352ea6ea2
+/home/student/.cache/mesa_shader_cache/a8/bcbff6d13040205348bfadd9786de2800bfc4c
+/home/student/.cache/mesa_shader_cache/fb/7fd04aa4740849c4be9fc144024cc3127bfcfa
+/home/student/.cache/mesa_shader_cache/f5/456f6fabec4fb3ccdb5f6ec00d3021c6cc701f
+/home/student/.cache/mesa_shader_cache/f7/f46d2776252a03a7f66dae0028cd6da8f4fa73
+/home/student/.cache/mesa_shader_cache/b2/972c6be3342a94c0259a85fa9299f85e1763cb
+/home/student/.cache/mesa_shader_cache/24/b61074484a0d324f4a933ffe46ffb254089bda
+/home/student/.cache/mesa_shader_cache/44/b4328d55fc387b02d7cdb57a7d6c88f47f5e21
+/home/student/.cache/mesa_shader_cache/60/b4f5149490186ec76bef8f0eabeeafed4b4397
+/home/student/.cache/mesa_shader_cache/e6/aff1091e6ce35c54ec15fec9ea62ae7e3979cf
+/home/student/.cache/mesa_shader_cache/4a/157c3688b8b5a4946659799ba00946df9a5b40
+/home/student/.cache/mesa_shader_cache/4a/3ea18c50908ee6823329c68f55c859b6964d0e
+/home/student/.cache/mesa_shader_cache/30/6c7d9857347f37f4f38f538a04d38ef68b5ff4
+/home/student/.cache/mesa_shader_cache/96/12ff359f1513698db4fde40394efbb5bb80837
+/home/student/.cache/mesa_shader_cache/93/cfb15f7280f012b59c579eb0cb076aefba83a5
+/home/student/.cache/mesa_shader_cache/93/97a26f52ffaa1b066de3a0c0137ca8a6834a51
+/home/student/.cache/mesa_shader_cache/93/b2234436de60789c405bce1f0c06a61ce48b1e
+/home/student/.cache/mesa_shader_cache/0a/7ab67ecd980085f7952f599b5978a5db82949b
+/home/student/.cache/mesa_shader_cache/73/db8c326480560f479ecbf6bbdc684a495f7625
+/home/student/.cache/mesa_shader_cache/a9/89b0942368b744866d38b25bf965913fa775ec
+/home/student/.cache/mesa_shader_cache/70/322d7a1520a2081c88b463343e7a89e528c1d4
+/home/student/.cache/mesa_shader_cache/b6/2d73b6c2ce50f71b821a22e38909ba66bab5a7
+/home/student/.cache/mesa_shader_cache/e1/6171af6c08940d195cb56164a1acef598c4936
+/home/student/.cache/mesa_shader_cache/77/9fd89555e1fe1d8d4b36aeb8480744cf54acba
+/home/student/.cache/mesa_shader_cache/fa/fd811e260a3e8f1b615a6b85c678aa85891796
+/home/student/.cache/mesa_shader_cache/fa/586b4d63530fa6eddc1f5e638d729f0f049147
+/home/student/.cache/mesa_shader_cache/09/16f2a5e36cf150894cee1bfc06c588867f08d6
+/home/student/.cache/mesa_shader_cache/5f/c86443ca927b0f53725f69a2e2b31d5673072a
+/home/student/.cache/ubuntu-report/ubuntu.22.04
+/home/student/test1/fun1
+/home/student/test1/fun2
+/home/student/test1/fun3
+/home/student/.sudo_as_admin_successful
+/home/student/.lesshst
+/home/student/.vboxclient-vmsvga-session-tty2-control.pid
+/home/student/foo.txt
+/home/student/hoa/itm112_document_W07 HOA.txt
+/home/student/hoa/itm112_document_W05 HOA.txt
+/home/student/hoa/script_timing.txt
+/home/student/hoa/itm112_document_W03 HOA.txt
+/home/student/hoa/itm112_document_W06 HOA.txt
+/home/student/hoa/itm112_document_W02 HOA.txt
+/home/student/.vboxclient-seamless-tty2-control.pid
+/home/student/HOME3/Day3_fun/file2
+/home/student/HOME3/Day3_fun/file3
+/home/student/HOME3/Day3_fun/file4
+/home/student/HOME3/Day3_fun/file1
+/home/student/HOME3/Day3_fun/file5
+/home/student/.vboxclient-vmsvga-session-tty2-service.pid
+/home/student/ships.txt
+/home/student/.vboxclient-draganddrop-tty2-service.pid
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ find ~ \( -type f - [Kperm 0775 \)
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ find ~ -type f -zi[K[Ksize 0c
+[?2004l/home/student/findme.txt
+/home/student/Day5/test1
+/home/student/.config/.gsd-keyboard.settings-ported
+/home/student/.config/enchant/en_US.dic
+/home/student/.config/enchant/en_US.exc
+/home/student/test3/fun1
+/home/student/test3/fun2
+/home/student/test3/fun3
+/home/student/umask
+/home/student/FILE1
+/home/student/.local/share/gnome-settings-daemon/input-sources-converted
+/home/student/.local/share/nautilus/tracker2-migration-complete
+/home/student/.local/share/nautilus/tags/.meta.isrunning
+/home/student/.local/share/nautilus/tags/meta.db-wal
+/home/student/.local/share/gnome-shell/gnome-overrides-migrated
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/webappsstore.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/2918063365piupsah.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/3561288849sdhlie.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/.parentlock
+/home/student/snap/firefox/common/.cache/mozilla/firefox/p9bwjkyt.default/thumbnails/78b6674dbb086107bf1b064985098160.png
+/home/student/test2/fun1
+/home/student/test2/fun2
+/home/student/test2/fun3
+/home/student/.cache/tracker3/files/.meta.isrunning
+/home/student/test1/fun1
+/home/student/test1/fun2
+/home/student/test1/fun3
+/home/student/.sudo_as_admin_successful
+/home/student/HOME3/Day3_fun/file2
+/home/student/HOME3/Day3_fun/file3
+/home/student/HOME3/Day3_fun/file4
+/home/student/HOME3/Day3_fun/file1
+/home/student/HOME3/Day3_fun/file5
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gzip results.txt
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          umask          week05.timing
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  [01;34mVideos[0m         week06.log
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      week02.log     week06.timing
+[01;34mDownloads[0m   ls-output.txt  ships.txt       week02.timing  week07.log
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week03.log     week07.timing
+FILE1       output2.txt    [01;34mTemplates[0m       week03.timing
+file1.txt   output.txt     [01;34mtest1[0m           week04.log
+file.txt    out.txt        [01;34mtest2[0m           week04.timing
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week05.log
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gunzip results.txt.gz
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ la[Ks
+[?2004l[0m[01;34mDay5[0m       file.txt       output2.txt  ships.txt  [01;34mVideos[0m         week05.log
+[01;34mDesktop[0m    findme.txt     output.txt   [01;34msnap[0m       week02.log     week05.timing
+[01;34mDocuments[0m  foo.txt        out.txt      [01;34mTemplates[0m  week02.timing  week06.log
+[01;34mDownloads[0m  [01;34mhoa[0m            [01;34mPictures[0m     [01;34mtest1[0m      week03.log     week06.timing
+error.txt  [01;34mHOME3[0m          [01;34mPublic[0m       [01;34mtest2[0m      week03.timing  week07.log
+FILE1      ls-output.txt  results.txt  [01;34mtest3[0m      week04.log     week07.timing
+file1.txt  [01;34mMusic[0m          result.txt   umask      week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gx[Kzip -number[K[K[K[K[K[Kb[K-best results.txt
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          umask          week05.timing
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  [01;34mVideos[0m         week06.log
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      week02.log     week06.timing
+[01;34mDownloads[0m   ls-output.txt  ships.txt       week02.timing  week07.log
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week03.log     week07.timing
+FILE1       output2.txt    [01;34mTemplates[0m       week03.timing
+file1.txt   output.txt     [01;34mtest1[0m           week04.log
+file.txt    out.txt        [01;34mtest2[0m           week04.timing
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week05.log
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls -l
+[?2004ltotal 2044
+drwxrwxr-x 2 student student   4096 May 17 16:23 [0m[01;34mDay5[0m
+drwxr-xr-x 2 student student   4096 Apr 20 09:01 [01;34mDesktop[0m
+drwxr-xr-x 2 student student   4096 Apr 20 09:01 [01;34mDocuments[0m
+drwxr-xr-x 2 student student   4096 May 31 07:45 [01;34mDownloads[0m
+-rw-rw-r-- 1 student student   1073 May 10 10:34 error.txt
+-rw-rw-r-- 1 student student      0 May 31 08:04 FILE1
+-rw-rw-r-- 1 student student    220 May 24 08:18 file1.txt
+-rw-rw-r-- 1 student student     58 May 24 07:54 file.txt
+-rw-rw-r-- 1 student student      0 May 31 08:03 findme.txt
+-rw-rw-r-- 1 student student     87 May 23 09:12 foo.txt
+drwxrwxr-x 2 student student   4096 May 31 08:03 [01;34mhoa[0m
+drwxrwxr-x 3 student student   4096 May  2 16:13 [01;34mHOME3[0m
+-rw-rw-r-- 1 student student  93689 May 23 09:16 ls-output.txt
+drwxr-xr-x 2 student student   4096 Apr 20 09:01 [01;34mMusic[0m
+-rw-rw-r-- 1 student student   1708 May 10 10:32 output2.txt
+-rw-rw-r-- 1 student student   1335 May 10 11:11 output.txt
+-rw-rw-r-- 1 student student    635 May 10 10:34 out.txt
+drwxr-xr-x 2 student student   4096 Apr 20 09:01 [01;34mPictures[0m
+drwxr-xr-x 2 student student   4096 Apr 20 09:01 [01;34mPublic[0m
+-rw-rw-r-- 1 student student    279 May 31 08:04 [01;31mresults.txt.gz[0m
+-rw-rw-r-- 1 student student  13413 May 10 11:17 result.txt
+-rw-rw-r-- 1 student student     53 May 10 10:49 ships.txt
+drwx------ 4 student student   4096 Apr 23 08:20 [01;34msnap[0m
+drwxr-xr-x 2 student student   4096 Apr 20 09:01 [01;34mTemplates[0m
+drwxrwxr-x 2 student student   4096 May 10 10:54 [01;34mtest1[0m
+drwxrwxr-x 2 student student   4096 May 10 10:54 [01;34mtest2[0m
+drwxrwxr-x 2 student student   4096 May 10 10:54 [01;34mtest3[0m
+-rw-rw-r-- 1 student student      0 May 17 16:22 umask
+drwxr-xr-x 2 student student   4096 Apr 20 09:01 [01;34mVideos[0m
+-rw-rw-r-- 1 student student 225369 Apr 23 08:47 week02.log
+-rw-rw-r-- 1 student student   9971 Apr 23 08:47 week02.timing
+-rw-rw-r-- 1 student student 518299 May  2 16:33 week03.log
+-rw-rw-r-- 1 student student  38983 May  2 16:33 week03.timing
+-rw-rw-r-- 1 student student 456260 May 10 11:20 week04.log
+-rw-rw-r-- 1 student student  36632 May 10 11:20 week04.timing
+-rw-rw-r-- 1 student student  53248 May 17 16:55 week05.log
+-rw-rw-r-- 1 student student  12288 May 17 16:54 week05.timing
+-rw-rw-r-- 1 student student 329526 May 24 08:35 week06.log
+-rw-rw-r-- 1 student student  55458 May 24 08:35 week06.timing
+-rw-rw-r-- 1 student student 102400 May 31 08:06 week07.log
+-rw-rw-r-- 1 student student   8192 May 31 08:06 week07.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ mkdir testcompress
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt       week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m       week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m           week03.timing
+file.txt    out.txt        [01;34mtest2[0m           week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ mkdir testcompress/dire[K[[K{0}{1..10}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls testcompress/
+[?2004l[0m[01;34mdir{0}1[0m   [01;34mdir{0}2[0m  [01;34mdir{0}4[0m  [01;34mdir{0}6[0m  [01;34mdir{0}8[0m
+[01;34mdir{0}10[0m  [01;34mdir{0}3[0m  [01;34mdir{0}5[0m  [01;34mdir{0}7[0m  [01;34mdir{0}9[0m
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ rm -r testcompress/*
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ rm -r testcompress/*[4Pls testcompress/
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls testcompress/rm -r testcompress/*[4Pls testcompress/mkdir testcompress/dir{0}{1..10}[1P{1..10}[1P{1..10}[1P1..10}[C01..10}[C[C[C[C[C[C
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ mkdir testcompress/dir{01..10}[14Pls testcompress/
+[?2004l[0m[01;34mdir01[0m  [01;34mdir02[0m  [01;34mdir03[0m  [01;34mdir04[0m  [01;34mdir05[0m  [01;34mdir06[0m  [01;34mdir07[0m  [01;34mdir08[0m  [01;34mdir09[0m  [01;34mdir10[0m
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch tex[Kstcompress/dir{01..10{[K}/file{A..Z}
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls testcompress/dir01/[K/
+[?2004lfileA  fileD  fileG  fileJ  fileM  fileP  fileS  fileV  fileY
+fileB  fileE  fileH  fileK  fileN  fileQ  fileT  fileW  fileZ
+fileC  fileF  fileI  fileL  fileO  fileR  fileU  fileX
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gzip -r testcompress
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt       week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m       week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m           week03.timing
+file.txt    out.txt        [01;34mtest2[0m           week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls tex[Kst
+test1/        test2/        test3/        testcompress/ 
+]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls testcompress/
+[?2004l[0m[01;34mdir01[0m  [01;34mdir02[0m  [01;34mdir03[0m  [01;34mdir04[0m  [01;34mdir05[0m  [01;34mdir06[0m  [01;34mdir07[0m  [01;34mdir08[0m  [01;34mdir09[0m  [01;34mdir10[0m
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gzip -r testcompress/
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt       week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m       week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m           week03.timing
+file.txt    out.txt        [01;34mtest2[0m           week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ lsgzip -r testcompress/f testcompress/
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gzip -rf testcompress/ls[K
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt       week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m       week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m           week03.timing
+file.txt    out.txt        [01;34mtest2[0m           week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gzip -z testcompress/
+[?2004lgzip: invalid option -- 'z'
+Try `gzip --help' for more information.
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ tar -z testcompress.gx[Kz tex[Kstcompress/
+[?2004ltar: You must specify one of the '-Acdtrux', '--delete' or '--test-label' options
+Try 'tar --help' or 'tar --usage' for more information.
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ tar -z testcompress.gz testcompress/[1@c[1@v[1@f
+[?2004ltestcompress/
+testcompress/dir05/
+testcompress/dir05/fileE.gz.gz
+testcompress/dir05/fileL.gz.gz
+testcompress/dir05/fileC.gz.gz
+testcompress/dir05/fileT.gz.gz
+testcompress/dir05/fileP.gz.gz
+testcompress/dir05/fileG.gz.gz
+testcompress/dir05/fileA.gz.gz
+testcompress/dir05/fileJ.gz.gz
+testcompress/dir05/fileS.gz.gz
+testcompress/dir05/fileB.gz.gz
+testcompress/dir05/fileW.gz.gz
+testcompress/dir05/fileX.gz.gz
+testcompress/dir05/fileD.gz.gz
+testcompress/dir05/fileV.gz.gz
+testcompress/dir05/fileY.gz.gz
+testcompress/dir05/fileM.gz.gz
+testcompress/dir05/fileN.gz.gz
+testcompress/dir05/fileH.gz.gz
+testcompress/dir05/fileQ.gz.gz
+testcompress/dir05/fileR.gz.gz
+testcompress/dir05/fileU.gz.gz
+testcompress/dir05/fileZ.gz.gz
+testcompress/dir05/fileF.gz.gz
+testcompress/dir05/fileI.gz.gz
+testcompress/dir05/fileO.gz.gz
+testcompress/dir05/fileK.gz.gz
+testcompress/dir03/
+testcompress/dir03/fileE.gz.gz
+testcompress/dir03/fileL.gz.gz
+testcompress/dir03/fileC.gz.gz
+testcompress/dir03/fileT.gz.gz
+testcompress/dir03/fileP.gz.gz
+testcompress/dir03/fileG.gz.gz
+testcompress/dir03/fileA.gz.gz
+testcompress/dir03/fileJ.gz.gz
+testcompress/dir03/fileS.gz.gz
+testcompress/dir03/fileB.gz.gz
+testcompress/dir03/fileW.gz.gz
+testcompress/dir03/fileX.gz.gz
+testcompress/dir03/fileD.gz.gz
+testcompress/dir03/fileV.gz.gz
+testcompress/dir03/fileY.gz.gz
+testcompress/dir03/fileM.gz.gz
+testcompress/dir03/fileN.gz.gz
+testcompress/dir03/fileH.gz.gz
+testcompress/dir03/fileQ.gz.gz
+testcompress/dir03/fileR.gz.gz
+testcompress/dir03/fileU.gz.gz
+testcompress/dir03/fileZ.gz.gz
+testcompress/dir03/fileF.gz.gz
+testcompress/dir03/fileI.gz.gz
+testcompress/dir03/fileO.gz.gz
+testcompress/dir03/fileK.gz.gz
+testcompress/dir08/
+testcompress/dir08/fileE.gz.gz
+testcompress/dir08/fileL.gz.gz
+testcompress/dir08/fileC.gz.gz
+testcompress/dir08/fileT.gz.gz
+testcompress/dir08/fileP.gz.gz
+testcompress/dir08/fileG.gz.gz
+testcompress/dir08/fileA.gz.gz
+testcompress/dir08/fileJ.gz.gz
+testcompress/dir08/fileS.gz.gz
+testcompress/dir08/fileB.gz.gz
+testcompress/dir08/fileW.gz.gz
+testcompress/dir08/fileX.gz.gz
+testcompress/dir08/fileD.gz.gz
+testcompress/dir08/fileV.gz.gz
+testcompress/dir08/fileY.gz.gz
+testcompress/dir08/fileM.gz.gz
+testcompress/dir08/fileN.gz.gz
+testcompress/dir08/fileH.gz.gz
+testcompress/dir08/fileQ.gz.gz
+testcompress/dir08/fileR.gz.gz
+testcompress/dir08/fileU.gz.gz
+testcompress/dir08/fileZ.gz.gz
+testcompress/dir08/fileF.gz.gz
+testcompress/dir08/fileI.gz.gz
+testcompress/dir08/fileO.gz.gz
+testcompress/dir08/fileK.gz.gz
+testcompress/dir02/
+testcompress/dir02/fileE.gz.gz
+testcompress/dir02/fileL.gz.gz
+testcompress/dir02/fileC.gz.gz
+testcompress/dir02/fileT.gz.gz
+testcompress/dir02/fileP.gz.gz
+testcompress/dir02/fileG.gz.gz
+testcompress/dir02/fileA.gz.gz
+testcompress/dir02/fileJ.gz.gz
+testcompress/dir02/fileS.gz.gz
+testcompress/dir02/fileB.gz.gz
+testcompress/dir02/fileW.gz.gz
+testcompress/dir02/fileX.gz.gz
+testcompress/dir02/fileD.gz.gz
+testcompress/dir02/fileV.gz.gz
+testcompress/dir02/fileY.gz.gz
+testcompress/dir02/fileM.gz.gz
+testcompress/dir02/fileN.gz.gz
+testcompress/dir02/fileH.gz.gz
+testcompress/dir02/fileQ.gz.gz
+testcompress/dir02/fileR.gz.gz
+testcompress/dir02/fileU.gz.gz
+testcompress/dir02/fileZ.gz.gz
+testcompress/dir02/fileF.gz.gz
+testcompress/dir02/fileI.gz.gz
+testcompress/dir02/fileO.gz.gz
+testcompress/dir02/fileK.gz.gz
+testcompress/dir04/
+testcompress/dir04/fileE.gz.gz
+testcompress/dir04/fileL.gz.gz
+testcompress/dir04/fileC.gz.gz
+testcompress/dir04/fileT.gz.gz
+testcompress/dir04/fileP.gz.gz
+testcompress/dir04/fileG.gz.gz
+testcompress/dir04/fileA.gz.gz
+testcompress/dir04/fileJ.gz.gz
+testcompress/dir04/fileS.gz.gz
+testcompress/dir04/fileB.gz.gz
+testcompress/dir04/fileW.gz.gz
+testcompress/dir04/fileX.gz.gz
+testcompress/dir04/fileD.gz.gz
+testcompress/dir04/fileV.gz.gz
+testcompress/dir04/fileY.gz.gz
+testcompress/dir04/fileM.gz.gz
+testcompress/dir04/fileN.gz.gz
+testcompress/dir04/fileH.gz.gz
+testcompress/dir04/fileQ.gz.gz
+testcompress/dir04/fileR.gz.gz
+testcompress/dir04/fileU.gz.gz
+testcompress/dir04/fileZ.gz.gz
+testcompress/dir04/fileF.gz.gz
+testcompress/dir04/fileI.gz.gz
+testcompress/dir04/fileO.gz.gz
+testcompress/dir04/fileK.gz.gz
+testcompress/dir09/
+testcompress/dir09/fileE.gz.gz
+testcompress/dir09/fileL.gz.gz
+testcompress/dir09/fileC.gz.gz
+testcompress/dir09/fileT.gz.gz
+testcompress/dir09/fileP.gz.gz
+testcompress/dir09/fileG.gz.gz
+testcompress/dir09/fileA.gz.gz
+testcompress/dir09/fileJ.gz.gz
+testcompress/dir09/fileS.gz.gz
+testcompress/dir09/fileB.gz.gz
+testcompress/dir09/fileW.gz.gz
+testcompress/dir09/fileX.gz.gz
+testcompress/dir09/fileD.gz.gz
+testcompress/dir09/fileV.gz.gz
+testcompress/dir09/fileY.gz.gz
+testcompress/dir09/fileM.gz.gz
+testcompress/dir09/fileN.gz.gz
+testcompress/dir09/fileH.gz.gz
+testcompress/dir09/fileQ.gz.gz
+testcompress/dir09/fileR.gz.gz
+testcompress/dir09/fileU.gz.gz
+testcompress/dir09/fileZ.gz.gz
+testcompress/dir09/fileF.gz.gz
+testcompress/dir09/fileI.gz.gz
+testcompress/dir09/fileO.gz.gz
+testcompress/dir09/fileK.gz.gz
+testcompress/dir10/
+testcompress/dir10/fileE.gz.gz
+testcompress/dir10/fileL.gz.gz
+testcompress/dir10/fileC.gz.gz
+testcompress/dir10/fileT.gz.gz
+testcompress/dir10/fileP.gz.gz
+testcompress/dir10/fileG.gz.gz
+testcompress/dir10/fileA.gz.gz
+testcompress/dir10/fileJ.gz.gz
+testcompress/dir10/fileS.gz.gz
+testcompress/dir10/fileB.gz.gz
+testcompress/dir10/fileW.gz.gz
+testcompress/dir10/fileX.gz.gz
+testcompress/dir10/fileD.gz.gz
+testcompress/dir10/fileV.gz.gz
+testcompress/dir10/fileY.gz.gz
+testcompress/dir10/fileM.gz.gz
+testcompress/dir10/fileN.gz.gz
+testcompress/dir10/fileH.gz.gz
+testcompress/dir10/fileQ.gz.gz
+testcompress/dir10/fileR.gz.gz
+testcompress/dir10/fileU.gz.gz
+testcompress/dir10/fileZ.gz.gz
+testcompress/dir10/fileF.gz.gz
+testcompress/dir10/fileI.gz.gz
+testcompress/dir10/fileO.gz.gz
+testcompress/dir10/fileK.gz.gz
+testcompress/dir07/
+testcompress/dir07/fileE.gz.gz
+testcompress/dir07/fileL.gz.gz
+testcompress/dir07/fileC.gz.gz
+testcompress/dir07/fileT.gz.gz
+testcompress/dir07/fileP.gz.gz
+testcompress/dir07/fileG.gz.gz
+testcompress/dir07/fileA.gz.gz
+testcompress/dir07/fileJ.gz.gz
+testcompress/dir07/fileS.gz.gz
+testcompress/dir07/fileB.gz.gz
+testcompress/dir07/fileW.gz.gz
+testcompress/dir07/fileX.gz.gz
+testcompress/dir07/fileD.gz.gz
+testcompress/dir07/fileV.gz.gz
+testcompress/dir07/fileY.gz.gz
+testcompress/dir07/fileM.gz.gz
+testcompress/dir07/fileN.gz.gz
+testcompress/dir07/fileH.gz.gz
+testcompress/dir07/fileQ.gz.gz
+testcompress/dir07/fileR.gz.gz
+testcompress/dir07/fileU.gz.gz
+testcompress/dir07/fileZ.gz.gz
+testcompress/dir07/fileF.gz.gz
+testcompress/dir07/fileI.gz.gz
+testcompress/dir07/fileO.gz.gz
+testcompress/dir07/fileK.gz.gz
+testcompress/dir06/
+testcompress/dir06/fileE.gz.gz
+testcompress/dir06/fileL.gz.gz
+testcompress/dir06/fileC.gz.gz
+testcompress/dir06/fileT.gz.gz
+testcompress/dir06/fileP.gz.gz
+testcompress/dir06/fileG.gz.gz
+testcompress/dir06/fileA.gz.gz
+testcompress/dir06/fileJ.gz.gz
+testcompress/dir06/fileS.gz.gz
+testcompress/dir06/fileB.gz.gz
+testcompress/dir06/fileW.gz.gz
+testcompress/dir06/fileX.gz.gz
+testcompress/dir06/fileD.gz.gz
+testcompress/dir06/fileV.gz.gz
+testcompress/dir06/fileY.gz.gz
+testcompress/dir06/fileM.gz.gz
+testcompress/dir06/fileN.gz.gz
+testcompress/dir06/fileH.gz.gz
+testcompress/dir06/fileQ.gz.gz
+testcompress/dir06/fileR.gz.gz
+testcompress/dir06/fileU.gz.gz
+testcompress/dir06/fileZ.gz.gz
+testcompress/dir06/fileF.gz.gz
+testcompress/dir06/fileI.gz.gz
+testcompress/dir06/fileO.gz.gz
+testcompress/dir06/fileK.gz.gz
+testcompress/dir01/
+testcompress/dir01/fileE.gz.gz
+testcompress/dir01/fileL.gz.gz
+testcompress/dir01/fileC.gz.gz
+testcompress/dir01/fileT.gz.gz
+testcompress/dir01/fileP.gz.gz
+testcompress/dir01/fileG.gz.gz
+testcompress/dir01/fileA.gz.gz
+testcompress/dir01/fileJ.gz.gz
+testcompress/dir01/fileS.gz.gz
+testcompress/dir01/fileB.gz.gz
+testcompress/dir01/fileW.gz.gz
+testcompress/dir01/fileX.gz.gz
+testcompress/dir01/fileD.gz.gz
+testcompress/dir01/fileV.gz.gz
+testcompress/dir01/fileY.gz.gz
+testcompress/dir01/fileM.gz.gz
+testcompress/dir01/fileN.gz.gz
+testcompress/dir01/fileH.gz.gz
+testcompress/dir01/fileQ.gz.gz
+testcompress/dir01/fileR.gz.gz
+testcompress/dir01/fileU.gz.gz
+testcompress/dir01/fileZ.gz.gz
+testcompress/dir01/fileF.gz.gz
+testcompress/dir01/fileI.gz.gz
+testcompress/dir01/fileO.gz.gz
+testcompress/dir01/fileK.gz.gz
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ udo
+[?2004lCommand 'udo' not found, but can be installed with:
+sudo apt install udo
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          [01;34mtestcompress[0m     week04.timing
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  [01;31mtestcompress.gz[0m  week05.log
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      umask            week05.timing
+[01;34mDownloads[0m   ls-output.txt  ships.txt       [01;34mVideos[0m           week06.log
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week02.log       week06.timing
+FILE1       output2.txt    [01;34mTemplates[0m       week02.timing    week07.log
+file1.txt   output.txt     [01;34mtest1[0m           week03.log       week07.timing
+file.txt    out.txt        [01;34mtest2[0m           week03.timing
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week04.log
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ rm tez[Kstcompress.gz
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt       week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m       week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m           week03.timing
+file.txt    out.txt        [01;34mtest2[0m           week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls testcompress/dir01
+[?2004l[0m[01;31mfileA.gz.gz[0m  [01;31mfileF.gz.gz[0m  [01;31mfileK.gz.gz[0m  [01;31mfileP.gz.gz[0m  [01;31mfileU.gz.gz[0m  [01;31mfileZ.gz.gz[0m
+[01;31mfileB.gz.gz[0m  [01;31mfileG.gz.gz[0m  [01;31mfileL.gz.gz[0m  [01;31mfileQ.gz.gz[0m  [01;31mfileV.gz.gz[0m
+[01;31mfileC.gz.gz[0m  [01;31mfileH.gz.gz[0m  [01;31mfileM.gz.gz[0m  [01;31mfileR.gz.gz[0m  [01;31mfileW.gz.gz[0m
+[01;31mfileD.gz.gz[0m  [01;31mfileI.gz.gz[0m  [01;31mfileN.gz.gz[0m  [01;31mfileS.gz.gz[0m  [01;31mfileX.gz.gz[0m
+[01;31mfileE.gz.gz[0m  [01;31mfileJ.gz.gz[0m  [01;31mfileO.gz.gz[0m  [01;31mfileT.gz.gz[0m  [01;31mfileY.gz.gz[0m
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ rm -rf testcompress/dir{01..10}
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls testcompress/
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch testcompress/dir{01..10}/file{A..Z}
+[?2004ltouch: cannot touch 'testcompress/dir01/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir01/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir02/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir03/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir04/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir05/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir06/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir07/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir08/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir09/fileZ': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileA': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileB': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileC': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileD': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileE': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileF': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileG': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileH': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileI': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileJ': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileK': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileL': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileM': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileN': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileO': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileP': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileQ': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileR': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileS': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileT': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileU': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileV': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileW': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileX': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileY': No such file or directory
+touch: cannot touch 'testcompress/dir10/fileZ': No such file or directory
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch testcompress/dir{01..10}/file{A..Z}[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[C[C[C[C[C[1P testcompress/dir{01..10}[1P testcompress/dir{01..10}[1P testcompress/dir{01..10}[1P testcompress/dir{01..10}[1P testcompress/dir{01..10}m testcompress/dir{01..10}k testcompress/dir{01..10}d testcompress/dir{01..10}i testcompress/dir{01..10}r testcompress/dir{01..10}
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ mkdir testcompress/dir{01..10}touch testcompress/dir{01..10}/file{A..Z}
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ touch testcompress/dir{01..10}/file{A..Z}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pmkdir testcompress/dir{01..10}touch testcompress/dir{01..10}/file{A..Z}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pls testcompress/rm -rf testcompress/dir{01..10}[10Pls testcompress/dir01
+[?2004lfileA  fileD  fileG  fileJ  fileM  fileP  fileS  fileV  fileY
+fileB  fileE  fileH  fileK  fileN  fileQ  fileT  fileW  fileZ
+fileC  fileF  fileI  fileL  fileO  fileR  fileU  fileX
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls testcompress/dir01touch testcompress/dir{01..10}/file{A..Z}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pmkdir testcompress/dir{01..10}touch testcompress/dir{01..10}/file{A..Z}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pls testcompress/rm -rf testcompress/dir{01..10}[10Pls testcompress/dir01[Krm testcompress.gzls[Kudotar -zcvf testcompress.gz testcompress/[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pgzip -[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgzip -rf testcompress/ls[Kgzip -r testcompress/
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gzip -r testcompress/ls testcompress/dir01
+[?2004l[0m[01;31mfileA.gz[0m  [01;31mfileE.gz[0m  [01;31mfileI.gz[0m  [01;31mfileM.gz[0m  [01;31mfileQ.gz[0m  [01;31mfileU.gz[0m  [01;31mfileY.gz[0m
+[01;31mfileB.gz[0m  [01;31mfileF.gz[0m  [01;31mfileJ.gz[0m  [01;31mfileN.gz[0m  [01;31mfileR.gz[0m  [01;31mfileV.gz[0m  [01;31mfileZ.gz[0m
+[01;31mfileC.gz[0m  [01;31mfileG.gz[0m  [01;31mfileK.gz[0m  [01;31mfileO.gz[0m  [01;31mfileS.gz[0m  [01;31mfileW.gz[0m
+[01;31mfileD.gz[0m  [01;31mfileH.gz[0m  [01;31mfileL.gz[0m  [01;31mfileP.gz[0m  [01;31mfileT.gz[0m  [01;31mfileX.gz[0m
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gunzip test[K[K[K[K-r testcompree[Kss/
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gunzip -r testcompress/[2Pls testcompress/dir01
+[?2004lfileA  fileD  fileG  fileJ  fileM  fileP  fileS  fileV  fileY
+fileB  fileE  fileH  fileK  fileN  fileQ  fileT  fileW  fileZ
+fileC  fileF  fileI  fileL  fileO  fileR  fileU  fileX
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ gunzip -c results.txt.gz
+[?2004l/home/student/results.txt
+/home/student/error.txt
+/home/student/out.txt
+/home/student/findme.txt
+/home/student/output.txt
+/home/student/output2.txt
+/home/student/result.txt
+/home/student/.local/share/Trash/files/test.txt
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/pkcs11.txt
+/home/student/file1.txt
+/home/student/file.txt
+/home/student/.cache/tracker3/files/last-crawl.txt
+/home/student/.cache/tracker3/files/first-index.txt
+/home/student/.cache/tracker3/files/locale-for-miner-apps.txt
+/home/student/foo.txt
+/home/student/hoa/itm112_document_W07 HOA.txt
+/home/student/hoa/itm112_document_W04 HOA.txt
+/home/student/hoa/itm112_document_W05 HOA.txt
+/home/student/hoa/script_timing.txt
+/home/student/hoa/itm112_document_W03 HOA.txt
+/home/student/hoa/itm112_document_W06 HOA.txt
+/home/student/hoa/itm112_document_W02 HOA.txt
+/home/student/ls-output.txt
+/home/student/ships.txt
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m          [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.gz[0m  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt      [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt       week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m            week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m       week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m           week03.timing
+file.txt    out.txt        [01;34mtest2[0m           week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m           week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ lsgunzip -c results.txt.gz[1Presults.txt.gz[1Presults.txt.gz[1Presults.txt.gz
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m       [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            results.txt  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt   [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt    week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m         week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m    week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m        week03.timing
+file.txt    out.txt        [01;34mtest2[0m        week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m        week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ bzip2 te[K[Kresults.txt
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m           [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.bz2[0m  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt       [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt        week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m             week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m        week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m            week03.timing
+file.txt    out.txt        [01;34mtest2[0m            week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m            week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ bunzip2 reu[Ksults.txt.bz2 
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ bunzip2 results.txt.bz2 ls[Kbzip2 results.txt-results.txtnresults.txturesults.txtmresults.txtbresults.txteresults.txt[Cresults.txt results.txt9results.txt results.txt
+[?2004lbzip2: Bad flag `-number'
+bzip2, a block-sorting file compressor.  Version 1.0.8, 13-Jul-2019.
+
+   usage: bzip2 [flags and input files in any order]
+
+   -h --help           print this message
+   -d --decompress     force decompression
+   -z --compress       force compression
+   -k --keep           keep (don't delete) input files
+   -f --force          overwrite existing output files
+   -t --test           test compressed file integrity
+   -c --stdout         output to standard out
+   -q --quiet          suppress noncritical error messages
+   -v --verbose        be verbose (a 2nd -v gives more)
+   -L --license        display software version & license
+   -V --version        display software version & license
+   -s --small          use less memory (at most 2500k)
+   -1 .. -9            set block size to 100k .. 900k
+   --fast              alias for -1
+   --best              alias for -9
+
+   If invoked as `bzip2', default action is to compress.
+              as `bunzip2',  default action is to decompress.
+              as `bzcat', default action is to decompress to stdout.
+
+   If no file names are given, bzip2 compresses or decompresses
+   from standard input to standard output.  You can combine
+   short flags, so `-v -4' means the same as -v4 or -4v, &c.
+
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ bzip2 -number 9 results.txt[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@-
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls -l
+[?2004ltotal 2116
+drwxrwxr-x  2 student student   4096 May 17 16:23 [0m[01;34mDay5[0m
+drwxr-xr-x  2 student student   4096 Apr 20 09:01 [01;34mDesktop[0m
+drwxr-xr-x  2 student student   4096 Apr 20 09:01 [01;34mDocuments[0m
+drwxr-xr-x  2 student student   4096 May 31 07:45 [01;34mDownloads[0m
+-rw-rw-r--  1 student student   1073 May 10 10:34 error.txt
+-rw-rw-r--  1 student student      0 May 31 08:04 FILE1
+-rw-rw-r--  1 student student    220 May 24 08:18 file1.txt
+-rw-rw-r--  1 student student     58 May 24 07:54 file.txt
+-rw-rw-r--  1 student student      0 May 31 08:03 findme.txt
+-rw-rw-r--  1 student student     87 May 23 09:12 foo.txt
+drwxrwxr-x  2 student student   4096 May 31 08:03 [01;34mhoa[0m
+drwxrwxr-x  3 student student   4096 May  2 16:13 [01;34mHOME3[0m
+-rw-rw-r--  1 student student  93689 May 23 09:16 ls-output.txt
+drwxr-xr-x  2 student student   4096 Apr 20 09:01 [01;34mMusic[0m
+-rw-rw-r--  1 student student   1708 May 10 10:32 output2.txt
+-rw-rw-r--  1 student student   1335 May 10 11:11 output.txt
+-rw-rw-r--  1 student student    635 May 10 10:34 out.txt
+drwxr-xr-x  2 student student   4096 Apr 20 09:01 [01;34mPictures[0m
+drwxr-xr-x  2 student student   4096 Apr 20 09:01 [01;34mPublic[0m
+-rw-rw-r--  1 student student    315 May 31 08:04 [01;31mresults.txt.bz2[0m
+-rw-rw-r--  1 student student  13413 May 10 11:17 result.txt
+-rw-rw-r--  1 student student     53 May 10 10:49 ships.txt
+drwx------  4 student student   4096 Apr 23 08:20 [01;34msnap[0m
+drwxr-xr-x  2 student student   4096 Apr 20 09:01 [01;34mTemplates[0m
+drwxrwxr-x  2 student student   4096 May 10 10:54 [01;34mtest1[0m
+drwxrwxr-x  2 student student   4096 May 10 10:54 [01;34mtest2[0m
+drwxrwxr-x  2 student student   4096 May 10 10:54 [01;34mtest3[0m
+drwxrwxr-x 12 student student   4096 May 31 08:20 [01;34mtestcompress[0m
+-rw-rw-r--  1 student student      0 May 17 16:22 umask
+drwxr-xr-x  2 student student   4096 Apr 20 09:01 [01;34mVideos[0m
+-rw-rw-r--  1 student student 225369 Apr 23 08:47 week02.log
+-rw-rw-r--  1 student student   9971 Apr 23 08:47 week02.timing
+-rw-rw-r--  1 student student 518299 May  2 16:33 week03.log
+-rw-rw-r--  1 student student  38983 May  2 16:33 week03.timing
+-rw-rw-r--  1 student student 456260 May 10 11:20 week04.log
+-rw-rw-r--  1 student student  36632 May 10 11:20 week04.timing
+-rw-rw-r--  1 student student  53248 May 17 16:55 week05.log
+-rw-rw-r--  1 student student  12288 May 17 16:54 week05.timing
+-rw-rw-r--  1 student student 329526 May 24 08:35 week06.log
+-rw-rw-r--  1 student student  55458 May 24 08:35 week06.timing
+-rw-rw-r--  1 student student 155648 May 31 08:23 week07.log
+-rw-rw-r--  1 student student  20480 May 31 08:20 week07.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ bunzip -c[K[K[K2 -c results.txt.bz2 
+[?2004l/home/student/results.txt
+/home/student/error.txt
+/home/student/out.txt
+/home/student/findme.txt
+/home/student/output.txt
+/home/student/output2.txt
+/home/student/result.txt
+/home/student/.local/share/Trash/files/test.txt
+/home/student/snap/firefox/common/.mozilla/firefox/p9bwjkyt.default/pkcs11.txt
+/home/student/file1.txt
+/home/student/file.txt
+/home/student/.cache/tracker3/files/last-crawl.txt
+/home/student/.cache/tracker3/files/first-index.txt
+/home/student/.cache/tracker3/files/locale-for-miner-apps.txt
+/home/student/foo.txt
+/home/student/hoa/itm112_document_W07 HOA.txt
+/home/student/hoa/itm112_document_W04 HOA.txt
+/home/student/hoa/itm112_document_W05 HOA.txt
+/home/student/hoa/script_timing.txt
+/home/student/hoa/itm112_document_W03 HOA.txt
+/home/student/hoa/itm112_document_W06 HOA.txt
+/home/student/hoa/itm112_document_W02 HOA.txt
+/home/student/ls-output.txt
+/home/student/ships.txt
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m           [01;34mtestcompress[0m   week05.log
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.bz2[0m  umask          week05.timing
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt       [01;34mVideos[0m         week06.log
+[01;34mDownloads[0m   ls-output.txt  ships.txt        week02.log     week06.timing
+error.txt   [01;34mMusic[0m          [01;34msnap[0m             week02.timing  week07.log
+FILE1       output2.txt    [01;34mTemplates[0m        week03.log     week07.timing
+file1.txt   output.txt     [01;34mtest1[0m            week03.timing
+file.txt    out.txt        [01;34mtest2[0m            week04.log
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m            week04.timing
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ tar cf tex[Kstcompress.rat testcompress[1P testcompress[1P testcompress[1P testcompresst testcompressa testcompressr testcompress
+[?2004l[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDay5[0m        foo.txt        [01;34mPublic[0m           [01;34mtestcompress[0m      week04.timing
+[01;34mDesktop[0m     [01;34mhoa[0m            [01;31mresults.txt.bz2[0m  [01;31mtestcompress.tar[0m  week05.log
+[01;34mDocuments[0m   [01;34mHOME3[0m          result.txt       umask             week05.timing
+[01;34mDownloads[0m   ls-output.txt  ships.txt        [01;34mVideos[0m            week06.log
+error.txt   [01;34mMusic[0m          [01;34msnap[0m             week02.log        week06.timing
+FILE1       output2.txt    [01;34mTemplates[0m        week02.timing     week07.log
+file1.txt   output.txt     [01;34mtest1[0m            week03.log        week07.timing
+file.txt    out.txt        [01;34mtest2[0m            week03.timing
+findme.txt  [01;34mPictures[0m       [01;34mtest3[0m            week04.log
+[?2004h]0;student@student-VirtualBox: ~[01;32mstudent@student-VirtualBox[00m:[01;34m~[00m$ mkdir testtar && cd testtar
+[?2004l[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ tar xf ../re[K[Ktestcompress.tar 
+[?2004l[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004l[0m[01;34mtestcompress[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls testcompress/dir-1[K[K01
+[?2004lfileA  fileD  fileG  fileJ  fileM  fileP  fileS  fileV  fileY
+fileB  fileE  fileH  fileK  fileN  fileQ  fileT  fileW  fileZ
+fileC  fileF  fileI  fileL  fileO  fileR  fileU  fileX
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ tar cf tez[Kstcompress[1@z[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.gz.tar testcompress
+[?2004l[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004l[0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ mk[K[Ktouch file{1..3}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004lfile1  file2  file3  [0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ zip tests.x[Kzip file1 file2 file3[K[K[K[K[K[K[K[K[K[K[K[K[K{1..3}
+[?2004l  adding: file1 (stored 0%)
+  adding: file2 (stored 0%)
+  adding: file3 (stored 0%)
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004lfile1  file2  file3  [0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m  [01;31mtests.zip[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ unzip =[K-c tests.zip
+[?2004lArchive:  tests.zip
+ extracting: file1                   
+
+ extracting: file2                   
+
+ extracting: file3                   
+
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004lfile1  file2  file3  [0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m  [01;31mtests.zip[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ unzip -p tests.zip
+[?2004l[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004lfile1  file2  file3  [0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m  [01;31mtests.zip[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ lsunzip -p tests.zip[1Ptests.zip[1Ptests.zip[1Ptests.zip
+[?2004lArchive:  tests.zip
+replace file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: a
+error:  invalid response [a]
+replace file1? [y]es, [n]o, [A]ll, [N]one, [r]ename: A
+ extracting: file1                   
+ extracting: file2                   
+ extracting: file3                   
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ unzip tests.zipls[Kunzip -p tests.zipls[Kunzip -c tests.zipls[Kzip tests.zip file{1..3}[C[1P{1..3}[1P{1..3}[1P{1..3}[1P{1..3}t{1..3}e{1..3}s{1..3}t{1..3}
+[?2004l	zip warning: name not matched: test1
+	zip warning: name not matched: test2
+	zip warning: name not matched: test3
+
+zip error: Nothing to do! (tests.zip)
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ zip tests.zip test{1..3}[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004lfile1  file2  file3  [0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m  [01;31mtests.zip[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ rm file{1..3}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004l[0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m  [01;31mtests.zip[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ touch test1[K{1..3{[K}
+[?2004l[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004ltest1  test2  test3  [0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m  [01;31mtests.zip[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ zip[1Plstouch test{1..3}ls[Krm file{1..3}ls[Kzip tests.zip test{1..3}
+[?2004l  adding: test1 (stored 0%)
+  adding: test2 (stored 0%)
+  adding: test3 (stored 0%)
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ unzip -c ts[Kests.zip 
+[?2004lArchive:  tests.zip
+ extracting: file1                   
+
+ extracting: file2                   
+
+ extracting: file3                   
+
+ extracting: test1                   
+
+ extracting: test2                   
+
+ extracting: test3                   
+
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ ls
+[?2004ltest1  test2  test3  [0m[01;34mtestcompress[0m  [01;31mtestcompress.gz.tar[0m  [01;31mtests.zip[0m
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ unzip tests.zu[Kip
+[?2004lArchive:  tests.zip
+ extracting: file1                   
+ extracting: file2                   
+ extracting: file3                   
+replace test1? [y]es, [n]o, [A]ll, [N]one, [r]ename: a A
+ extracting: test1                   
+ extracting: test2                   
+ extracting: test3                   
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ exit
+[?2004lexit
+There are stopped jobs.
+[?2004h]0;student@student-VirtualBox: ~/testtar[01;32mstudent@student-VirtualBox[00m:[01;34m~/testtar[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-31 08:37:25-06:00 [COMMAND_EXIT_CODE="1"]
