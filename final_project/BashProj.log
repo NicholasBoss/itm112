@@ -1,0 +1,68 @@
+Script started on 2024-07-03 16:12:15-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;student@student-virtual-machine: ~/Desktop/itm112/final_project[01;32mstudent@student-virtual-machine[00m:[01;34m~/Desktop/itm112/final_project[00m$ poweroffls[K./final.shls[Kpoweroff[Kpoweroffls[K./final.shvi final.sh [2P./final.sh[1P.sh[1P.sh[1P.sh[1P.sh[1P.shr.shp.shs.sh
+[?2004lPlease Select:
+
+1. Rock
+2. Paper
+3. Scissors
+4. Done
+
+Enter Your Choice [1-4] > 1
+
+You chose 1. Rock
+Computer chose 1. Rock
+You tied. Try Again.
+
+Please Select:
+
+1. Rock
+2. Paper
+3. Scissors
+4. Done
+
+Enter Your Choice [1-4] > 2
+
+You chose 2. Paper
+Computer chose 2. Paper
+You tied. Try Again.
+
+Please Select:
+
+1. Rock
+2. Paper
+3. Scissors
+4. Done
+
+Enter Your Choice [1-4] > 3
+
+You chose 3. Scissors
+Computer chose 2. Paper
+You Lose!
+
+Please Select:
+
+1. Rock
+2. Paper
+3. Scissors
+4. Done
+
+Enter Your Choice [1-4] > 2
+
+You chose 2. Paper
+Computer chose 1. Rock
+You Win!
+
+Please Select:
+
+1. Rock
+2. Paper
+3. Scissors
+4. Done
+
+Enter Your Choice [1-4] > 4
+
+Bye
+[?2004h]0;student@student-virtual-machine: ~/Desktop/itm112/final_project[01;32mstudent@student-virtual-machine[00m:[01;34m~/Desktop/itm112/final_project[00m$ exit
+[?2004lexit
+
+Script done on 2024-07-03 16:12:43-06:00 [COMMAND_EXIT_CODE="0"]

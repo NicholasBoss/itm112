@@ -9,7 +9,7 @@ else
 	echo "$1 is an odd month"
 fi
 
-if [ $((INT % 2)) -eq 0 ]; then
+if [ $(($2 % 2)) -eq 0 ]; then
 	echo "$2 is an even day"
 else
 	echo "$2 is an odd day"
